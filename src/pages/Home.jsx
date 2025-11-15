@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 // import React from "react";
 import { gallery } from "../data/gallery";
 import GalleryCard from "../components/GalleryCard";
@@ -21,8 +22,10 @@ export default function Home() {
           className="w-full h-screen bg-cover bg-center flex flex-col justify-center items-center text-white"
           style={{ backgroundImage: "url('/src/assets/images/img_hero.jpg')" }}
         >
-          <h1 className="text-4xl font-bold mb-2">Welcome to Brefo’s Art World</h1>
-          <p className="text-lg">Discover the depth and color of contemporary creativity.</p>
+          <div className="max-w-3xl px-6 text-center">
+            <h1 className="text-4xl md:text-5xl font-bold tracking-wide mb-3">Welcome to Brefo’s Art World</h1>
+            <p className="italic text-lg md:text-xl text-gray-200">Discover the depth of contemporary creativity.</p>
+          </div>
         </section>
       </header>
 
@@ -58,11 +61,12 @@ export default function Home() {
               />
             ))}
             <div className="w-full h- flex justify-center items-center">
-              <span className="text-3xl font-bold"><a className="text-green-600 pl-3 underline" href="/gallery-section">Veiw Gallery</a></span>
+              <span className="text-3xl fon"><a className="text-green-600 pl-3 underline" href="/gallery-section">Veiw Gallery</a></span>
             </div>
           </div>
         </section>
       </main>
+      <Footer />
     </>
   );
 }

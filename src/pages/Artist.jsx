@@ -3,6 +3,7 @@ import bts2 from "../assets/images/que-sera-sera.jpg";
 import bts1 from "../assets/images/que-sera-sera.jpg"; // replace with actual BTS images
 import bts3 from "../assets/images/que-sera-sera.jpg";
 import artistImage from "../assets/images/the-healer.jpg"; // artist portrait
+import Footer from "../components/Footer";
 
 export default function Artist() {
   return (
@@ -17,7 +18,7 @@ export default function Artist() {
           className="absolute inset-0 w-full h-full object-cover opacity-40"
         />
         <div className="relative z-10 max-w-3xl px-6">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-wide">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-wide">
             Wilson Brefo
           </h1>
           <p className="italic text-lg md:text-xl text-gray-200">
@@ -156,6 +157,7 @@ export default function Artist() {
           Visit Gallery
         </a>
       </section>
+      <Footer />
     </>
   );
 }

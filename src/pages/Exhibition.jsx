@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import ExhibitionCard from "../components/ExhibitionCard";
 import Mockup from "../assets/images/exhibition-img.jpg";
+import Footer from "../components/Footer";
 
 const exhibitions = [
   {
@@ -50,11 +51,11 @@ export default function Exhibition() {
         />
 
         <div className="relative z-10 px-6">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-wide mb-3">
+          <h1 className="text-4xl md:text-5xl font-bold tracking-wide mb-3">
             Exhibitions
           </h1>
-          <p className="text-lg md:text-xl text-gray-200 max-w-2xl mx-auto">
-            Explore Wilson Brefo’s artistic journey through solo and group exhibitions — past and upcoming.
+          <p className="italic text-lg md:text-xl text-gray-200 max-w-2xl mx-auto">
+            Explore Wilson Brefo’s artistic journey through solo and group exhibitions, past and upcoming.
           </p>
         </div>
       </section>
@@ -86,6 +87,7 @@ export default function Exhibition() {
           ))}
         </div>
       </section>
+      <Footer />
     </>
   );
 }

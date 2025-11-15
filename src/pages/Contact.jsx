@@ -8,6 +8,7 @@ import {
   FaRegEnvelope,
 } from "react-icons/fa";
 import artistImage from "../assets/images/the-healer.jpg"; // contact header bg
+import Footer from "../components/Footer";
 
 export default function Contact() {
   return (
@@ -22,7 +23,7 @@ export default function Contact() {
           className="absolute inset-0 w-full h-full object-cover opacity-40"
         />
         <div className="relative z-10 px-6">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-wide mb-3">
+          <h1 className="text-4xl md:text-5xl font-bold tracking-wide mb-3">
             Get in Touch
           </h1>
           <p className="text-lg md:text-xl text-gray-200 max-w-2xl mx-auto">
@@ -175,6 +176,7 @@ export default function Contact() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { gallery } from "../data/gallery";
 
@@ -20,6 +21,7 @@ export default function Gallery() {
         </div>
       ))}
     </div>
+    <Footer />
     </>
   );
 }
