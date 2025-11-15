@@ -57,8 +57,8 @@ export default function Home() {
                 year={item.year}
               />
             ))}
-            <div className="w-full">
-              <span className="text-3xl font-bold">"As an artist, I find inspiration in the beauty of the world around us, both in its tangible forms and abstract concepts."</span>
+            <div className="w-full h- flex justify-center items-center">
+              <span className="text-3xl font-bold"><a className="text-green-600 pl-3 underline" href="/gallery-section">Veiw Gallery</a></span>
             </div>
           </div>
         </section>

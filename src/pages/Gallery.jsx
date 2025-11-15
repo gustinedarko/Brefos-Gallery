@@ -5,7 +5,7 @@ export default function Gallery() {
   return (
     <>
     <Navbar />
-    <div><h1 className="text-3xl font-bold underline text-blue-600">Wilson's Gallery Page</h1></div>
+    <div></div>
     
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
       {gallery.map((item, index) => (

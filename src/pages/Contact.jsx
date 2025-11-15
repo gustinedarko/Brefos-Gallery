@@ -1,8 +1,8 @@
 import Navbar from "../components/Navbar";
 import {
   FaInstagram,
-  FaFacebookF,
-  FaTwitter,
+  FaSnapchatGhost,
+  FaTiktok,
   FaLinkedinIn,
   FaMapMarkedAlt,
   FaRegEnvelope,
@@ -57,32 +57,36 @@ export default function Contact() {
             {/* Email */}
             <div className="flex items-center space-x-3 text-gray-700">
               <FaRegEnvelope className="text-2xl text-gray-600" />
-              <p>wilsonbrefo.art@gmail.com</p>
+              <p>wilsonbrefo51@gmail.com</p>
             </div>
 
             {/* Social Links */}
             <div className="flex space-x-5 pt-3">
               <a
-                href="#"
+                href="https://www.instagram.com/wi.lson3176?igsh=MTN4dnYwaW1tNXUwNQ%3D%3D&utm_source=qr"
                 className="text-gray-700 hover:text-gray-900 transition-transform transform hover:scale-110"
+                target="_blank"
               >
                 <FaInstagram size={24} />
               </a>
               <a
-                href="#"
+                href="https://snapchat.com/t/6PPz0HsW"
                 className="text-gray-700 hover:text-gray-900 transition-transform transform hover:scale-110"
+                target="_blank"
               >
-                <FaFacebookF size={22} />
+                <FaSnapchatGhost size={22} />
+              </a>
+              <a
+                href="https://www.tiktok.com/@wilsondjzuz?_t=ZM-90UO5jK88cN&_r=1"
+                className="text-gray-700 hover:text-gray-900 transition-transform transform hover:scale-110"
+                target="_blank"
+              >
+                <FaTiktok size={20} />
               </a>
               <a
                 href="#"
                 className="text-gray-700 hover:text-gray-900 transition-transform transform hover:scale-110"
-              >
-                <FaTwitter size={22} />
-              </a>
-              <a
-                href="#"
-                className="text-gray-700 hover:text-gray-900 transition-transform transform hover:scale-110"
+                target="_blank"
               >
                 <FaLinkedinIn size={22} />
               </a>
