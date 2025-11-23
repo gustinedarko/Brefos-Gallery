@@ -1,6 +1,12 @@
 import Navbar from "../components/Navbar";
 import ExhibitionCard from "../components/ExhibitionCard";
 import Mockup from "../assets/images/exhibition-img.jpg";
+import FirstExhibition from "../assets/images/first-exhibition.jpg";
+import SecondExhibition from "../assets/images/second-exhibition.jpg";
+import ThirdExhibition from "../assets/images/third-exhibition.jpg";
+import ForthExhibition from "../assets/images/forth-exhibition.jpg";
+import FifthExhibition from "../assets/images/fifth-exhibition.jpg";
+import SixthExhibition from "../assets/images/sixth-exhibition.jpg";
 import Footer from "../components/Footer";
 
 const exhibitions = [
@@ -8,28 +14,49 @@ const exhibitions = [
     title: "The Human Experience: Dream and Reality",
     venue: "Untamed Empire, Accra",
     date: "23/11/2024",
-    image: Mockup,
+    image: ForthExhibition,
     upcoming: true,
+  },
+  {
+    title: "The Human Experience: Dream and Reality",
+    venue: "Untamed Empire, Accra",
+    date: "23/11/2024",
+    image: SixthExhibition,
+    upcoming: false,
+  },
+  {
+    title: "The Human Experience: Dream and Reality",
+    venue: "Untamed Empire, Accra",
+    date: "23/11/2024",
+    image: FifthExhibition,
+    upcoming: false,
+  },
+  {
+    title: "The Human Experience: Dream and Reality",
+    venue: "Untamed Empire, Accra",
+    date: "23/11/2024",
+    image: ForthExhibition,
+    upcoming: false,
   },
   {
     title: "Phases",
     venue: "Gyandu Place, Accra",
     date: "05/11/2022",
-    image: Mockup,
+    image: ThirdExhibition,
     upcoming: false,
   },
   {
     title: "Emerge",
     venue: "Art Center Gallery, Accra",
     date: "04/11/2022",
-    image: Mockup,
+    image: SecondExhibition,
     upcoming: false,
   },
   {
     title: "Sweat Embedded Beauty",
     venue: "S. G. Mall, Kumasi",
     date: "14/05/2022",
-    image: Mockup,
+    image: FirstExhibition,
     upcoming: false,
   },
 ];

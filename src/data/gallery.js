@@ -1,5 +1,7 @@
 // src/data/gallery.js
 
+import newOne from "../assets/images/new-one.jpg";
+import newTwo from "../assets/images/new-two.jpg";
 import alpha from "../assets/images/alpha.jpg";
 import guiltyDomain from "../assets/images/guilty-domain.jpg";
 import lifesParadox from "../assets/images/lifes-paradox.jpg";
@@ -27,6 +29,22 @@ import weCantEscapeIt from "../assets/images/we-cant-escape-it.jpg";
 import whyTogether from "../assets/images/why-together.jpg";
 
 export const gallery = [
+  {
+    title: "New one",
+    image: newOne,
+    materials: "Acrylics on canvas",
+    size: "46 x 36 inches",
+    description: `Humanity has always been captivated by the idea of love. The emotion in question is intricate and multidimensional, with multiple manifestations.A profound attachment, concern, and bond with someone or something is the essence of love. The term "the happy start" is one of its features. Each connection begins with an exploration of what makes life wonderful, joyful, loving, and uplifting. Energy is released to create vibrations, which in turn stimulate frequency to produce beautiful things. Helps to double health and heal. Nevertheless, love grows as time passes.`,
+    year: 2023,
+  },
+  {
+    title: "New one",
+    image: newTwo,
+    materials: "Acrylics on canvas",
+    size: "46 x 36 inches",
+    description: `Humanity has always been captivated by the idea of love. The emotion in question is intricate and multidimensional, with multiple manifestations.A profound attachment, concern, and bond with someone or something is the essence of love. The term "the happy start" is one of its features. Each connection begins with an exploration of what makes life wonderful, joyful, loving, and uplifting. Energy is released to create vibrations, which in turn stimulate frequency to produce beautiful things. Helps to double health and heal. Nevertheless, love grows as time passes.`,
+    year: 2023,
+  },
   {
     title: "ALPHA",
     image: alpha,

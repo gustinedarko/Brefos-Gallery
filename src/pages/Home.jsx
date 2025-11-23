@@ -7,8 +7,8 @@ import GalleryCard from "../components/GalleryCard";
 export default function Home() {
 
   // first and second sets
-  const firstSetTitles = ["METAMORPHOSIS OF THE SOUL", "QUE SERA, SERA!", "THE PRAYER TO THE FIRST ARCHANGEL"];
-  const secondSetTitles = ["THE SOUL WITH THE TURTLE NECK", "THE UNTOLD STORIES", "WHY TOGETHER"];
+  const firstSetTitles = ["METAMORPHOSIS OF THE SOUL", "QUE SERA, SERA!", "THE COMPLEXITY OF THOUGHTFUL EMOTIONS"];
+  const secondSetTitles = ["THE SOUL WITH THE TURTLE NECK", "THE UNTOLD STORIES", "THE PRAYER TO THE FIRST ARCHANGEL"];
 
   // filter by title match
   const firstSet = gallery.filter(item => firstSetTitles.includes(item.title));

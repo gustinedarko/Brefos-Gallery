@@ -3,6 +3,7 @@ import bts2 from "../assets/images/que-sera-sera.jpg";
 import bts1 from "../assets/images/que-sera-sera.jpg"; // replace with actual BTS images
 import bts3 from "../assets/images/que-sera-sera.jpg";
 import artistImage from "../assets/images/the-healer.jpg"; // artist portrait
+import artistImage2 from "../assets/images/wils.jpg"; // artist portrait
 import Footer from "../components/Footer";
 
 export default function Artist() {
@@ -81,7 +82,7 @@ export default function Artist() {
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
-              src={bts1}
+              src={artistImage2}
               alt="Wilson Brefo painting"
               className="w-full h-full object-cover"
             />
@@ -94,7 +95,7 @@ export default function Artist() {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="rounded-2xl overflow-hidden shadow-lg order-2 md:order-1">
             <img
-              src={bts2}
+              src={artistImage2}
               alt="Artistic process"
               className="w-full h-full object-cover"
             />
