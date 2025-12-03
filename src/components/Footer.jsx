@@ -16,37 +16,38 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* QUICK NAV LINKS */}
-        <div className="flex flex-col">
-          <h3 className="text-white font-semibold text-lg mb-3">Explore</h3>
-          <ul className="space-y-2 text-sm">
-            <li>
-              <a href="/" className="hover:text-white transition">Home</a>
-            </li>
-            <li>
-              <a href="/gallery-section" className="hover:text-white transition">Gallery</a>
-            </li>
-            <li>
-              <a href="/artist" className="hover:text-white transition">Artist</a>
-            </li>
-            <li>
-              <a href="/exhibition" className="hover:text-white transition">Exhibitions</a>
-            </li>
-            <li>
-              <a href="/contact" className="hover:text-white transition">Contact</a>
-            </li>
-          </ul>
-        </div>
-
-        {/* EXTRA INFO */}
-        <div className="flex flex-col">
-          <h3 className="text-white font-semibold text-lg mb-3">Useful Info</h3>
-          <ul className="space-y-2 text-sm">
-            <li className="text-gray-400">Commission Work</li>
-            <li className="text-gray-400">Art Prints & Originals</li>
-            <li className="text-gray-400">Artist Statement</li>
-            <li className="text-gray-400">Licensing & Usage</li>
-          </ul>
+        <div className="w-3/4 md:w-full flex justify-between md:justify-around md:gap-6 col-span-2">
+          {/* QUICK NAV LINKS */}
+          <div className="flex flex-col">
+            <h3 className="text-white font-semibold text-lg mb-3">Explore</h3>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <a href="/" className="hover:text-white transition">Home</a>
+              </li>
+              <li>
+                <a href="/gallery-section" className="hover:text-white transition">Gallery</a>
+              </li>
+              <li>
+                <a href="/artist" className="hover:text-white transition">Artist</a>
+              </li>
+              <li>
+                <a href="/exhibition" className="hover:text-white transition">Exhibitions</a>
+              </li>
+              <li>
+                <a href="/contact" className="hover:text-white transition">Contact</a>
+              </li>
+            </ul>
+          </div>
+          {/* EXTRA INFO */}
+          <div className="flex flex-col">
+            <h3 className="text-white font-semibold text-lg mb-3">Useful Info</h3>
+            <ul className="space-y-2 text-sm">
+              <li className="text-gray-400">Commission Work</li>
+              <li className="text-gray-400">Art Prints & Originals</li>
+              <li className="text-gray-400">Artist Statement</li>
+              <li className="text-gray-400">Licensing & Usage</li>
+            </ul>
+          </div>
         </div>
 
         {/* SOCIALS */}
