@@ -5,10 +5,12 @@ import Artist from "./pages/Artist";
 import Contact from "./pages/Contact";
 import Exhibition from "./pages/Exhibition";
 import NotFound from "./pages/NotFound";
+import ArtworkDetails from "./pages/ArtworkDetails";
 
 const wilsonRouter = createBrowserRouter([
   { path: '/', element: <Home /> },
   { path: '/gallery-section', element: <Gallery /> },
+  { path: '/artwork/:slug', element: <ArtworkDetails /> },
   { path: '/artist', element: <Artist /> },
   { path: '/contact', element: <Contact /> },
   { path: '/exhibition', element: <Exhibition /> },

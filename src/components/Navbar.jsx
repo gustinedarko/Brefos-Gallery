@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Logo from "../assets/images/img_0133.png";
+import { useLocation } from "react-router";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,12 +11,15 @@ export default function Navbar() {
   // Close sidebar when a link is clicked (common mobile UX)
   const handleLinkClick = () => setIsOpen(false);
 
+  // Highlight active page
+  const location = useLocation();
+
   return (
     <nav className="flex items-center justify-between sticky top-0 w-full px-6 transition-all duration-300 shadow z-50 bg-white">
       {/* Logo */}
       <div>
         <a
-          className="nav-text font-bold text-slate-800 hover:text-blue-800 transition-colors duration-200"
+          className="nav-text font-bold text-slate-800 hover:text-[#4CAF50] transition-colors duration-200"
           href="/"
         >
           <div>
@@ -53,9 +57,8 @@ export default function Navbar() {
       {/* Sidebar / Nav links */}
       <div
         className={`text-slate-800 p-4 md:p-0 md:text-sm font-semibold fixed inset-y-0 left-0 w-[300px] flex flex-col items-start gap-8 bg-gray-100 shadow-xl z-40 transition-transform duration-300 ease-in-out
-        md:static md:flex-row md:w-auto md:max-w-none md:bg-transparent md:shadow-none md:z-auto md:gap-10 md:items-center ${
-          isOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"
-        }`}
+        md:static md:flex-row md:w-auto md:max-w-none md:bg-transparent md:shadow-none md:z-auto md:gap-10 md:items-center ${isOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"
+          }`}
       >
         {/* Close button (only visible on mobile) */}
         <button
@@ -88,7 +91,10 @@ export default function Navbar() {
             key={item.href}
             href={item.href}
             onClick={handleLinkClick}
-            className="nav-text hover:text-blue-400 transition-colors duration-200"
+            className={`nav-text transition-colors duration-200 ${location.pathname === item.href
+                ? "text-[#4CAF50] font-bold underline"
+                : "hover:text-[#4CAF50] hover:underline"
+              }`}
           >
             <span>{item.label}</span>
           </a>
