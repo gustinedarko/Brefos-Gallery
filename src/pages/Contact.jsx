@@ -85,7 +85,7 @@ export default function Contact() {
                 <FaTiktok size={20} />
               </a>
               <a
-                href="#"
+                href="http://linkedin.com/in/wilson-brefo"
                 className="text-gray-700 hover:text-gray-900 transition-transform transform hover:scale-110"
                 target="_blank"
               >

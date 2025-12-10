@@ -36,7 +36,7 @@ export default function ArtworkDetails() {
         <p className="text-gray-500 text-lg mt-1">{artwork.year}</p>
 
         {/* Image */}
-        <div className="mt-8 w-full overflow-hidden shadow-xl">
+        <div className="mt-8 w-full overflow-hidden shadow-xl rounded-xl">
           <img
             src={artwork.image}
             alt={artwork.title}
@@ -54,6 +54,9 @@ export default function ArtworkDetails() {
 
             <ul className="space-y-2 text-gray-700">
               <li>
+                <strong>Title:</strong> {artwork.title}
+              </li>
+              <li>
                 <strong>Materials:</strong> {artwork.materials}
               </li>
               <li>
@@ -62,9 +65,9 @@ export default function ArtworkDetails() {
               <li>
                 <strong>Year:</strong> {artwork.year}
               </li>
-              <li>
+              {/* <li>
                 <strong>Type:</strong> {artwork.type}
-              </li>
+              </li> */}
             </ul>
           </div>
 

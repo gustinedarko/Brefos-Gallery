@@ -153,7 +153,7 @@ export default function Artist() {
         </p>
         <a
           href="/gallery-section"
-          className="inline-block bg-green-700 text-white px-4 py-2 rounded-xl text-lg font-medium hover:bg-green-900 transition"
+          className="text-lg inline-block bg-slate-800 text-white px-6 py-3 rounded-lg font-medium hover:bg-slate-700 transition"
         >
           Visit Gallery
         </a>

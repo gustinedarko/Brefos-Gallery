@@ -67,7 +67,7 @@ export default function Footer() {
             <a href="https://snapchat.com/t/6PPz0HsW" className="hover:text-white transition">
               <FaSnapchatGhost />
             </a>
-            <a href="#" className="hover:text-white transition">
+            <a href="http://linkedin.com/in/wilson-brefo" className="hover:text-white transition">
               <FaLinkedinIn />
             </a>
           </div>

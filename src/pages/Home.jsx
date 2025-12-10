@@ -60,9 +60,9 @@ export default function Home() {
                 year={item.year}
               />
             ))}
-            <div className="w-full h- flex justify-center items-center">
-              <span className="text-3xl fon"><a className="text-green-600 pl-3 underline" href="/gallery-section">Veiw Gallery</a></span>
-            </div>
+            <a className="flex justify-center items-center bg-slate-800 text-white px-6 py-3 rounded-lg font-medium hover:bg-slate-700 transition" href="/gallery-section">
+              <span className="">Veiw Gallery</span>
+            </a>
           </div>
         </section>
       </main>

@@ -17,7 +17,7 @@ export default function Gallery({ title, materials, size, year }) {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-6 md:gap-6 m-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-6 sm:gap-6 md:gap-6 m-6">
         {gallery.map((item, index) => {
           const ratio =
             item.type === "portrait"
@@ -29,7 +29,7 @@ export default function Gallery({ title, materials, size, year }) {
           return (
             <div
               key={index}
-              className={`${item.type === "landscape" ? "lg:col-span-2" : ""
+              className={`${item.type === "landscape" ? " col-span-1 sm:col-span-2" : ""
                 }`}
             >
               {/* IMAGE + OVERLAY WRAPPER */}

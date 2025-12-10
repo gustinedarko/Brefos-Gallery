@@ -27,15 +27,17 @@ import wish from "../assets/images/the-wish.jpg";
 import veritas from "../assets/images/veritas.jpg";
 import weCantEscapeIt from "../assets/images/we-cant-escape-it.jpg";
 import whyTogether from "../assets/images/why-together.jpg";
+import disbelieva from "../assets/images/disbelieva.jpg"
+import perfectMind from "../assets/images/perfect-mind.jpg"
 
 export const gallery = [
   {
-    title: "New one",
+    title: "ONE VISION OF DIFFERENT FACE AND MIND",
     image: newOne,
     slug: "new-one",
     materials: "Acrylics on canvas",
-    size: "46 x 36 inches",
-    description: `Humanity has always been captivated by the idea of love. The emotion in question is intricate and multidimensional, with multiple manifestations.A profound attachment, concern, and bond with someone or something is the essence of love. The term "the happy start" is one of its features. Each connection begins with an exploration of what makes life wonderful, joyful, loving, and uplifting. Energy is released to create vibrations, which in turn stimulate frequency to produce beautiful things. Helps to double health and heal. Nevertheless, love grows as time passes.`,
+    size: "40 x 40 inches",
+    description: "The artwork aims to portray the idea that, despite our differences in appearance and mentality, we are all capable of creating and imagining the same vision, and that our viewpoints are influenced by our identities and experiences, but our imagination is boundless.",
     year: 2025,
     type: "square" // or "portrait" or "square"
   },
@@ -90,22 +92,22 @@ export const gallery = [
     type: "square" // or "portrait" or "square"
   },
   {
-    title: "GUILTY DOMAIN",
-    image: guiltyDomain,
-    slug: "guilty-domain",
+    title: "DISBELIEVA",
+    image: disbelieva,
+    slug: "disbelieva",
     materials: "Mixed media on canvas",
-    size: "70 x 40 inches",
-    description: "Due to the structure of life existence, man with potentials and abilities that is destined to him is unable to realise his full capacity. He feels guilty because of this, which is why it's the kind that, frequently as a result of social conventions, makes him feel unworthy, trapped, anxious, or scared to pursue his ideas. By letting go of everyone and society's opinions on their lives, I believe that the untapped potential can be fully realised. Aim to live life to the fullest and enjoy every moment. In the end, things will work out and people will accept the new you instead.",
+    size: "53 x 40 inches",
+    description: "I'm the one with more optimistic aspirations. The people I trust and who are most important to me are unbelievers. Why can't they see into the future? I believe they are not aware of anything since the crystal ball has shown only me how wonderful I am. It puts a lot of strain on people, which makes it incredibly difficult. Simply trust",
     year: 2025,
     type: "landscape" // or "portrait" or "square"
   },
   {
-    title: "New two",
+    title: "THE HEART THAT GAVE UNTIL SUNSET",
     image: newTwo,
     slug: "new-two",
-    materials: "Acrylics on canvas",
-    size: "46 x 36 inches",
-    description: `Humanity has always been captivated by the idea of love. The emotion in question is intricate and multidimensional, with multiple manifestations.A profound attachment, concern, and bond with someone or something is the essence of love. The term "the happy start" is one of its features. Each connection begins with an exploration of what makes life wonderful, joyful, loving, and uplifting. Energy is released to create vibrations, which in turn stimulate frequency to produce beautiful things. Helps to double health and heal. Nevertheless, love grows as time passes.`,
+    materials: "Mixed media on canvas",
+    size: "53 x 40 inches",
+    description: "The life and spirit of an African woman whose love and generosity outlived her earthly days. She stands as both a symbol of divine compassion and human sacrifice. A soul who poured herself into others and left a legacy of kindness, even though she didn’t live to enjoy her own harvest.",
     year: 2025,
     type: "portrait" // or "portrait" or "square"
   },
@@ -118,6 +120,16 @@ export const gallery = [
     description: `"Metamorphosis of the Soul" honours the human spirit's potential for development, change, and self-discovery. I hope to encourage you all to go on your own path of self-discovery and introspection, accepting who you really are and seeing the beauty in your individuality. Be mindful that we are all works in progress that are always changing and developing.`,
     year: 2025,
     type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "GUILTY DOMAIN",
+    image: guiltyDomain,
+    slug: "guilty-domain",
+    materials: "Mixed media on canvas",
+    size: "70 x 40 inches",
+    description: "Due to the structure of life existence, man with potentials and abilities that is destined to him is unable to realise his full capacity. He feels guilty because of this, which is why it's the kind that, frequently as a result of social conventions, makes him feel unworthy, trapped, anxious, or scared to pursue his ideas. By letting go of everyone and society's opinions on their lives, I believe that the untapped potential can be fully realised. Aim to live life to the fullest and enjoy every moment. In the end, things will work out and people will accept the new you instead.",
+    year: 2025,
+    type: "landscape" // or "portrait" or "square"
   },
   {
     title: "QUE SERA, SERA!",
@@ -136,6 +148,46 @@ export const gallery = [
     materials: "Mixed media on canvas",
     size: "45 x 39 inches",
     description: `"The Beauty of All Colors" is a powerful statement about the importance of diversity, inclusivity, and representation. The artwork encourages viewers to celebrate their unique identities and appreciate the beauty of others, promoting a more harmonious and accepting each other.`,
+    year: 2025,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "THE PRAYER TO THE FIRST ARCHANGEL",
+    image: prayerArchangel,
+    slug: "the-prayer-to-the-first-archangel",
+    materials: "Mixed media on canvas",
+    size: "53 x 39 inches",
+    description: "I have been aware of and have taken steps to improve my life through personal development, rebirth, and change. Stopped all of the bad habits and swiftly shifted to the good ones. I am aware of both good and awful things, and I realise that awful things can also have wonderful things in them and vise versa. My self-awareness, intelligence, and thoughtful process have all increased. Both the male and feminine energies are known to me; I have distinguished between them and selected the most lucrative ones. Knowing the Almighty Being, I am aware that he is the only Being wealthy for worship. Thus, why does life continue to unfold in this manner? It should have been fair to live.",
+    year: 2023333333333333,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "THE SOUL WITH THE TURTLE NECK",
+    image: soulWithTurtleNeck,
+    slug: "the-soul-with-the-turtle-neck",
+    materials: "Mixed media on canvas",
+    size: "53 x 40 inches",
+    description: "The artwork beautifully depicts humanity's harmonious relationship with nature, showcasing vibrant colors that symbolize connection and peace. It features a young figure amidst gentle horses, reflecting the profound tranquility that such bonds create. The serene expressions of both the horses and the child emphasize themes of unity and balance. This portrayal illustrates the joy and contentment derived from reconnecting with nature, inviting viewers to experience the tranquility and happiness that arise from such relationships.",
+    year: 2025,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "WE CAN’T ESCAPE IT",
+    image: weCantEscapeIt,
+    slug: "we-cant-escape-it",
+    materials: "Mixed media on canvas",
+    size: "53 x 40 inches",
+    description: "Wanted to know all and specifics, dig and dig, searched and researched, and sacrificed all what I had for knowledge. I’m consciously and subconsciously enlightened and awaken. Knowledge has brought me to nothing but hope. Think we shouldn’t seek much, we might not be ready for the inevitable regrets that come with it.",
+    year: 2025,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "THE HEALER",
+    image: healer,
+    slug: "the-healer",
+    materials: "Mixed media on canvas",
+    size: "50 x 39 inches",
+    description: "Playing sounds of Revolution with mind waking tunes.",
     year: 2025,
     type: "portrait" // or "portrait" or "square"
   },
@@ -200,46 +252,6 @@ export const gallery = [
     type: "square" // or "portrait" or "square"
   },
   {
-    title: "THE PRAYER TO THE FIRST ARCHANGEL",
-    image: prayerArchangel,
-    slug: "the-prayer-to-the-first-archangel",
-    materials: "Mixed media on canvas",
-    size: "53 x 39 inches",
-    description: "I have been aware of and have taken steps to improve my life through personal development, rebirth, and change. Stopped all of the bad habits and swiftly shifted to the good ones. I am aware of both good and awful things, and I realise that awful things can also have wonderful things in them and vise versa. My self-awareness, intelligence, and thoughtful process have all increased. Both the male and feminine energies are known to me; I have distinguished between them and selected the most lucrative ones. Knowing the Almighty Being, I am aware that he is the only Being wealthy for worship. Thus, why does life continue to unfold in this manner? It should have been fair to live.",
-    year: 2023333333333333,
-    type: "portrait" // or "portrait" or "square"
-  },
-  {
-    title: "THE SOUL WITH THE TURTLE NECK",
-    image: soulWithTurtleNeck,
-    slug: "the-soul-with-the-turtle-neck",
-    materials: "Mixed media on canvas",
-    size: "53 x 40 inches",
-    description: "The artwork beautifully depicts humanity's harmonious relationship with nature, showcasing vibrant colors that symbolize connection and peace. It features a young figure amidst gentle horses, reflecting the profound tranquility that such bonds create. The serene expressions of both the horses and the child emphasize themes of unity and balance. This portrayal illustrates the joy and contentment derived from reconnecting with nature, inviting viewers to experience the tranquility and happiness that arise from such relationships.",
-    year: 2025,
-    type: "portrait" // or "portrait" or "square"
-  },
-  {
-    title: "WE CAN’T ESCAPE IT",
-    image: weCantEscapeIt,
-    slug: "we-cant-escape-it",
-    materials: "Mixed media on canvas",
-    size: "53 x 40 inches",
-    description: "Wanted to know all and specifics, dig and dig, searched and researched, and sacrificed all what I had for knowledge. I’m consciously and subconsciously enlightened and awaken. Knowledge has brought me to nothing but hope. Think we shouldn’t seek much, we might not be ready for the inevitable regrets that come with it.",
-    year: 2025,
-    type: "portrait" // or "portrait" or "square"
-  },
-  {
-    title: "THE HEALER",
-    image: healer,
-    slug: "the-healer",
-    materials: "Mixed media on canvas",
-    size: "50 x 39 inches",
-    description: "Playing sounds of Revolution with mind waking tunes.",
-    year: 2025,
-    type: "portrait" // or "portrait" or "square"
-  },
-  {
     title: "THE ICONIC HERD",
     image: iconicHerd,
     slug: "the-iconic-herd",
@@ -299,5 +311,15 @@ export const gallery = [
     description2: "I, ‘THE TIME TRAVELER’ would want to tell what I observed and recorded myself. The future is a wired period where everything will happen if change is not made today. To emphasize, humans; the old, the wise and knowledgeable, wealthy, high esteemed people and any other people will be highly manipulated. The brains of these people will be controlled by those on top of the world governance. These high-ranking government officials will steer man in the other direction. I, ‘THE TIME TRAVELER,' observed numerous humans, many of whom had their bodies altered beyond recognition. Vegetation?… No!!! I saw nothing like vegetation. Because of the current human practice of deforestation, artificial oxygen will be made by THESE scientists who are only concerned with their own personal interests. For the sake of survival, humans will always rely on oxygen. I, 'THE TIME TRAVELER,' witnessed ANUBIS, the god of death, laboring behind closed doors in a ferocious mood to exterminate humanity. The world's demise has already been planned, and everything must take place as planned. The future is a frightening time in which nothing will be good. This is due to the ruin of the planet, the establishment of a new world order, hostility, wickedness, and callous disregard for people, as well as the use of biological weapons to reduce those who are not viewed as superior by THESE people. WE SHOULD PROTECT THE FUTURE NOW!!!",
     year: 2021,
     type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "THE PERFECT MINDSET",
+    image: perfectMind, // perfectMindset
+    slug: "the-perfect-mindset", // the-perfect-mindset
+    materials: "Mixed media on canvas",
+    size: "34 x 32 inches",
+    description: `"DON'T THINK ABOUT MAKING ART, JUST GET IT DONE. LET EVERYONE ELSE DECIDE IF IT'S GOOD OR BAD. WHILE THEY ARE DECIDING MAKE EVEN MORE ART." ANDY WARNOL`,
+    year: 2025,
+    type: "square" // or "portrait" or "square"
   },
 ];
