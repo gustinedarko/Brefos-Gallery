@@ -19,7 +19,7 @@ export default function GalleryCard({ image, title, materials, size, year }) {
       </div>
 
       {/* Below Image Details — visible only on small screens */}
-      <div className="flex flex-col justify-start p-4 text-slate-800 md:hidden">
+      <div className="flex flex-col justify-start p-4 text-slate-800 bg-gray-100 md:hidden">
         <h2 className="text-lg font-semibold">{title}</h2>
         {materials && <p className="text-sm mt-1">{materials}</p>}
         {size && <p className="text-sm">{size}</p>}

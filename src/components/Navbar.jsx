@@ -36,7 +36,7 @@ export default function Navbar() {
       <div className="md:hidden">
         <button
           onClick={handleToggle}
-          className="nav-text text-[#4CAF50] hover:text-blue-400 focus:outline-none transition-colors duration-200"
+          className="nav-text text-[#4CAF50] focus:outline-none transition-colors duration-200"
         >
           <svg
             className="w-6 h-6"
@@ -56,14 +56,14 @@ export default function Navbar() {
 
       {/* Sidebar / Nav links */}
       <div
-        className={`text-white p-4 md:p-0 md:text-sm font-semibold fixed inset-y-0 left-0 w-[300px] flex flex-col items-start gap-8 bg-gray-100 shadow-xl z-40 transition-transform duration-300 ease-in-out
+        className={`text-white p-4 md:p-0 md:text-sm font-semibold fixed inset-y-0 left-0 w-[300px] flex flex-col items-start gap-8 bg-[#03090D] shadow-xl z-40 transition-transform duration-300 ease-in-out
         md:static md:flex-row md:w-auto md:max-w-none md:bg-transparent md:shadow-none md:z-auto md:gap-10 md:items-center ${isOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"
           }`}
       >
         {/* Close button (only visible on mobile) */}
         <button
           onClick={handleToggle}
-          className="absolute top-4 right-4 md:hidden focus:outline-none text-slate-800 hover:text-blue-400"
+          className="absolute top-4 right-4 md:hidden focus:outline-none text-[#4CAF50]"
         >
           <svg
             className="w-7 h-7"

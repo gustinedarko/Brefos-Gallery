@@ -5,9 +5,9 @@ import { gallery } from "../data/gallery";
 export default function Gallery({ title, materials, size, year }) {
   return (
     <>
-      <div className="bg-[#39B54A]">
-      <Navbar />
-      
+      <div className="bg-[#39B54A]/10">
+        <Navbar />
+
         {/* Page Heading */}
         <div className="text-center mt-10 mb-6 px-4">
           <h1 className="text-3xl md:text-4xl font-bold text-slate-800 tracking-wide">
@@ -33,7 +33,7 @@ export default function Gallery({ title, materials, size, year }) {
               >
                 {/* IMAGE + OVERLAY WRAPPER */}
                 <div
-                  className={`${ratio} w-full overflow-hidden group relative shadow-lg hover:shadow-2xl transition duration-300`}
+                  className={`${ratio} w-full overflow-hidden group relative shadow-lg hover:shadow-2xl transition duration-300 rounded-2xl`}
                 >
                   <img
                     src={item.image}
@@ -48,8 +48,8 @@ export default function Gallery({ title, materials, size, year }) {
                     {item.year && <p className="text-sm mt-1">{item.year}</p>}
                     {/* VIEW DETAILS BUTTON */}
                     <button
-                    onClick={() => window.location.href = `/artwork/${item.slug}`}
-                    className="mt-3 text-sm bg-white/20 backdrop-blur px-4 py-2 rounded-lg hover:bg-white/30 transition">
+                      onClick={() => window.location.href = `/artwork/${item.slug}`}
+                      className="mt-3 text-sm bg-white/20 backdrop-blur px-4 py-2 rounded-lg hover:bg-white/30 transition">
                       View Details
                     </button>
                   </div>
@@ -62,8 +62,8 @@ export default function Gallery({ title, materials, size, year }) {
                   {item.year && <p className="text-sm mt-1">{item.year}</p>}
                   {/* VIEW DETAILS MOBILE BUTTON */}
                   <button
-                  onClick={() => window.location.href = `/artwork/${item.slug}`}
-                  className="mt-3 w-full text-center bg-slate-800 text-white py-2 rounded-lg text-sm hover:bg-slate-700 transition">
+                    onClick={() => window.location.href = `/artwork/${item.slug}`}
+                    className="mt-3 w-full text-center bg-slate-800 text-white py-2 rounded-lg text-sm hover:bg-slate-700 transition">
                     View Details
                   </button>
                 </div>
@@ -72,7 +72,7 @@ export default function Gallery({ title, materials, size, year }) {
           })}
         </div>
 
-      <Footer />
+        <Footer />
       </div>
     </>
   );

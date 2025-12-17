@@ -34,7 +34,7 @@ export default function Contact() {
       </section>
 
       {/* Contact Content */}
-      <section className="w-full py-20 px-6 md:px-16 bg-white">
+      <section className="w-full py-20 px-6 md:px-16 bg-[#39B54A]/5">
         <div className="grid md:grid-cols-2 gap-14 max-w-6xl mx-auto">
 
           {/* Left: Connect Info */}
@@ -65,28 +65,28 @@ export default function Contact() {
             <div className="flex space-x-5 pt-3">
               <a
                 href="https://www.instagram.com/wi.lson3176?igsh=MTN4dnYwaW1tNXUwNQ%3D%3D&utm_source=qr"
-                className="text-gray-700 hover:text-gray-900 transition-transform transform hover:scale-110"
+                className="text-gray-700 hover:text-[#4CAF50] transition-transform transform hover:scale-110"
                 target="_blank"
               >
                 <FaInstagram size={24} />
               </a>
               <a
                 href="https://snapchat.com/t/6PPz0HsW"
-                className="text-gray-700 hover:text-gray-900 transition-transform transform hover:scale-110"
+                className="text-gray-700 hover:text-[#4CAF50] transition-transform transform hover:scale-110"
                 target="_blank"
               >
                 <FaSnapchatGhost size={22} />
               </a>
               <a
                 href="https://www.tiktok.com/@wilsondjzuz?_t=ZM-90UO5jK88cN&_r=1"
-                className="text-gray-700 hover:text-gray-900 transition-transform transform hover:scale-110"
+                className="text-gray-700 hover:text-[#4CAF50] transition-transform transform hover:scale-110"
                 target="_blank"
               >
                 <FaTiktok size={20} />
               </a>
               <a
                 href="http://linkedin.com/in/wilson-brefo"
-                className="text-gray-700 hover:text-gray-900 transition-transform transform hover:scale-110"
+                className="text-gray-700 hover:text-[#4CAF50] transition-transform transform hover:scale-110"
                 target="_blank"
               >
                 <FaLinkedinIn size={22} />

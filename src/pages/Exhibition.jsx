@@ -89,7 +89,7 @@ export default function Exhibition() {
 
       {/* Upcoming Exhibitions */}
       {upcoming.length > 0 && (
-        <section className="px-6 md:px-20 py-16">
+        <section className="px-6 md:px-20 py-16 bg-gray-50">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">
             Upcoming Exhibition
           </h2>
@@ -103,7 +103,7 @@ export default function Exhibition() {
       )}
 
       {/* Past Exhibitions */}
-      <section className="px-6 md:px-20 py-16 bg-gray-50">
+      <section className="px-6 md:px-20 py-16 bg-[#39B54A]/10">
         <h2 className="text-3xl font-bold text-gray-900 mb-8">
           Past Exhibitions
         </h2>

@@ -1,7 +1,7 @@
 // src/data/gallery.js
 
-import newOne from "../assets/images/new-one.jpg";
-import newTwo from "../assets/images/new-two.jpg";
+import oneVision from "../assets/images/one-vision.jpg";
+import heartThatGave from "../assets/images/heart-that-gave.jpg";
 import alpha from "../assets/images/alpha.jpg";
 import guiltyDomain from "../assets/images/guilty-domain.jpg";
 import lifesParadox from "../assets/images/lifes-paradox.jpg";
@@ -33,8 +33,8 @@ import perfectMind from "../assets/images/perfect-mind.jpg"
 export const gallery = [
   {
     title: "ONE VISION OF DIFFERENT FACE AND MIND",
-    image: newOne,
-    slug: "new-one",
+    image: oneVision,
+    slug: "one-vision-of-different-face-and-mind",
     materials: "Acrylics on canvas",
     size: "40 x 40 inches",
     description: "The artwork aims to portray the idea that, despite our differences in appearance and mentality, we are all capable of creating and imagining the same vision, and that our viewpoints are influenced by our identities and experiences, but our imagination is boundless.",
@@ -102,22 +102,22 @@ export const gallery = [
     type: "landscape" // or "portrait" or "square"
   },
   {
-    title: "THE HEART THAT GAVE UNTIL SUNSET",
-    image: newTwo,
-    slug: "new-two",
-    materials: "Mixed media on canvas",
-    size: "53 x 40 inches",
-    description: "The life and spirit of an African woman whose love and generosity outlived her earthly days. She stands as both a symbol of divine compassion and human sacrifice. A soul who poured herself into others and left a legacy of kindness, even though she didn’t live to enjoy her own harvest.",
-    year: 2025,
-    type: "portrait" // or "portrait" or "square"
-  },
-  {
     title: "METAMORPHOSIS OF THE SOUL",
     image: metamorphosis,
     slug: "metamorphosis-of-the-soul",
     materials: "Mixed media on canvas",
     size: "32 x 27 inches",
     description: `"Metamorphosis of the Soul" honours the human spirit's potential for development, change, and self-discovery. I hope to encourage you all to go on your own path of self-discovery and introspection, accepting who you really are and seeing the beauty in your individuality. Be mindful that we are all works in progress that are always changing and developing.`,
+    year: 2025,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "THE SOUL WITH THE TURTLE NECK",
+    image: soulWithTurtleNeck,
+    slug: "the-soul-with-the-turtle-neck",
+    materials: "Mixed media on canvas",
+    size: "53 x 40 inches",
+    description: "The artwork beautifully depicts humanity's harmonious relationship with nature, showcasing vibrant colors that symbolize connection and peace. It features a young figure amidst gentle horses, reflecting the profound tranquility that such bonds create. The serene expressions of both the horses and the child emphasize themes of unity and balance. This portrayal illustrates the joy and contentment derived from reconnecting with nature, inviting viewers to experience the tranquility and happiness that arise from such relationships.",
     year: 2025,
     type: "portrait" // or "portrait" or "square"
   },
@@ -162,12 +162,12 @@ export const gallery = [
     type: "portrait" // or "portrait" or "square"
   },
   {
-    title: "THE SOUL WITH THE TURTLE NECK",
-    image: soulWithTurtleNeck,
-    slug: "the-soul-with-the-turtle-neck",
+    title: "THE HEART THAT GAVE UNTIL SUNSET",
+    image: heartThatGave,
+    slug: "the-heart-that-gave-until-sunset",
     materials: "Mixed media on canvas",
     size: "53 x 40 inches",
-    description: "The artwork beautifully depicts humanity's harmonious relationship with nature, showcasing vibrant colors that symbolize connection and peace. It features a young figure amidst gentle horses, reflecting the profound tranquility that such bonds create. The serene expressions of both the horses and the child emphasize themes of unity and balance. This portrayal illustrates the joy and contentment derived from reconnecting with nature, inviting viewers to experience the tranquility and happiness that arise from such relationships.",
+    description: "The life and spirit of an African woman whose love and generosity outlived her earthly days. She stands as both a symbol of divine compassion and human sacrifice. A soul who poured herself into others and left a legacy of kindness, even though she didn’t live to enjoy her own harvest.",
     year: 2025,
     type: "portrait" // or "portrait" or "square"
   },

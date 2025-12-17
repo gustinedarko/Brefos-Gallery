@@ -2,7 +2,7 @@ import { FaSnapchatGhost, FaInstagram, FaLinkedinIn, FaTiktok } from "react-icon
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-black text-gray-300 py-12">
+    <footer className="w-full bg-[#03090D] text-gray-300 py-12">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-6 gap-10">
 
         {/* BRAND SECTION */}
@@ -22,19 +22,19 @@ export default function Footer() {
             <h3 className="text-white font-semibold text-lg mb-3">Explore</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="/" className="hover:text-white transition">Home</a>
+                <a href="/" className="hover:text-[#4CAF50] transition">Home</a>
               </li>
               <li>
-                <a href="/gallery-section" className="hover:text-white transition">Gallery</a>
+                <a href="/gallery-section" className="hover:text-[#4CAF50] transition">Gallery</a>
               </li>
               <li>
-                <a href="/artist" className="hover:text-white transition">Artist</a>
+                <a href="/artist" className="hover:text-[#4CAF50] transition">Artist</a>
               </li>
               <li>
-                <a href="/exhibition" className="hover:text-white transition">Exhibitions</a>
+                <a href="/exhibition" className="hover:text-[#4CAF50] transition">Exhibitions</a>
               </li>
               <li>
-                <a href="/contact" className="hover:text-white transition">Contact</a>
+                <a href="/contact" className="hover:text-[#4CAF50] transition">Contact</a>
               </li>
             </ul>
           </div>
@@ -58,16 +58,16 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-4 text-xl">
             
-            <a href="https://www.instagram.com/wi.lson3176?igsh=MTN4dnYwaW1tNXUwNQ%3D%3D&utm_source=qr" className="hover:text-white transition">
+            <a href="https://www.instagram.com/wi.lson3176?igsh=MTN4dnYwaW1tNXUwNQ%3D%3D&utm_source=qr" className="hover:text-[#4CAF50] transition">
               <FaInstagram />
             </a>
-            <a href="https://www.tiktok.com/@wilsondjzuz?_t=ZM-90UO5jK88cN&_r=1" className="hover:text-white transition">
+            <a href="https://www.tiktok.com/@wilsondjzuz?_t=ZM-90UO5jK88cN&_r=1" className="hover:text-[#4CAF50] transition">
               <FaTiktok />
             </a>
-            <a href="https://snapchat.com/t/6PPz0HsW" className="hover:text-white transition">
+            <a href="https://snapchat.com/t/6PPz0HsW" className="hover:text-[#4CAF50] transition">
               <FaSnapchatGhost />
             </a>
-            <a href="http://linkedin.com/in/wilson-brefo" className="hover:text-white transition">
+            <a href="http://linkedin.com/in/wilson-brefo" className="hover:text-[#4CAF50] transition">
               <FaLinkedinIn />
             </a>
           </div>

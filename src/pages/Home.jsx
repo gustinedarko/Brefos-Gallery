@@ -30,7 +30,7 @@ export default function Home() {
       </header>
 
       <main>
-        <section className="w-full flex flex-col md:flex-row justify-center gap-16 py-10 px-6 bg-white">
+        <section className="w-full flex flex-col md:flex-row justify-center gap-16 py-10 px-6 bg-[#39B54A]/5">
 
           {/* Left Column */}
           <div className="flex flex-col gap-16 w-full md:w-1/2 md:p-10">
@@ -60,9 +60,11 @@ export default function Home() {
                 year={item.year}
               />
             ))}
-            <a className="flex justify-center items-center bg-slate-800 text-white px-6 py-3 rounded-lg font-medium hover:bg-slate-700 transition" href="/gallery-section">
-              <span className="">Veiw Gallery</span>
-            </a>
+            <button>
+              <a className="flex justify-center items-center bg-slate-800 text-white px-6 py-3 rounded-lg font-medium hover:bg-slate-700 transition" href="/gallery-section">
+                <span className="">Veiw Gallery</span>
+              </a>
+            </button>
           </div>
         </section>
       </main>

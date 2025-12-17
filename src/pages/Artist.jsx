@@ -59,7 +59,7 @@ export default function Artist() {
       </section>
 
       {/* Bio Section */}
-      <section className="py-20 px-6 md:px-16 bg-white">
+      <section className="py-20 px-6 md:px-16 bg-[#39B54A]/10">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="space-y-5">
             <h2 className="text-3xl font-semibold text-gray-800 border-l-4 border-gray-700 pl-3">
@@ -123,7 +123,7 @@ export default function Artist() {
       </section>
 
       {/* Behind the Scenes Section */}
-      <section className="py-20 bg-white px-6 md:px-16">
+      <section className="py-20 bg-[#39B54A]/10 px-6 md:px-16">
         <h2 className="text-3xl font-semibold text-gray-800 mb-10 text-center">
           Behind the Scenes
         </h2>
