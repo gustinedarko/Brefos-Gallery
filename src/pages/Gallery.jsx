@@ -33,7 +33,7 @@ export default function Gallery({ title, materials, size, year }) {
               >
                 {/* IMAGE + OVERLAY WRAPPER */}
                 <div
-                  className={`${ratio} w-full overflow-hidden group relative shadow-lg hover:shadow-2xl transition duration-300 rounded-2xl`}
+                  className={`${ratio} w-full overflow-hidden group relative shadow-2xl hover:shadow-2xl transition duration-300 rounded-2xl`}
                 >
                   <img
                     src={item.image}

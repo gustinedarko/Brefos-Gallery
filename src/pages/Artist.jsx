@@ -1,12 +1,24 @@
 import Navbar from "../components/Navbar";
-import bts2 from "../assets/images/que-sera-sera.jpg";
-import bts1 from "../assets/images/que-sera-sera.jpg"; // replace with actual BTS images
-import bts3 from "../assets/images/que-sera-sera.jpg";
+import btsLeft from "../assets/videos/bts-two.MOV";
+import btsCenter from "../assets/videos/bts-one.MOV";
+import btsRight from "../assets/videos/bts-three.MOV";
 import artistImage from "../assets/images/the-healer.jpg"; // artist portrait
 import artistImage2 from "../assets/images/wils.jpg"; // artist portrait
 import Footer from "../components/Footer";
+import { useState, useRef } from "react"; // New
 
 export default function Artist() {
+
+  // const middleVideos = [btsMiddle1, btsMiddle2, btsMiddle3]; // New
+  // const [currentIndex, setCurrentIndex] = useState(0);
+  // const videoRef = useRef(null);
+
+  // const handleVideoEnd = () => {
+  //   if (currentIndex < middleVideos.length - 1) {
+  //     setCurrentIndex(prev => prev + 1);
+  //   }
+  // };
+
   return (
     <>
       <Navbar />
@@ -124,21 +136,43 @@ export default function Artist() {
 
       {/* Behind the Scenes Section */}
       <section className="py-20 bg-[#39B54A]/10 px-6 md:px-16">
-        <h2 className="text-3xl font-semibold text-gray-800 mb-10 text-center">
+        <h2 className="text-3xl font-semibold text-gray-800 mb-4 text-center">
           Behind the Scenes
         </h2>
-        <p className="text-center text-gray-600 mb-8">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, inventore! Ut, voluptate labore quibusdam iusto quisquam dolores suscipit tenetur commodi?
+
+        <p className="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
+          A glimpse into the creative process, studio moments, and the making of selected artworks.
         </p>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {[bts1, bts2, bts3].map((img, i) => (
-            <div
-              key={i}
-              className="rounded-xl overflow-hidden shadow-md hover:scale-105 transition-transform duration-300"
-            >
-              <img src={img} alt={`Behind the scenes ${i + 1}`} className="w-full h-64 object-cover" />
-            </div>
-          ))}
+
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+
+          {/* LEFT VIDEO */}
+          <div className="rounded-xl overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
+            <video
+              src={btsLeft}
+              controls
+              className="w-full aspect-[9/16] object-cover"
+            />
+          </div>
+
+          {/* CENTER VIDEO (FEATURED) */}
+          <div className="rounded-xl overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
+            <video
+              src={btsCenter}
+              controls
+              className="w-full aspect-[9/16] object-cover"
+            />
+          </div>
+
+          {/* RIGHT VIDEO */}
+          <div className="rounded-xl overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
+            <video
+              src={btsRight}
+              controls
+              className="w-full aspect-[9/16] object-cover"
+            />
+          </div>
+
         </div>
       </section>
 
