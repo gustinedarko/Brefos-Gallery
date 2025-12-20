@@ -35,11 +35,11 @@ export default function ArtworkDetails() {
           {/* Year */}
           <p className="text-gray-500 text-lg mt-1">{artwork.year}</p>
           {/* Image */}
-          <div className="mt-8 w-full overflow-hidden shadow-xl rounded-xl">
+          <div className="mt-8 w-full overflow-hidden shadow-xl md:rounded-xl">
             <img
-              src={artwork.image}
+              src={artwork.framedImage || artwork.image}
               alt={artwork.title}
-              className="w-full h-full object-contain max-h-[80vh] mx-auto rounded-xl"
+              className="w-full h-full object-contain max-h-[80vh] mx-auto"
             />
           </div>
           {/* Details Section */}

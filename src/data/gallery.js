@@ -1,39 +1,69 @@
 // src/data/gallery.js
 
 import oneVision from "../assets/images/one-vision.jpg";
+import oneVisionFramed from "../assets/images/one-vision-framed.jpg";
 import heartThatGave from "../assets/images/heart-that-gave.jpg";
+import heartThatGaveFramed from "../assets/images/heart-that-gave-framed.jpg";
 import alpha from "../assets/images/alpha.jpg";
+import alphaFramed from "../assets/images/alpha-framed.jpg";
 import guiltyDomain from "../assets/images/guilty-domain.jpg";
+import guiltyDomainFramed from "../assets/images/guilty-domain-framed.jpg";
 import lifesParadox from "../assets/images/lifes-paradox.jpg";
+import lifesParadoxFramed from "../assets/images/lifes-paradox-framed.jpg";
 import mehoOmo from "../assets/images/meho-omo-i-have-seen-them.jpg";
+import mehoOmoFramed from "../assets/images/meho-omo-i-have-seen-them-framed.jpg";
 import metamorphosis from "../assets/images/metamorphosis-of-the-soul.jpg";
+import metamorphosisFramed from "../assets/images/metamorphosis-of-the-soul-framed.jpg";
 import mrChuck from "../assets/images/mr-chuck.jpg";
+import mrChuckFramed from "../assets/images/mr-chuck-framed.jpg";
 import omega from "../assets/images/omega.jpg";
+import omegaFramed from "../assets/images/omega-framed.jpg";
 import queSera from "../assets/images/que-sera-sera.jpg";
+// import queSeraFramed from "../assets/images/que-sera-sera-framed.jpg";
 import beautyOfAllColors from "../assets/images/the-beauty-of-all-colors.jpg";
+import beautyOfAllColorsFramed from "../assets/images/the-beauty-of-all-colors-framed.jpg";
 import beingWithCracks from "../assets/images/the-being-with-cracks.jpg";
+import beingWithCracksFramed from "../assets/images/the-being-with-cracks-framed.jpg";
 import complexityOfThought from "../assets/images/the-complexity-of-thoughtful-emotions.jpg";
+import complexityOfThoughtFramed from "../assets/images/the-complexity-of-thoughtful-emotions-framed.jpg";
 import confessionOldWoman from "../assets/images/the-confession-of-the-brilliant-old-woman.jpg";
+import confessionOldWomanFramed from "../assets/images/the-confession-of-the-brilliant-old-woman-framed.jpg";
 import feelOfExistence from "../assets/images/the-feel-of-existence-in-a-life-chosen-for.jpg";
+import feelOfExistenceFramed from "../assets/images/the-feel-of-existence-in-a-life-chosen-for-framed.jpg";
 import healer from "../assets/images/the-healer.jpg";
+import healerFramed from "../assets/images/the-healer-framed.jpg";
 import iconicHerd from "../assets/images/the-iconic-herd.jpg";
+import iconicHerdFramed from "../assets/images/the-iconic-herd-framed.jpg";
 import lastProphet from "../assets/images/the-last-prophet.jpg";
+import lastProphetFramed from "../assets/images/the-last-prophet-framed.jpg";
 import prayerArchangel from "../assets/images/the-prayer-to-the-first-archangel.jpg";
+import prayerArchangelFramed from "../assets/images/the-prayer-to-the-first-archangel-framed.jpg";
 import soulWithTurtleNeck from "../assets/images/the-soul-with-the-turtle-neck.jpg";
+import soulWithTurtleNeckFramed from "../assets/images/the-soul-with-the-turtle-neck-framed.jpg";
 import timeTraveler from "../assets/images/the-time-traveler.jpg";
+import timeTravelerFramed from "../assets/images/the-time-traveler-framed.jpg";
 import transfiguration from "../assets/images/the-transfiguration.jpg";
+import transfigurationFramed from "../assets/images/the-transfiguration-framed.jpg";
 import untoldStories from "../assets/images/the-untold-stories.jpg";
+import untoldStoriesFramed from "../assets/images/the-untold-stories-framed.jpg";
 import wish from "../assets/images/the-wish.jpg";
+import wishFramed from "../assets/images/the-wish-framed.jpg";
 import veritas from "../assets/images/veritas.jpg";
+import veritasFramed from "../assets/images/veritas-framed.jpg";
 import weCantEscapeIt from "../assets/images/we-cant-escape-it.jpg";
+import weCantEscapeItFramed from "../assets/images/we-cant-escape-it-framed.jpg";
 import whyTogether from "../assets/images/why-together.jpg";
+import whyTogetherFramed from "../assets/images/why-together-framed.jpg";
 import disbelieva from "../assets/images/disbelieva.jpg"
+import disbelievaFramed from "../assets/images/disbelieva-framed.jpg"
 import perfectMind from "../assets/images/perfect-mind.jpg"
+import perfectMindFramed from "../assets/images/perfect-mind-framed.jpg"
 
 export const gallery = [
   {
     title: "ONE VISION OF DIFFERENT FACE AND MIND",
     image: oneVision,
+    framedImage: oneVisionFramed,
     slug: "one-vision-of-different-face-and-mind",
     materials: "Acrylics on canvas",
     size: "40 x 40 inches",
@@ -44,6 +74,7 @@ export const gallery = [
   {
     title: "LIFE’S PARADOX",
     image: lifesParadox,
+    framedImage: lifesParadoxFramed,
     slug: "lifes-paradox",
     materials: "Mixed media on canvas",
     size: "24 x 24 inches",
@@ -54,6 +85,7 @@ export const gallery = [
   {
     title: "ALPHA",
     image: alpha,
+    framedImage: alphaFramed,
     slug: "alpha",
     materials: "Acrylics on canvas",
     size: "24 x 24 inches",
@@ -64,6 +96,7 @@ export const gallery = [
   {
     title: "MEHO )MO. (I HAVE SEEN THEM)",
     image: mehoOmo,
+    framedImage: mehoOmoFramed,
     slug: "meho-omo-i-have-seen-them",
     materials: "Acrylics on canvas",
     size: "34 x 36 inches",
@@ -74,6 +107,7 @@ export const gallery = [
   {
     title: "MR. CHUCK",
     image: mrChuck,
+    framedImage: mrChuckFramed,
     slug: "mr-chuck",
     materials: "Mixed media on canvas",
     size: "36 x 36 inches",
@@ -84,6 +118,7 @@ export const gallery = [
   {
     title: "OMEGA",
     image: omega,
+    framedImage: omegaFramed,
     slug: "omega",
     materials: "Acrylics on canvas",
     size: "24 x 24 inches",
@@ -94,6 +129,7 @@ export const gallery = [
   {
     title: "DISBELIEVA",
     image: disbelieva,
+    framedImage: disbelievaFramed,
     slug: "disbelieva",
     materials: "Mixed media on canvas",
     size: "53 x 40 inches",
@@ -104,6 +140,7 @@ export const gallery = [
   {
     title: "METAMORPHOSIS OF THE SOUL",
     image: metamorphosis,
+    framedImage: metamorphosisFramed,
     slug: "metamorphosis-of-the-soul",
     materials: "Mixed media on canvas",
     size: "32 x 27 inches",
@@ -114,6 +151,7 @@ export const gallery = [
   {
     title: "THE SOUL WITH THE TURTLE NECK",
     image: soulWithTurtleNeck,
+    framedImage: soulWithTurtleNeckFramed,
     slug: "the-soul-with-the-turtle-neck",
     materials: "Mixed media on canvas",
     size: "53 x 40 inches",
@@ -124,6 +162,7 @@ export const gallery = [
   {
     title: "GUILTY DOMAIN",
     image: guiltyDomain,
+    framedImage: guiltyDomainFramed,
     slug: "guilty-domain",
     materials: "Mixed media on canvas",
     size: "70 x 40 inches",
@@ -134,6 +173,7 @@ export const gallery = [
   {
     title: "QUE SERA, SERA!",
     image: queSera,
+    framedImage: queSera, // queSeraFramed
     slug: "que-sera-sera",
     materials: "Mixed media on canvas",
     size: "32 x 27 inches",
@@ -144,6 +184,7 @@ export const gallery = [
   {
     title: "THE BEAUTY OF ALL COLORS",
     image: beautyOfAllColors,
+    framedImage: beautyOfAllColorsFramed,
     slug: "the-beauty-of-all-colors",
     materials: "Mixed media on canvas",
     size: "45 x 39 inches",
@@ -154,6 +195,7 @@ export const gallery = [
   {
     title: "THE PRAYER TO THE FIRST ARCHANGEL",
     image: prayerArchangel,
+    framedImage: prayerArchangelFramed,
     slug: "the-prayer-to-the-first-archangel",
     materials: "Mixed media on canvas",
     size: "53 x 39 inches",
@@ -164,6 +206,7 @@ export const gallery = [
   {
     title: "THE HEART THAT GAVE UNTIL SUNSET",
     image: heartThatGave,
+    framedImage: heartThatGaveFramed,
     slug: "the-heart-that-gave-until-sunset",
     materials: "Mixed media on canvas",
     size: "53 x 40 inches",
@@ -174,6 +217,7 @@ export const gallery = [
   {
     title: "WE CAN’T ESCAPE IT",
     image: weCantEscapeIt,
+    framedImage: weCantEscapeItFramed,
     slug: "we-cant-escape-it",
     materials: "Mixed media on canvas",
     size: "53 x 40 inches",
@@ -184,6 +228,7 @@ export const gallery = [
   {
     title: "THE HEALER",
     image: healer,
+    framedImage: healerFramed,
     slug: "the-healer",
     materials: "Mixed media on canvas",
     size: "50 x 39 inches",
@@ -194,6 +239,7 @@ export const gallery = [
   {
     title: "THE BEING WITH CRACKS",
     image: beingWithCracks,
+    framedImage: beingWithCracksFramed,
     slug: "the-being-with-cracks",
     materials: "Acrylics on canvas",
     size: "34 x 32 inches",
@@ -204,6 +250,7 @@ export const gallery = [
   {
     title: "THE CONFESSION OF THE BRILLIANT OLD WOMAN",
     image: confessionOldWoman,
+    framedImage: confessionOldWomanFramed,
     slug: "the-confession-of-the-brilliant-old-woman",
     materials: "Acrylics on canvas",
     size: "24 x 24 inches",
@@ -214,6 +261,7 @@ export const gallery = [
   {
     title: "THE FEEL OF EXISTENCE IN A LIFE CHOSEN FOR!",
     image: feelOfExistence,
+    framedImage: feelOfExistenceFramed,
     slug: "the-feel-of-existence-in-a-life-chosen-for",
     materials: "Mixed media on canvas",
     size: "24 x 24 inches",
@@ -224,6 +272,7 @@ export const gallery = [
   {
     title: "THE WISH",
     image: wish,
+    framedImage: wishFramed,
     slug: "the-wish",
     materials: "Acrylics on canvas",
     size: "34 x 32 inches",
@@ -234,6 +283,7 @@ export const gallery = [
   {
     title: "VERITAS",
     image: veritas,
+    framedImage: veritasFramed,
     slug: "veritas",
     materials: "Acrylics on canvas",
     size: "34 x 32 inches",
@@ -244,6 +294,7 @@ export const gallery = [
   {
     title: "THE TRANSFIGURATION",
     image: transfiguration,
+    framedImage: transfigurationFramed,
     slug: "the-transfiguration",
     materials: "Mixed media on canvas",
     size: "24 x 24 inches",
@@ -254,6 +305,7 @@ export const gallery = [
   {
     title: "THE ICONIC HERD",
     image: iconicHerd,
+    framedImage: iconicHerdFramed,
     slug: "the-iconic-herd",
     materials: "Mixed media on canvas",
     size: "70 x 40 inches",
@@ -264,6 +316,7 @@ export const gallery = [
   {
     title: "THE LAST PROPHET",
     image: lastProphet,
+    framedImage: lastProphetFramed,
     slug: "the-last-prophet",
     materials: "Acrylics on canvas",
     size: "46 x 36 inches",
@@ -274,6 +327,7 @@ export const gallery = [
   {
     title: "THE UNTOLD STORIES",
     image: untoldStories,
+    framedImage: untoldStoriesFramed,
     slug: "the-untold-stories",
     materials: "Acrylics on canvas",
     size: "48 x 36 inches",
@@ -284,6 +338,7 @@ export const gallery = [
   {
     title: "THE COMPLEXITY OF THOUGHTFUL EMOTIONS",
     image: complexityOfThought,
+    framedImage: complexityOfThoughtFramed,
     slug: "the-complexity-of-thoughtful-emotions",
     materials: "Mixed media on canvas",
     size: "32 x 27 inches",
@@ -294,6 +349,7 @@ export const gallery = [
   {
     title: "WHY TOGETHER",
     image: whyTogether,
+    framedImage: whyTogetherFramed,
     slug: "why-together",
     materials: "Mixed media on canvas",
     size: "53 x 40 inches",
@@ -304,6 +360,7 @@ export const gallery = [
   {
     title: "THE TIME TRAVELER",
     image: timeTraveler,
+    framedImage: timeTravelerFramed,
     slug: "the-time-traveler",
     materials: "Acrylics on canvas",
     size: "45 x 35 inches",
@@ -315,6 +372,7 @@ export const gallery = [
   {
     title: "THE PERFECT MINDSET",
     image: perfectMind, // perfectMindset
+    framedImage: perfectMindFramed, // not framed
     slug: "the-perfect-mindset", // the-perfect-mindset
     materials: "Mixed media on canvas",
     size: "34 x 32 inches",

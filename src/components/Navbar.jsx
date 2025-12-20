@@ -15,7 +15,7 @@ export default function Navbar() {
   const location = useLocation();
 
   return (
-    <nav className="flex items-center justify-between sticky top-0 w-full px-6 transition-all duration-300 shadow z-50 bg-[#03090D]">
+    <nav className="flex items-center justify-between sticky top-0 w-full px-6 transition-all duration-300 shadow z-50 bg-[#263b27]">
       {/* Logo */}
       <div>
         <a

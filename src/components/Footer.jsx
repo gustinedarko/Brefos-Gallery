@@ -2,7 +2,7 @@ import { FaSnapchatGhost, FaInstagram, FaLinkedinIn, FaTiktok } from "react-icon
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#03090D] text-gray-300 py-12">
+    <footer className="w-full bg-[#263b27] text-gray-300 py-12">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-6 gap-10">
 
         {/* BRAND SECTION */}
