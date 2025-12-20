@@ -19,7 +19,7 @@ import mrChuckFramed from "../assets/images/mr-chuck-framed.jpg";
 import omega from "../assets/images/omega.jpg";
 import omegaFramed from "../assets/images/omega-framed.jpg";
 import queSera from "../assets/images/que-sera-sera.jpg";
-// import queSeraFramed from "../assets/images/que-sera-sera-framed.jpg";
+import queSeraFramed from "../assets/images/que-sera-sera-framed.jpg";
 import beautyOfAllColors from "../assets/images/the-beauty-of-all-colors.jpg";
 import beautyOfAllColorsFramed from "../assets/images/the-beauty-of-all-colors-framed.jpg";
 import beingWithCracks from "../assets/images/the-being-with-cracks.jpg";
@@ -72,17 +72,6 @@ export const gallery = [
     type: "square" // or "portrait" or "square"
   },
   {
-    title: "LIFE’S PARADOX",
-    image: lifesParadox,
-    framedImage: lifesParadoxFramed,
-    slug: "lifes-paradox",
-    materials: "Mixed media on canvas",
-    size: "24 x 24 inches",
-    description: "Life is a fascinating journey where the good often emerges from the bad, and the bad can lurk within the good. For instance, tough times can lead to personal growth, teaching us resilience and empathy, while moments of success might bring unexpected pressures and stress. As time passes, our perceptions of these experiences can shift dramatically; what once felt like a loss may later reveal itself as a valuable lesson, and fleeting happiness can sometimes give way to challenges. This ever-changing nature of life reminds us to be mindful, appreciating both the highs and lows, as each moment contributes to our unique story and personal development. As the twin fish says, prosperity, abundance, and happiness is the result of long term life of everyone who planned.",
-    year: 2025,
-    type: "square" // or "portrait" or "square"
-  },
-  {
     title: "ALPHA",
     image: alpha,
     framedImage: alphaFramed,
@@ -91,6 +80,17 @@ export const gallery = [
     size: "24 x 24 inches",
     description: `Humanity has always been captivated by the idea of love. The emotion in question is intricate and multidimensional, with multiple manifestations.A profound attachment, concern, and bond with someone or something is the essence of love. The term "the happy start" is one of its features. Each connection begins with an exploration of what makes life wonderful, joyful, loving, and uplifting. Energy is released to create vibrations, which in turn stimulate frequency to produce beautiful things. Helps to double health and heal. Nevertheless, love grows as time passes.`,
     year: 2024,
+    type: "square" // or "portrait" or "square"
+  },
+  {
+    title: "THE PERFECT MINDSET",
+    image: perfectMind, // perfectMindset
+    framedImage: perfectMindFramed, // not framed
+    slug: "the-perfect-mindset", // the-perfect-mindset
+    materials: "Mixed media on canvas",
+    size: "34 x 32 inches",
+    description: `"DON'T THINK ABOUT MAKING ART, JUST GET IT DONE. LET EVERYONE ELSE DECIDE IF IT'S GOOD OR BAD. WHILE THEY ARE DECIDING MAKE EVEN MORE ART." ANDY WARNOL`,
+    year: 2025,
     type: "square" // or "portrait" or "square"
   },
   {
@@ -173,7 +173,7 @@ export const gallery = [
   {
     title: "QUE SERA, SERA!",
     image: queSera,
-    framedImage: queSera, // queSeraFramed
+    framedImage: queSeraFramed, // queSeraFramed
     slug: "que-sera-sera",
     materials: "Mixed media on canvas",
     size: "32 x 27 inches",
@@ -182,13 +182,13 @@ export const gallery = [
     type: "portrait" // or "portrait" or "square"
   },
   {
-    title: "THE BEAUTY OF ALL COLORS",
-    image: beautyOfAllColors,
-    framedImage: beautyOfAllColorsFramed,
-    slug: "the-beauty-of-all-colors",
+    title: "THE COMPLEXITY OF THOUGHTFUL EMOTIONS",
+    image: complexityOfThought,
+    framedImage: complexityOfThoughtFramed,
+    slug: "the-complexity-of-thoughtful-emotions",
     materials: "Mixed media on canvas",
-    size: "45 x 39 inches",
-    description: `"The Beauty of All Colors" is a powerful statement about the importance of diversity, inclusivity, and representation. The artwork encourages viewers to celebrate their unique identities and appreciate the beauty of others, promoting a more harmonious and accepting each other.`,
+    size: "32 x 27 inches",
+    description: "Beauty of the complexity of the mind make most of us restless. We hope to build and always love the outcome. We try delving deeper into the intricate web of emotions that defines our existence. We make people feel okay and comfortable despite us thinking about ourselves. We care too much and are always available for anyone who wants us at any time. Reality hits us harder and more often than the average man. They care less about us and we are most alone. Guess, we are the good ones no one cares about. Our brains and emotions are one, complex, one which no one understands.",
     year: 2025,
     type: "portrait" // or "portrait" or "square"
   },
@@ -215,6 +215,17 @@ export const gallery = [
     type: "portrait" // or "portrait" or "square"
   },
   {
+    title: "THE BEAUTY OF ALL COLORS",
+    image: beautyOfAllColors,
+    framedImage: beautyOfAllColorsFramed,
+    slug: "the-beauty-of-all-colors",
+    materials: "Mixed media on canvas",
+    size: "45 x 39 inches",
+    description: `"The Beauty of All Colors" is a powerful statement about the importance of diversity, inclusivity, and representation. The artwork encourages viewers to celebrate their unique identities and appreciate the beauty of others, promoting a more harmonious and accepting each other.`,
+    year: 2025,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
     title: "WE CAN’T ESCAPE IT",
     image: weCantEscapeIt,
     framedImage: weCantEscapeItFramed,
@@ -222,17 +233,6 @@ export const gallery = [
     materials: "Mixed media on canvas",
     size: "53 x 40 inches",
     description: "Wanted to know all and specifics, dig and dig, searched and researched, and sacrificed all what I had for knowledge. I’m consciously and subconsciously enlightened and awaken. Knowledge has brought me to nothing but hope. Think we shouldn’t seek much, we might not be ready for the inevitable regrets that come with it.",
-    year: 2025,
-    type: "portrait" // or "portrait" or "square"
-  },
-  {
-    title: "THE HEALER",
-    image: healer,
-    framedImage: healerFramed,
-    slug: "the-healer",
-    materials: "Mixed media on canvas",
-    size: "50 x 39 inches",
-    description: "Playing sounds of Revolution with mind waking tunes.",
     year: 2025,
     type: "portrait" // or "portrait" or "square"
   },
@@ -336,13 +336,13 @@ export const gallery = [
     type: "portrait" // or "portrait" or "square"
   },
   {
-    title: "THE COMPLEXITY OF THOUGHTFUL EMOTIONS",
-    image: complexityOfThought,
-    framedImage: complexityOfThoughtFramed,
-    slug: "the-complexity-of-thoughtful-emotions",
+    title: "THE HEALER",
+    image: healer,
+    framedImage: healerFramed,
+    slug: "the-healer",
     materials: "Mixed media on canvas",
-    size: "32 x 27 inches",
-    description: "Beauty of the complexity of the mind make most of us restless. We hope to build and always love the outcome. We try delving deeper into the intricate web of emotions that defines our existence. We make people feel okay and comfortable despite us thinking about ourselves. We care too much and are always available for anyone who wants us at any time. Reality hits us harder and more often than the average man. They care less about us and we are most alone. Guess, we are the good ones no one cares about. Our brains and emotions are one, complex, one which no one understands.",
+    size: "50 x 39 inches",
+    description: "Playing sounds of Revolution with mind waking tunes.",
     year: 2025,
     type: "portrait" // or "portrait" or "square"
   },
@@ -370,13 +370,13 @@ export const gallery = [
     type: "portrait" // or "portrait" or "square"
   },
   {
-    title: "THE PERFECT MINDSET",
-    image: perfectMind, // perfectMindset
-    framedImage: perfectMindFramed, // not framed
-    slug: "the-perfect-mindset", // the-perfect-mindset
+    title: "LIFE’S PARADOX",
+    image: lifesParadox,
+    framedImage: lifesParadoxFramed,
+    slug: "lifes-paradox",
     materials: "Mixed media on canvas",
-    size: "34 x 32 inches",
-    description: `"DON'T THINK ABOUT MAKING ART, JUST GET IT DONE. LET EVERYONE ELSE DECIDE IF IT'S GOOD OR BAD. WHILE THEY ARE DECIDING MAKE EVEN MORE ART." ANDY WARNOL`,
+    size: "24 x 24 inches",
+    description: "Life is a fascinating journey where the good often emerges from the bad, and the bad can lurk within the good. For instance, tough times can lead to personal growth, teaching us resilience and empathy, while moments of success might bring unexpected pressures and stress. As time passes, our perceptions of these experiences can shift dramatically; what once felt like a loss may later reveal itself as a valuable lesson, and fleeting happiness can sometimes give way to challenges. This ever-changing nature of life reminds us to be mindful, appreciating both the highs and lows, as each moment contributes to our unique story and personal development. As the twin fish says, prosperity, abundance, and happiness is the result of long term life of everyone who planned.",
     year: 2025,
     type: "square" // or "portrait" or "square"
   },

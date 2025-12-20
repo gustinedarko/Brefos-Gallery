@@ -2,10 +2,13 @@ import { useParams } from "react-router";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { gallery } from "../data/gallery";
-import {FaChevronLeft} from "react-icons/fa"
+import { FaChevronLeft } from "react-icons/fa"
+import { useNavigate } from "react-router";
 
 export default function ArtworkDetails() {
   const { slug } = useParams();
+
+  const navigate = useNavigate();
 
   // Find the artwork that matches the slug
   const artwork = gallery.find((item) => item.slug === slug);
@@ -77,14 +80,22 @@ export default function ArtworkDetails() {
               </p>
             </div>
           </div>
+
           {/* Back button */}
           <div className="mt-12">
-            <a
-              href="/gallery-section"
-              className="inline-block bg-slate-800 text-white px-6 py-3 rounded-lg font-medium hover:bg-slate-700 transition"
+            <button
+              onClick={() => {
+                if (window.history.length > 1) {
+                  navigate(-1);
+                } else {
+                  navigate("/gallery-section");
+                }
+              }}
+              className="inline-flex items-center gap-2 bg-slate-800 text-white px-6 py-3 rounded-lg font-medium hover:bg-slate-700 transition"
             >
-              <div className="flex items-center gap-2"><span><FaChevronLeft /></span> <span>Back to Gallery</span></div>
-            </a>
+              <FaChevronLeft />
+              <span>Back to Gallery</span>
+            </button>
           </div>
         </div>
       </div>
