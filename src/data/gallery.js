@@ -380,4 +380,59 @@ export const gallery = [
     year: 2025,
     type: "square" // or "portrait" or "square"
   },
+  {
+    title: "LIFE’S PARADOX",
+    image: lifesParadox,
+    framedImage: lifesParadoxFramed,
+    slug: "lifes-paradox",
+    materials: "Mixed media on canvas",
+    size: "24 x 24 inches",
+    description: "Life is a fascinating journey where the good often emerges from the bad, and the bad can lurk within the good. For instance, tough times can lead to personal growth, teaching us resilience and empathy, while moments of success might bring unexpected pressures and stress. As time passes, our perceptions of these experiences can shift dramatically; what once felt like a loss may later reveal itself as a valuable lesson, and fleeting happiness can sometimes give way to challenges. This ever-changing nature of life reminds us to be mindful, appreciating both the highs and lows, as each moment contributes to our unique story and personal development. As the twin fish says, prosperity, abundance, and happiness is the result of long term life of everyone who planned.",
+    year: 2025,
+    type: "square" // or "portrait" or "square"
+  },
+  {
+    title: "LIFE’S PARADOX",
+    image: lifesParadox,
+    framedImage: lifesParadoxFramed,
+    slug: "lifes-paradox",
+    materials: "Mixed media on canvas",
+    size: "24 x 24 inches",
+    description: "Life is a fascinating journey where the good often emerges from the bad, and the bad can lurk within the good. For instance, tough times can lead to personal growth, teaching us resilience and empathy, while moments of success might bring unexpected pressures and stress. As time passes, our perceptions of these experiences can shift dramatically; what once felt like a loss may later reveal itself as a valuable lesson, and fleeting happiness can sometimes give way to challenges. This ever-changing nature of life reminds us to be mindful, appreciating both the highs and lows, as each moment contributes to our unique story and personal development. As the twin fish says, prosperity, abundance, and happiness is the result of long term life of everyone who planned.",
+    year: 2025,
+    type: "square" // or "portrait" or "square"
+  },
+  {
+    title: "LIFE’S PARADOX",
+    image: lifesParadox,
+    framedImage: lifesParadoxFramed,
+    slug: "lifes-paradox",
+    materials: "Mixed media on canvas",
+    size: "24 x 24 inches",
+    description: "Life is a fascinating journey where the good often emerges from the bad, and the bad can lurk within the good. For instance, tough times can lead to personal growth, teaching us resilience and empathy, while moments of success might bring unexpected pressures and stress. As time passes, our perceptions of these experiences can shift dramatically; what once felt like a loss may later reveal itself as a valuable lesson, and fleeting happiness can sometimes give way to challenges. This ever-changing nature of life reminds us to be mindful, appreciating both the highs and lows, as each moment contributes to our unique story and personal development. As the twin fish says, prosperity, abundance, and happiness is the result of long term life of everyone who planned.",
+    year: 2025,
+    type: "square" // or "portrait" or "square"
+  },
+  {
+    title: "LIFE’S PARADOX",
+    image: lifesParadox,
+    framedImage: lifesParadoxFramed,
+    slug: "lifes-paradox",
+    materials: "Mixed media on canvas",
+    size: "24 x 24 inches",
+    description: "Life is a fascinating journey where the good often emerges from the bad, and the bad can lurk within the good. For instance, tough times can lead to personal growth, teaching us resilience and empathy, while moments of success might bring unexpected pressures and stress. As time passes, our perceptions of these experiences can shift dramatically; what once felt like a loss may later reveal itself as a valuable lesson, and fleeting happiness can sometimes give way to challenges. This ever-changing nature of life reminds us to be mindful, appreciating both the highs and lows, as each moment contributes to our unique story and personal development. As the twin fish says, prosperity, abundance, and happiness is the result of long term life of everyone who planned.",
+    year: 2025,
+    type: "square" // or "portrait" or "square"
+  },
+  {
+    title: "LIFE’S PARADOX",
+    image: lifesParadox,
+    framedImage: lifesParadoxFramed,
+    slug: "lifes-paradox",
+    materials: "Mixed media on canvas",
+    size: "24 x 24 inches",
+    description: "Life is a fascinating journey where the good often emerges from the bad, and the bad can lurk within the good. For instance, tough times can lead to personal growth, teaching us resilience and empathy, while moments of success might bring unexpected pressures and stress. As time passes, our perceptions of these experiences can shift dramatically; what once felt like a loss may later reveal itself as a valuable lesson, and fleeting happiness can sometimes give way to challenges. This ever-changing nature of life reminds us to be mindful, appreciating both the highs and lows, as each moment contributes to our unique story and personal development. As the twin fish says, prosperity, abundance, and happiness is the result of long term life of everyone who planned.",
+    year: 2025,
+    type: "square" // or "portrait" or "square"
+  },
 ];
