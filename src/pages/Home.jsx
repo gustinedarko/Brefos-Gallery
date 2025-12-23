@@ -25,7 +25,7 @@ export default function Home() {
           <img
             src={heroImage}
             alt="Wilson Brefo studio gallery"
-            loading="lazy"
+            loading="eager"
             decoding="async"
             className="absolute inset-0 w-full h-full object-cover"
           />
@@ -52,9 +52,10 @@ export default function Home() {
           {/* Left Column */}
           <div className="flex flex-col gap-16 w-full md:w-1/2 md:p-10">
             <div className="w-full">
-              <span className="text-3xl font-bold">"As an artist, I find inspiration in the beauty of the world around us, both in its tangible forms and abstract concepts."</span> <br />
-              <span className="text-xl">Rather than illustrating my feelings, I would like to express them. How the paint is applied is irrelevant as long as something is said. Hence, my art explores the delicate balance between realism and abstraction, capturing the essence of a subject while allowing room for interpretation. Through my semi-abstract works, I aim to evoke emotions and spark imagination, inviting viewers to engage with the art on a personal level. <span className="text-green-600 text-base pl-3 underline"><a href="/artist">Read more...</a></span></span>
+              <blockquote className="text-3xl font-bold leading-tight">"As an artist, I find inspiration in the beauty of the world around us, both in its tangible forms and abstract concepts."</blockquote >
+              <span className="text-lg leading-relaxed text-gray-800">Rather than illustrating my feelings, I would like to express them. How the paint is applied is irrelevant as long as something is said. Hence, my art explores the delicate balance between realism and abstraction, capturing the essence of a subject while allowing room for interpretation. Through my semi-abstract works, I aim to evoke emotions and spark imagination, inviting viewers to engage with the art on a personal level. <a href="/artist" className="text-green-600 text-base ml-2 underline">Read more →</a></span>
             </div>
+
             {firstSet.map((item) => (
               <GalleryCard
                 key={item.title}
@@ -79,7 +80,7 @@ export default function Home() {
             ))}
             <button>
               <a className="flex justify-center items-center bg-slate-800 text-white px-6 py-3 rounded-lg font-medium hover:bg-slate-700 transition" href="/gallery-section">
-                <span className="">Veiw Gallery</span>
+                Veiw Gallery
               </a>
             </button>
           </div>
