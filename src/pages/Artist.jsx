@@ -42,7 +42,7 @@ export default function Artist() {
       </section>
 
       {/* Quote Section */}
-      <section className="bg-gray-50 py-16 px-6 md:px-16 text-center">
+      <section className="bg-white py-16 px-6 md:px-16 text-center">
         <div className="max-w-4xl mx-auto space-y-6">
           <p className="text-gray-700 leading-relaxed text-lg">
             As an artist, I find inspiration in the beauty of the world around
@@ -103,7 +103,7 @@ export default function Artist() {
       </section>
 
       {/* Artistic Practice Section */}
-      <section className="py-20 px-6 md:px-16 bg-gray-50">
+      <section className="py-20 px-6 md:px-16 bg-[#39B54A]/5">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="rounded-2xl overflow-hidden shadow-lg order-2 md:order-1">
             <img

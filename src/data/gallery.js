@@ -200,7 +200,7 @@ export const gallery = [
     materials: "Mixed media on canvas",
     size: "53 x 39 inches",
     description: "I have been aware of and have taken steps to improve my life through personal development, rebirth, and change. Stopped all of the bad habits and swiftly shifted to the good ones. I am aware of both good and awful things, and I realise that awful things can also have wonderful things in them and vise versa. My self-awareness, intelligence, and thoughtful process have all increased. Both the male and feminine energies are known to me; I have distinguished between them and selected the most lucrative ones. Knowing the Almighty Being, I am aware that he is the only Being wealthy for worship. Thus, why does life continue to unfold in this manner? It should have been fair to live.",
-    year: 2023333333333333,
+    year: 2023,
     type: "portrait" // or "portrait" or "square"
   },
   {

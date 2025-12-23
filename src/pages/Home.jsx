@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 // import React from "react";
 import { gallery } from "../data/gallery";
 import GalleryCard from "../components/GalleryCard";
+import heroImage from "../assets/images/img-hero.jpg";
 
 export default function Home() {
 
@@ -18,14 +19,30 @@ export default function Home() {
     <>
       <Navbar />
       <header>
-        <section
-          className="w-full h-screen bg-cover bg-center flex flex-col justify-center items-center text-white"
-          style={{ backgroundImage: "url('/src/assets/images/img_hero.jpg')" }}
-        >
-          <div className="max-w-3xl px-6 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold tracking-wide mb-3">Welcome to Brefo’s Art World</h1>
-            <p className="italic text-lg md:text-xl text-gray-200">Discover the depth of contemporary creativity.</p>
+        <section className="relative w-full h-screen flex items-center justify-center text-white overflow-hidden">
+
+          {/* Lazy-loaded background image */}
+          <img
+            src={heroImage}
+            alt="Wilson Brefo studio gallery"
+            loading="lazy"
+            decoding="async"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+
+          {/* Optional dark overlay */}
+          {/* <div className="absolute inset-0 bg-black/40" /> */}
+
+          {/* Content */}
+          <div className="relative z-10 max-w-3xl px-6 text-center">
+            <h1 className="text-4xl md:text-5xl font-bold tracking-wide mb-3">
+              Welcome to Brefo’s Art World
+            </h1>
+            <p className="italic text-lg md:text-xl text-gray-200">
+              Discover the depth of contemporary creativity.
+            </p>
           </div>
+
         </section>
       </header>
 

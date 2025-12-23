@@ -16,7 +16,7 @@ export default function Footer() {
           </p>
         </div>
 
-        <div className="w-3/4 md:w-full flex justify-between md:justify-around md:gap-6 col-span-2">
+        <div className="w-3/4 md:w-full flex justify-between md:justify-around md:gap-6 col-span-2 text-gray-400">
           {/* QUICK NAV LINKS */}
           <div className="flex flex-col">
             <h3 className="text-white font-semibold text-lg mb-3">Explore</h3>
@@ -25,10 +25,10 @@ export default function Footer() {
                 <a href="/" className="hover:text-[#4CAF50] transition">Home</a>
               </li>
               <li>
-                <a href="/gallery-section" className="hover:text-[#4CAF50] transition">Gallery</a>
+                <a href="/artist" className="hover:text-[#4CAF50] transition">Artist</a>
               </li>
               <li>
-                <a href="/artist" className="hover:text-[#4CAF50] transition">Artist</a>
+                <a href="/gallery-section" className="hover:text-[#4CAF50] transition">Gallery</a>
               </li>
               <li>
                 <a href="/exhibition" className="hover:text-[#4CAF50] transition">Exhibitions</a>
