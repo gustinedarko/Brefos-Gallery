@@ -1,5 +1,3 @@
-// src/data/gallery.js
-
 import oneVision from "../assets/images/one-vision.jpg";
 import oneVisionFramed from "../assets/images/one-vision-framed.jpg";
 import heartThatGave from "../assets/images/heart-that-gave.jpg";
@@ -54,10 +52,20 @@ import weCantEscapeIt from "../assets/images/we-cant-escape-it.jpg";
 import weCantEscapeItFramed from "../assets/images/we-cant-escape-it-framed.jpg";
 import whyTogether from "../assets/images/why-together.jpg";
 import whyTogetherFramed from "../assets/images/why-together-framed.jpg";
-import disbelieva from "../assets/images/disbelieva.jpg"
-import disbelievaFramed from "../assets/images/disbelieva-framed.jpg"
-import perfectMind from "../assets/images/perfect-mind.jpg"
-import perfectMindFramed from "../assets/images/perfect-mind-framed.jpg"
+import disbelieva from "../assets/images/disbelieva.jpg";
+import disbelievaFramed from "../assets/images/disbelieva-framed.jpg";
+import perfectMind from "../assets/images/perfect-mind.jpg";
+import perfectMindFramed from "../assets/images/perfect-mind-framed.jpg";
+import sadGeneration from "../assets/images/sad-generation.jpg";
+import sadGenerationFramed from "../assets/images/sad-generation-framed.jpg";
+import soulAbduction from "../assets/images/soul-abduction.jpg";
+import soulAbductionFramed from "../assets/images/soul-abduction-framed.jpg";
+import bestWorstThing from "../assets/images/best-worst-thing.jpg";
+import bestWorstThingFramed from "../assets/images/best-worst-thing-framed.jpg";
+import generationOmega from "../assets/images/generation-omega.jpg";
+import generationOmegaFramed from "../assets/images/generation-omega-framed.jpg";
+import apocalypse from "../assets/images/apocalypse.jpg";
+import apocalypseFramed from "../assets/images/apocalypse-framed.jpg";
 
 export const gallery = [
   {
@@ -358,6 +366,39 @@ export const gallery = [
     type: "portrait" // or "portrait" or "square"
   },
   {
+    title: "THE BEST WORST THING",
+    image: bestWorstThing,
+    framedImage: bestWorstThingFramed,
+    slug: "the-best-worst-thing",
+    materials: "Mixed media on canvas",
+    size: "32 x 27 inches",
+    description: "My personality was sound. Though life and curiosity are what led me here, I'm not mad. Stigmatisation has taken hostage of me, yet I have a lot of ideas. Even worse, to whom will I even speak my thoughts? ears unresponsive to sound.  Based on existence, I’ve gotten a redefined phrase that best define what existence means. I think being here is like an art exhibition where a lot of people will show up to appreciate, yet, criticize, even when meanings aren’t read. When the meanings are said across, everyone immediately becomes memories. They showed up for an interest. Life on the other hand feels the same as an art exhibition, be mindful because when the interest is terminated, they blur out slowly. I’ve tried to be mindful yet, they see me to be senseless. IRONICAL EXISTENCE!!",
+    year: 2024,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "SAD GENERATION WITH HAPPY PICTURES",
+    image: sadGeneration,
+    framedImage: sadGenerationFramed,
+    slug: "sad-generations-with-happy-pictures",
+    materials: "Charcoal pastel on eggshell paper",
+    size: "17 x 12 inches",
+    description: "This earth, to emphasize, this generation is the most saddest generation ever to exist. Why?, this generation of people are of the dumpiest brains( brainwashed). We focuses mainly on what we are, wants today and forget about the future. The revelation of the truth is hidden from us but yet, we feel good and have accepted it in that genre. We are ignorant, blindfolded, poor because we lack knowledge, and rich in lies. Moreover, what dominates most are purge, evil, fashion, worst paparazzi, symbolic education and so on. Be aware of the great beast because he is the one plan all these. With all these negatives, we still accept and don’t want to be liberated from our poverty. We try to be okay but still faint in person because the great negativities has shattered our dreams and existence. This generation has been kept in irregularities and iniquities. Put comfort aside and feel the face of its discomforts. All what we do is to put on smiling faces but deep inside, we are dying.",
+    year: 2021,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "THE SERMON TO GENERATION OMEGA",
+    image: generationOmega,
+    framedImage: generationOmegaFramed,
+    slug: "the-sermon-to-generation-omega",
+    materials: "Mixed media on canvas",
+    size: "32 x 27 inches",
+    description: "This art explores the poignant disconnect between wisdom and youth in a society that increasingly prioritizes fleeting trends over timeless truths. This concept depicts a wise figure attempting to impart knowledge to a disinterested audience, symbolizing the struggle of wisdom in a world that often turns a deaf ear. Through this visual narrative, it shows how it is a waste of time to say words of advice to people who are not willing to listen. The piece aims to provoke thought about the consequences of ignoring the lessons of the past and the importance of listening to those who have walked the path before us.",
+    year: 2024,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
     title: "THE TIME TRAVELER",
     image: timeTraveler,
     framedImage: timeTravelerFramed,
@@ -370,59 +411,26 @@ export const gallery = [
     type: "portrait" // or "portrait" or "square"
   },
   {
-    title: "LIFE’S PARADOX",
-    image: lifesParadox,
-    framedImage: lifesParadoxFramed,
-    slug: "lifes-paradox",
-    materials: "Mixed media on canvas",
-    size: "24 x 24 inches",
-    description: "Life is a fascinating journey where the good often emerges from the bad, and the bad can lurk within the good. For instance, tough times can lead to personal growth, teaching us resilience and empathy, while moments of success might bring unexpected pressures and stress. As time passes, our perceptions of these experiences can shift dramatically; what once felt like a loss may later reveal itself as a valuable lesson, and fleeting happiness can sometimes give way to challenges. This ever-changing nature of life reminds us to be mindful, appreciating both the highs and lows, as each moment contributes to our unique story and personal development. As the twin fish says, prosperity, abundance, and happiness is the result of long term life of everyone who planned.",
-    year: 2025,
+    title: "THE APOCALYPSE",
+    image: apocalypse,
+    framedImage: apocalypseFramed,
+    slug: "the-apocalypse",
+    materials: "Charcoal pastel on eggshell paper",
+    size: "19 x 23 inches",
+    description: "This prophetic writing (apocalypse) was developed in the post-Exilic Jewish culture, was popular among the early Christians and it basically means ‘ revelation’. It is a very serious event resulting in great destruction and change of the earth. It is an indicator which tells the end of time. During this period, the demon takes optimum control of the earth and governs it with evil deeds. The demon hunts righteous men before they get liberated during the postapocalyptic period. The devil interchange love with hatred, hence, evil things will be done with less pity. According to the artwork(APOCALYPSE), tears will flow from the eye of the righteous day and night, acceptance and increase in number of the unacceptable (LGBTQ+), famine, satanic vaccines ( mark of the beast) will be introduced, religion will be empowered and serve as a factor to separate the world in disguise. AFRICA, the mother of earth will be the aimed continent where the demon will fight to gain because she is blessed by the Almighty God.  ATTENTION, we are in the apocalyptic period, be aware of the demons evil deeds( listed evil deeds above), and enjoy during the post-apocalyptic period!!!‘APOCALYPSE’ is a scene in my dream.",
+    year: 2021,
     type: "portrait" // or "portrait" or "square"
   },
   {
-    title: "LIFE’S PARADOX",
-    image: lifesParadox,
-    framedImage: lifesParadoxFramed,
-    slug: "lifes-paradox",
+    title: "SOUL ABDUCTION",
+    image: soulAbduction,
+    framedImage: soulAbductionFramed,
+    slug: "soul-abduction",
     materials: "Mixed media on canvas",
-    size: "24 x 24 inches",
-    description: "Life is a fascinating journey where the good often emerges from the bad, and the bad can lurk within the good. For instance, tough times can lead to personal growth, teaching us resilience and empathy, while moments of success might bring unexpected pressures and stress. As time passes, our perceptions of these experiences can shift dramatically; what once felt like a loss may later reveal itself as a valuable lesson, and fleeting happiness can sometimes give way to challenges. This ever-changing nature of life reminds us to be mindful, appreciating both the highs and lows, as each moment contributes to our unique story and personal development. As the twin fish says, prosperity, abundance, and happiness is the result of long term life of everyone who planned.",
-    year: 2025,
+    size: "39 x 45 inches",
+    description: "Here on Earth, we are engaged in a huge fight. The conflict about what will transpire in the hereafter. The conflict between God Almighty and the outcast, the negative and the positive, and man. According to scripture, the outcast controls this world and is actively pursuing souls, but we are aware of and sense God Almighty's presence among us. Here we are, the people, at the heart of this conflict, having the ability to do anything we choose with our free will and not being questioned about our life choices. Our souls will be taken when our time of free will to life comes to an end. Who will in the afterlife abduct your soul? After all, will you perceive anguish, tears, and suffering, or love, light, and peace? Now look within and determine where your soul is meant to be. I implore you to create a life in which you will ultimately experience love and light in the hereafter.",
+    year: 2024,
     type: "portrait" // or "portrait" or "square"
-  },
-  {
-    title: "LIFE’S PARADOX",
-    image: lifesParadox,
-    framedImage: lifesParadoxFramed,
-    slug: "lifes-paradox",
-    materials: "Mixed media on canvas",
-    size: "24 x 24 inches",
-    description: "Life is a fascinating journey where the good often emerges from the bad, and the bad can lurk within the good. For instance, tough times can lead to personal growth, teaching us resilience and empathy, while moments of success might bring unexpected pressures and stress. As time passes, our perceptions of these experiences can shift dramatically; what once felt like a loss may later reveal itself as a valuable lesson, and fleeting happiness can sometimes give way to challenges. This ever-changing nature of life reminds us to be mindful, appreciating both the highs and lows, as each moment contributes to our unique story and personal development. As the twin fish says, prosperity, abundance, and happiness is the result of long term life of everyone who planned.",
-    year: 2025,
-    type: "portrait" // or "portrait" or "square"
-  },
-  {
-    title: "LIFE’S PARADOX",
-    image: lifesParadox,
-    framedImage: lifesParadoxFramed,
-    slug: "lifes-paradox",
-    materials: "Mixed media on canvas",
-    size: "24 x 24 inches",
-    description: "Life is a fascinating journey where the good often emerges from the bad, and the bad can lurk within the good. For instance, tough times can lead to personal growth, teaching us resilience and empathy, while moments of success might bring unexpected pressures and stress. As time passes, our perceptions of these experiences can shift dramatically; what once felt like a loss may later reveal itself as a valuable lesson, and fleeting happiness can sometimes give way to challenges. This ever-changing nature of life reminds us to be mindful, appreciating both the highs and lows, as each moment contributes to our unique story and personal development. As the twin fish says, prosperity, abundance, and happiness is the result of long term life of everyone who planned.",
-    year: 2025,
-    type: "portrait" // or "portrait" or "square"
-  },
-  {
-    title: "LIFE’S PARADOX",
-    image: lifesParadox,
-    framedImage: lifesParadoxFramed,
-    slug: "lifes-paradox",
-    materials: "Mixed media on canvas",
-    size: "24 x 24 inches",
-    description: "Life is a fascinating journey where the good often emerges from the bad, and the bad can lurk within the good. For instance, tough times can lead to personal growth, teaching us resilience and empathy, while moments of success might bring unexpected pressures and stress. As time passes, our perceptions of these experiences can shift dramatically; what once felt like a loss may later reveal itself as a valuable lesson, and fleeting happiness can sometimes give way to challenges. This ever-changing nature of life reminds us to be mindful, appreciating both the highs and lows, as each moment contributes to our unique story and personal development. As the twin fish says, prosperity, abundance, and happiness is the result of long term life of everyone who planned.",
-    year: 2025,
-    type: "square" // or "portrait" or "square"
   },
   {
     title: "LIFE’S PARADOX",
