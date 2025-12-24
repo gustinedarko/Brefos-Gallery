@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
-import btsLeft from "../assets/videos/bts-two.MOV";
-import btsCenter from "../assets/videos/bts-one.MOV";
-import btsRight from "../assets/videos/bts-three.MOV";
+import btsLeft from "../assets/videos/bts-two.mp4";
+import btsCenter from "../assets/videos/bts-one.mp4";
+import btsRight from "../assets/videos/bts-three.mp4";
 import artistImage from "../assets/images/the-healer.jpg"; // artist portrait
 import artistImage2 from "../assets/images/wils.jpg"; // artist portrait
 import Footer from "../components/Footer";
