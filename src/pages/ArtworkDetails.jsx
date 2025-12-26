@@ -65,9 +65,9 @@ export default function ArtworkDetails() {
                 <li>
                   <strong>Year:</strong> {artwork.year}
                 </li>
-                {/* <li>
-                  <strong>Type:</strong> {artwork.type}
-                </li> */}
+                <li>
+                  <strong>Price:</strong> 
+                </li>
               </ul>
             </div>
             {/* Right: Description */}

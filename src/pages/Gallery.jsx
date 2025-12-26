@@ -49,7 +49,7 @@ export default function Gallery({ title, materials, size, year }) {
                     {/* VIEW DETAILS BUTTON */}
                     <button
                       onClick={() => window.location.href = `/artwork/${item.slug}`}
-                      className="mt-3 text-sm bg-white/20 backdrop-blur px-4 py-2 rounded-lg hover:bg-white/30 transition">
+                      className="mt-3 text-sm bg-white/20 backdrop-blur px-4 py-2 rounded-lg hover:bg-white/30 transition cursor-pointer">
                       View Details
                     </button>
                   </div>

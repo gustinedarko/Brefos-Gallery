@@ -8,62 +8,82 @@ import ForthExhibition from "../assets/images/forth-exhibition.jpg";
 import FifthExhibition from "../assets/images/fifth-exhibition.jpg";
 import SixthExhibition from "../assets/images/sixth-exhibition.jpg";
 import Footer from "../components/Footer";
+import { useState } from "react";
+import ExhibitionModal from "../components/ExhibitionModal";
 
 const exhibitions = [
   {
     title: "The Human Experience: Dream and Reality",
     venue: "Untamed Empire, Accra",
-    date: "23/11/2024",
+    date: "2025-12-28",
     image: ForthExhibition,
-    upcoming: true,
+    bookingLink: "https://hthgjhgkgkjgjk",
+    // upcoming: true,
   },
   {
-    title: "The Human Experience: Dream and Reality",
-    venue: "Untamed Empire, Accra",
-    date: "23/11/2024",
+    title: "Art for Breast Cancer",
+    venue: "Nubuke Foundation",
+    date: "2025-10-17",
     image: SixthExhibition,
-    upcoming: false,
+    // upcoming: false,
   },
   {
-    title: "The Human Experience: Dream and Reality",
-    venue: "Untamed Empire, Accra",
-    date: "23/11/2024",
+    title: "Inheritance of Beasts",
+    venue: "Buro, Osu",
+    date: "2025-09-25",
     image: FifthExhibition,
-    upcoming: false,
+    // upcoming: false,
   },
   {
     title: "The Human Experience: Dream and Reality",
     venue: "Untamed Empire, Accra",
-    date: "23/11/2024",
+    date: "2024-11-23",
     image: ForthExhibition,
-    upcoming: false,
+    // upcoming: false,
   },
   {
     title: "Phases",
-    venue: "Gyandu Place, Accra",
-    date: "05/11/2022",
+    venue: "Gyandu Place, East Legon",
+    date: "2022-11-05",
     image: ThirdExhibition,
-    upcoming: false,
+    // upcoming: false,
   },
   {
     title: "Emerge",
     venue: "Art Center Gallery, Accra",
-    date: "04/11/2022",
+    date: "2022-11-04",
     image: SecondExhibition,
-    upcoming: false,
+    // upcoming: false,
   },
   {
     title: "Sweat Embedded Beauty",
     venue: "S. G. Mall, Kumasi",
-    date: "14/05/2022",
+    date: "2022-05-14",
     image: FirstExhibition,
-    upcoming: false,
+    // upcoming: false,
   },
 ];
 
 export default function Exhibition() {
-  const upcoming = exhibitions.filter((e) => e.upcoming);
-  const past = exhibitions.filter((e) => !e.upcoming);
+  const now = new Date();
+
+  const isPast = (dateStr) => {
+    const endOfDay = new Date(`${dateStr}T23:59:59`);
+    return endOfDay < now;
+  };
+
+  const upcoming = exhibitions.filter((e) => !isPast(e.date));
+  const past = exhibitions.filter((e) => isPast(e.date));
+
+  const [selectedExhibition, setSelectedExhibition] = useState(null);
+
+  // const formatDate = (dateStr) => {
+  //   return new Date(dateStr).toLocaleDateString("en-GB", {
+  //     day: "2-digit",
+  //     month: "short",
+  //     year: "numeric",
+  //   });
+  // };
 
   return (
     <>
@@ -88,32 +108,57 @@ export default function Exhibition() {
       </section>
 
       {/* Upcoming Exhibitions */}
-      {upcoming.length > 0 && (
-        <section className="px-6 md:px-20 py-16 bg-gray-50">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">
-            Upcoming Exhibition
-          </h2>
+      <section className="px-6 md:px-20 py-16 bg-gray-50">
+        <h2 className="text-3xl font-bold text-gray-900 mb-8"> {/* flex justify-center */}
+          Upcoming Exhibition
+        </h2>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+        {upcoming.length > 0 ? (
+          <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
             {upcoming.map((ex, idx) => (
-              <ExhibitionCard key={idx} {...ex} />
+              <ExhibitionCard
+                key={idx}
+                {...ex}
+                isPast={false}
+                onView={() => setSelectedExhibition({ ...ex, isPast: false })}
+              />
             ))}
           </div>
-        </section>
-      )}
+        ) : (
+          <div className="flex items-center justify-center py-24">
+            <p className="text-gray-500 text-lg text-center max-w-md">
+              New exhibitions will show up here.
+              <br />
+              Watch this space.
+            </p>
+          </div>
+        )}
+      </section>
 
       {/* Past Exhibitions */}
       <section className="px-6 md:px-20 py-16 bg-[#39B54A]/10">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8">
+        <h2 className="text-3xl font-bold text-gray-900 mb-8"> {/* flex justify-center */}
           Past Exhibitions
         </h2>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {past.map((ex, idx) => (
-            <ExhibitionCard key={idx} {...ex} />
+            <ExhibitionCard
+              {...ex}
+              isPast={true}
+              onView={() => setSelectedExhibition({ ...ex, isPast: true })}
+            />
           ))}
         </div>
       </section>
+
+      {selectedExhibition && (
+        <ExhibitionModal
+          exhibition={selectedExhibition}
+          onClose={() => setSelectedExhibition(null)}
+        />
+      )}
+
       <Footer />
     </>
   );

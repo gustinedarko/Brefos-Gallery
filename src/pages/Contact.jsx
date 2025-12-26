@@ -100,7 +100,7 @@ export default function Contact() {
               Send a Message
             </h3>
             <form className="space-y-5">
-              <div className="md:flex w-full justify-between">
+              <div className="md:flex w-full justify-between space-y-5 md:space-y-0">
                 {/* Name */}
                 <div>
                   <label
