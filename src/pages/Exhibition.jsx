@@ -12,14 +12,14 @@ import { useState } from "react";
 import ExhibitionModal from "../components/ExhibitionModal";
 
 const exhibitions = [
-  {
-    title: "The Human Experience: Dream and Reality",
-    venue: "Untamed Empire, Accra",
-    date: "2025-12-28",
-    image: ForthExhibition,
-    bookingLink: "https://hthgjhgkgkjgjk",
-    // upcoming: true,
-  },
+  // {
+  //   title: "The Human Experience: Dream and Reality",
+  //   venue: "Untamed Empire, Accra",
+  //   date: "2025-12-28",
+  //   image: ForthExhibition,
+  //   bookingLink: "https://hthgjhgkgkjgjk",
+  //   // upcoming: true,
+  // },
   {
     title: "Art for Breast Cancer",
     venue: "Nubuke Foundation",

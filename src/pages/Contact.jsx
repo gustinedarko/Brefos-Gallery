@@ -9,11 +9,72 @@ import {
 } from "react-icons/fa";
 import artistImage from "../assets/images/the-healer.jpg"; // contact header bg
 import Footer from "../components/Footer";
+import { useState, useRef } from "react";
 
 export default function Contact() {
+
+  const formRef = useRef(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [notification, setNotification] = useState({
+    show: false,
+    message: "",
+    type: "success",
+  });
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    const formData = new FormData(formRef.current);
+
+    try {
+      const response = await fetch("https://formspree.io/f/mnjqnpqr", {
+        method: "POST",
+        body: formData,
+        headers: {
+          Accept: "application/json",
+        },
+      });
+
+      if (response.ok) {
+        setNotification({
+          show: true,
+          message: "Thank you. Your message has been sent successfully.",
+          type: "success",
+        });
+        formRef.current.reset();
+      } else {
+        throw new Error("Submission failed");
+      }
+    } catch (error) {
+      setNotification({
+        show: true,
+        message: "Something went wrong. Please try again.",
+        type: "error",
+      });
+    } finally {
+      setIsSubmitting(false);
+      setTimeout(() => {
+        setNotification({ show: false, message: "", type: "success" });
+      }, 4000);
+    }
+  };
+
   return (
     <>
       <Navbar />
+
+      {notification.show && (
+        <div
+          className={`fixed top-24 left-1/2 -translate-x-1/2 z-50 px-6 py-4 rounded-xl shadow-lg backdrop-blur-md text-sm md:text-base font-medium transition-all duration-300
+    ${notification.type === "success"
+              ? "bg-white/90 text-gray-900 border border-green-200"
+              : "bg-white/90 text-red-600 border border-red-200"
+            }`}
+        >
+          {notification.message}
+        </div>
+      )}
 
       {/* Hero / Intro Section */}
       <section className="relative w-full h-[50vh] flex flex-col justify-center items-center text-center bg-gradient-to-b from-black/80 to-black/40 text-white overflow-hidden">
@@ -99,7 +160,11 @@ export default function Contact() {
             <h3 className="text-2xl font-semibold text-gray-800 mb-6">
               Send a Message
             </h3>
-            <form className="space-y-5">
+            <form
+              ref={formRef}
+              onSubmit={handleSubmit}
+              className="space-y-5"
+            >
               <div className="md:flex w-full justify-between space-y-5 md:space-y-0">
                 {/* Name */}
                 <div>
@@ -111,7 +176,9 @@ export default function Contact() {
                   </label>
                   <input
                     id="name"
+                    name="name"
                     type="text"
+                    required
                     placeholder="Your full name"
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-700"
                   />
@@ -126,7 +193,9 @@ export default function Contact() {
                   </label>
                   <input
                     id="email"
+                    name="email"
                     type="email"
+                    required
                     placeholder="you@example.com"
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-700"
                   />
@@ -143,7 +212,9 @@ export default function Contact() {
                 </label>
                 <input
                   id="subject"
+                  name="_subject"
                   type="text"
+                  required
                   placeholder="Message subject"
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-700"
                 />
@@ -159,7 +230,9 @@ export default function Contact() {
                 </label>
                 <textarea
                   id="message"
+                  name="message"
                   rows="5"
+                  required
                   placeholder="Write your message here..."
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-700 resize-none"
                 ></textarea>
@@ -168,9 +241,10 @@ export default function Contact() {
               {/* Button */}
               <button
                 type="submit"
-                className="w-full py-3 bg-gray-800 text-white font-medium rounded-lg hover:bg-gray-900 transition-all duration-200"
+                disabled={isSubmitting}
+                className="w-full py-3 bg-gray-800 text-white font-medium rounded-lg hover:bg-gray-900 transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
               >
-                Send Message
+                {isSubmitting ? "Sending..." : "Send Message"}
               </button>
             </form>
           </div>
