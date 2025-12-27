@@ -7,6 +7,7 @@ import ThirdExhibition from "../assets/images/third-exhibition.jpg";
 import ForthExhibition from "../assets/images/forth-exhibition.jpg";
 import FifthExhibition from "../assets/images/fifth-exhibition.jpg";
 import SixthExhibition from "../assets/images/sixth-exhibition.jpg";
+import logo from "../assets/images/img-black-logo-exhibition-bg.png";
 import Footer from "../components/Footer";
 import { useState } from "react";
 import ExhibitionModal from "../components/ExhibitionModal";
@@ -125,8 +126,16 @@ export default function Exhibition() {
             ))}
           </div>
         ) : (
-          <div className="flex items-center justify-center py-24">
-            <p className="text-gray-500 text-lg text-center max-w-md">
+          <div className="relative flex items-center justify-center py-24 overflow-hidden">
+            {/* Blurred Logo Background */}
+            <img
+              src={logo} // <-- import your logo at the top
+              alt=""
+              className="absolute inset-0 m-auto h-full opacity-15 blur-xs object-contain pointer-events-none"
+            />
+
+            {/* Text */}
+            <p className="relative z-10 text-gray-500 text-lg text-center max-w-md">
               New exhibitions will show up here.
               <br />
               Watch this space.

@@ -10,6 +10,9 @@ import {
 import artistImage from "../assets/images/the-healer.jpg"; // contact header bg
 import Footer from "../components/Footer";
 import { useState, useRef } from "react";
+import { useEffect } from "react";
+import { useLocation } from "react-router";
+
 
 export default function Contact() {
 
@@ -59,6 +62,19 @@ export default function Contact() {
       }, 4000);
     }
   };
+
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const id = location.hash.replace("#", "");
+      const element = document.getElementById(id);
+
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
 
   return (
     <>
@@ -248,6 +264,91 @@ export default function Contact() {
               </button>
             </form>
           </div>
+        </div>
+      </section>
+
+      {/* Useful Information Sections */}
+      <section className="w-full py-20 px-6 md:px-16 bg-white">
+        <div className="max-w-6xl mx-auto space-y-20">
+
+          {/* Commission Work */}
+          <div id="commission-work" className="scroll-mt-28">
+            <h2 className="text-3xl font-semibold text-gray-800 mb-4">
+              Commission Work
+            </h2>
+            <p className="text-gray-600 leading-relaxed max-w-3xl">
+              I create custom pieces in paintings and charcoal pastel works, tailored
+              to your vision and story. Whether it is a personal portrait, a special
+              moment, or a unique gift, I would love to bring your idea to life.
+            </p>
+            <p className="text-gray-600 leading-relaxed mt-4 max-w-3xl">
+              Let us collaborate to create something meaningful and beautiful. Send me
+              a direct message to discuss your project.
+            </p>
+          </div>
+
+          {/* Art Prints & Originals */}
+          <div id="prints-originals" className="scroll-mt-28">
+            <h2 className="text-3xl font-semibold text-gray-800 mb-4">
+              Art Prints & Originals
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed max-w-3xl mb-4">
+              I offer original pieces and prints of my artworks, with terms and
+              conditions applying to each.
+            </p>
+
+            <ul className="list-disc list-inside text-gray-600 space-y-2 max-w-3xl">
+              <li>
+                <strong>Original Artworks:</strong> Unique pieces created with love
+                and care. Each artwork comes with a certificate of authenticity.
+              </li>
+              <li>
+                <strong>Prints:</strong> High-quality prints available in various
+                sizes, printed on demand to ensure freshness.
+              </li>
+            </ul>
+
+            <p className="text-gray-600 mt-4 font-medium">Terms & Conditions for Prints:</p>
+            <ul className="list-disc list-inside text-gray-600 space-y-2 max-w-3xl">
+              <li>Prints are for personal use only.</li>
+              <li>Prints are non-refundable and non-exchangeable.</li>
+              <li>Colors may slightly vary depending on screen settings.</li>
+              <li>
+                Wilson BREFO retains copyright; prints are licensed for personal use.
+              </li>
+            </ul>
+          </div>
+
+          {/* Licensing & Usage */}
+          <div id="licensing-usage" className="scroll-mt-28">
+            <h2 className="text-3xl font-semibold text-gray-800 mb-4">
+              Licensing & Usage
+            </h2>
+
+            <p className="text-gray-600 leading-relaxed max-w-3xl mb-4">
+              My artworks are available for licensing for specific uses, with clear
+              terms to protect their integrity.
+            </p>
+
+            <ul className="list-disc list-inside text-gray-600 space-y-2 max-w-3xl">
+              <li>
+                <strong>Personal Use:</strong> Allowed for private enjoyment only.
+              </li>
+              <li>
+                <strong>Commercial Use:</strong> Requires a licensing agreement.
+              </li>
+            </ul>
+
+            <p className="text-gray-600 mt-4 font-medium">Terms & Conditions:</p>
+            <ul className="list-disc list-inside text-gray-600 space-y-2 max-w-3xl">
+              <li>No modification or redistribution without permission.</li>
+              <li>Wilson BREFO retains copyright and moral rights.</li>
+              <li>Proper credit must be given in any publication.</li>
+              <li>Unauthorized use may result in legal action.</li>
+            </ul>
+          </div>
+
         </div>
       </section>
       <Footer />

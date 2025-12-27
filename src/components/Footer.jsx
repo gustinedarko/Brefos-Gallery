@@ -42,10 +42,18 @@ export default function Footer() {
           <div className="flex flex-col">
             <h3 className="text-white font-semibold text-lg mb-3">Useful Info</h3>
             <ul className="space-y-2 text-sm">
-              <li className="text-gray-400">Commission Work</li>
-              <li className="text-gray-400">Art Prints & Originals</li>
-              <li className="text-gray-400">Artist Statement</li>
-              <li className="text-gray-400">Licensing & Usage</li>
+              <li>
+                <a href="/contact#commission-work" className="hover:text-[#4CAF50] transition">Commission Work</a>
+              </li>
+              <li>
+                <a href="/contact#prints-originals" className="hover:text-[#4CAF50] transition">Art Prints & Originals</a>
+              </li>
+              <li>
+                <a href="/artist" className="hover:text-[#4CAF50] transition">Artist Statement</a>
+              </li>
+              <li>
+                <a href="/contact#licensing-usage" className="hover:text-[#4CAF50] transition">Licensing & Usage</a>
+              </li>
             </ul>
           </div>
         </div>
