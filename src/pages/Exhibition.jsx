@@ -135,7 +135,7 @@ export default function Exhibition() {
             />
 
             {/* Text */}
-            <p className="relative z-10 text-gray-500 text-lg text-center max-w-md">
+            <p className="relative z-10 text-gray-500 text-lg font-medium text-center max-w-md">
               New exhibitions will show up here.
               <br />
               Watch this space.

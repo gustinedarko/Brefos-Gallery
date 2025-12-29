@@ -3,7 +3,7 @@ import { FaSnapchatGhost, FaInstagram, FaLinkedinIn, FaTiktok } from "react-icon
 export default function Footer() {
   return (
     <footer className="w-full bg-[#263b27] text-gray-300 py-12">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-6 gap-10">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-6 md:gap-10 space-y-10 md:space-y-0">
 
         {/* BRAND SECTION */}
         <div className="md:col-span-2">
@@ -38,6 +38,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+
           {/* EXTRA INFO */}
           <div className="flex flex-col">
             <h3 className="text-white font-semibold text-lg mb-3">Useful Info</h3>
@@ -59,7 +60,7 @@ export default function Footer() {
         </div>
 
         {/* SOCIALS */}
-        <div className="md:col-span-2">
+        <div className="md:col-span-2 md:ml-8">
           <h3 className="text-white font-semibold text-lg mb-3">Connect</h3>
           <p className="text-gray-400 text-sm mb-4">
             Follow the artistic journey across social platforms.
