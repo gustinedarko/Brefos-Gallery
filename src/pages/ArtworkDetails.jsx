@@ -1,12 +1,10 @@
-import { useParams } from "react-router";
+import { useParams, useNavigate } from "react-router";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { gallery } from "../data/gallery";
 import { FaChevronLeft } from "react-icons/fa"
-import { useNavigate } from "react-router";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
-import.meta.env.VITE_EMAILJS_PUBLIC_KEY
 
 export default function ArtworkDetails() {
   const { slug } = useParams();
@@ -36,6 +34,10 @@ export default function ArtworkDetails() {
     message: "",
     type: "success",
   });
+
+  useEffect(() => {
+    emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
+  }, []);
 
   return (
     <>
@@ -163,28 +165,29 @@ export default function ArtworkDetails() {
                 e.preventDefault();
                 setIsSending(true);
 
-                emailjs
-                  .send(
-                    import.meta.env.VITE_EMAILJS_SERVICE_ID,
-                    import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-                    {
-                      subject: `Artwork Inquiry – ${artwork.title}`,
-                      message: `I am interested in this artwork and would like to inquire about its price and availability.
+                emailjs.send(
+                  import.meta.env.VITE_EMAILJS_SERVICE_ID,
+                  import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+                  {
+                    subject: `Artwork Inquiry – ${artwork.title}`,
+                    name: e.target.name.value,
+                    email: e.target.email.value,
+                    message: `I am interested in this artwork and would like to inquire about its price and availability.
 
-                      Title: ${artwork.title}
-                      Materials: ${artwork.materials}
-                      Size: ${artwork.size}
-                      Year: ${artwork.year}
+                    Title: ${artwork.title}
+                    Materials: ${artwork.materials}
+                    Size: ${artwork.size}
+                    Year: ${artwork.year}
+                    
+                    Contact Details:
+                    Name: ${e.target.name.value}
+                    Email: ${e.target.email.value}
+                    WhatsApp: ${e.target.whatsapp.value}
+                    Telephone: ${e.target.phone.value}
+                    Address: ${e.target.address.value}`,
+                  }
+                )
 
-                      Contact Details:
-                      Name: ${e.target.name.value}
-                      Email: ${e.target.email.value}
-                      WhatsApp: ${e.target.whatsapp.value}
-                      Telephone: ${e.target.phone.value}
-                      Address: ${e.target.address.value}`,
-                    },
-                    import.meta.env.VITE_EMAILJS_PUBLIC_KEY
-                  )
                   .then(() => {
                     setIsSending(false);
                     setShowInquiry(false);
@@ -201,7 +204,9 @@ export default function ArtworkDetails() {
                     }, 4000);
                   })
 
-                  .catch(() => {
+                  .catch((error) => {
+                    console.error("EmailJS error:", error);
+
                     setIsSending(false);
 
                     setNotification({
