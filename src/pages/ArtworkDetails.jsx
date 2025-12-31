@@ -139,7 +139,7 @@ export default function ArtworkDetails() {
             {/* Close */}
             <button
               onClick={() => setShowInquiry(false)}
-              className="absolute top-2 right-4 text-gray-500 hover:text-gray-700 cursor-pointer"
+              className="absolute top-2 right-4 text-gray-500 hover:text-gray-700 text-xl cursor-pointer border px-1.5 rounded"
             >
               ✕
             </button>
@@ -201,7 +201,7 @@ export default function ArtworkDetails() {
 
                     setTimeout(() => {
                       setNotification({ show: false, message: "", type: "success" });
-                    }, 4000);
+                    }, 8000);
                   })
 
                   .catch((error) => {

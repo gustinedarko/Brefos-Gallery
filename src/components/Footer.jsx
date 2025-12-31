@@ -9,6 +9,7 @@ export default function Footer() {
         <div className="md:col-span-2">
           <h2 className="text-2xl font-bold text-white tracking-wide">
             Brefo’s Art World
+
           </h2>
           <p className="text-gray-400 mt-3 text-sm leading-relaxed">
             A curated journey through contemporary visuals, semi-abstract forms,
@@ -67,16 +68,24 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-4 text-xl">
             
-            <a href="https://www.instagram.com/wi.lson3176?igsh=MTN4dnYwaW1tNXUwNQ%3D%3D&utm_source=qr" className="hover:text-[#4CAF50] transition">
+            <a href="https://www.instagram.com/wi.lson3176?igsh=MTN4dnYwaW1tNXUwNQ%3D%3D&utm_source=qr" 
+            className="hover:text-[#4CAF50] transition"
+            target="_blank">
               <FaInstagram />
             </a>
-            <a href="https://www.tiktok.com/@wilsondjzuz?_t=ZM-90UO5jK88cN&_r=1" className="hover:text-[#4CAF50] transition">
+            <a href="https://www.tiktok.com/@wilsondjzuz?_t=ZM-90UO5jK88cN&_r=1" 
+            className="hover:text-[#4CAF50] transition"
+            target="_blank">
               <FaTiktok />
             </a>
-            <a href="https://snapchat.com/t/6PPz0HsW" className="hover:text-[#4CAF50] transition">
+            <a href="https://snapchat.com/t/jHuyUKbF" 
+            className="hover:text-[#4CAF50] transition"
+            target="_blank">
               <FaSnapchatGhost />
             </a>
-            <a href="http://linkedin.com/in/wilson-brefo" className="hover:text-[#4CAF50] transition">
+            <a href="http://linkedin.com/in/wilson-brefo" 
+            className="hover:text-[#4CAF50] transition"
+            target="_blank">
               <FaLinkedinIn />
             </a>
           </div>

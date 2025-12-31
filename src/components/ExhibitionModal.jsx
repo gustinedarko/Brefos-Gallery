@@ -10,7 +10,7 @@ export default function ExhibitionModal({ exhibition, onClose }) {
         {/* Close */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 text-white hover:text-gray-400 text-xl"
+          className="absolute top-4 right-4 text-red-800 hover:text-red-950 text-xl border px-1.5 rounded"
         >
           ✕
         </button>

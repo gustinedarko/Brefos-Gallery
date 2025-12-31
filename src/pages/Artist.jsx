@@ -2,22 +2,15 @@ import Navbar from "../components/Navbar";
 import btsLeft from "../assets/videos/bts-two.mp4";
 import btsCenter from "../assets/videos/bts-one.mp4";
 import btsRight from "../assets/videos/bts-three.mp4";
-import artistImage from "../assets/images/the-healer.jpg"; // artist portrait
-import artistImage2 from "../assets/images/wils.jpg"; // artist portrait
+import artistBg from "../assets/images/the-healer.jpg";
+import videoPoster1 from "../assets/images/bts-one.png";
+import videoPoster2 from "../assets/images/bts-two.png";
+import videoPoster3 from "../assets/images/bts-three.png";
+import artistImage1 from "../assets/images/wilson-profile-1.jpg"; // artist portrait
+import artistImage2 from "../assets/images/wilson-profile-2.jpg"; // artist portrait
 import Footer from "../components/Footer";
-import { useState, useRef } from "react"; // New
 
 export default function Artist() {
-
-  // const middleVideos = [btsMiddle1, btsMiddle2, btsMiddle3]; // New
-  // const [currentIndex, setCurrentIndex] = useState(0);
-  // const videoRef = useRef(null);
-
-  // const handleVideoEnd = () => {
-  //   if (currentIndex < middleVideos.length - 1) {
-  //     setCurrentIndex(prev => prev + 1);
-  //   }
-  // };
 
   return (
     <>
@@ -26,7 +19,7 @@ export default function Artist() {
       {/* Hero Section */}
       <section className="relative w-full h-[90vh] flex flex-col justify-center items-center text-center bg-gradient-to-b from-black/70 to-black/30 text-white overflow-hidden">
         <img
-          src={artistImage}
+          src={artistBg}
           alt="Wilson Brefo"
           className="absolute inset-0 w-full h-full object-cover opacity-40"
         />
@@ -94,7 +87,7 @@ export default function Artist() {
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
-              src={artistImage2}
+              src={artistImage1}
               alt="Wilson Brefo painting"
               className="w-full h-full object-cover"
             />
@@ -149,30 +142,41 @@ export default function Artist() {
           {/* LEFT VIDEO */}
           <div className="rounded-xl overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
             <video
-              src={btsLeft}
               controls
+              preload="metadata"
+              poster={videoPoster1} // optional but recommended
               className="w-full aspect-[9/16] object-cover"
-            />
+            >
+              <source src={btsLeft} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
 
           {/* CENTER VIDEO (FEATURED) */}
           <div className="rounded-xl overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
             <video
-              src={btsCenter}
               controls
+              preload="metadata"
+              poster={videoPoster2}
               className="w-full aspect-[9/16] object-cover"
-            />
+            >
+              <source src={btsCenter} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
 
           {/* RIGHT VIDEO */}
           <div className="rounded-xl overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
             <video
-              src={btsRight}
               controls
+              preload="metadata"
+              poster={videoPoster3}
               className="w-full aspect-[9/16] object-cover"
-            />
+            >
+              <source src={btsRight} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
-
         </div>
       </section>
 

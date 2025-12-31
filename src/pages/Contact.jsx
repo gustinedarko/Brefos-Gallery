@@ -148,7 +148,7 @@ export default function Contact() {
                 <FaInstagram size={24} />
               </a>
               <a
-                href="https://snapchat.com/t/6PPz0HsW"
+                href="https://snapchat.com/t/jHuyUKbF"
                 className="text-gray-700 hover:text-[#4CAF50] transition-transform transform hover:scale-110"
                 target="_blank"
               >
@@ -273,7 +273,7 @@ export default function Contact() {
 
           {/* Commission Work */}
           <div id="commission-work" className="scroll-mt-28">
-            <h2 className="text-3xl font-semibold text-gray-800 mb-4">
+            <h2 className="text-2xl font-semibold text-gray-800 mb-4">
               Commission Work
             </h2>
             <p className="text-gray-600 leading-relaxed max-w-3xl">
@@ -289,7 +289,7 @@ export default function Contact() {
 
           {/* Art Prints & Originals */}
           <div id="prints-originals" className="scroll-mt-28">
-            <h2 className="text-3xl font-semibold text-gray-800 mb-4">
+            <h2 className="text-2xl font-semibold text-gray-800 mb-4">
               Art Prints & Originals
             </h2>
 
@@ -322,7 +322,7 @@ export default function Contact() {
 
           {/* Licensing & Usage */}
           <div id="licensing-usage" className="scroll-mt-28">
-            <h2 className="text-3xl font-semibold text-gray-800 mb-4">
+            <h2 className="text-2xl font-semibold text-gray-800 mb-4">
               Licensing & Usage
             </h2>
 
