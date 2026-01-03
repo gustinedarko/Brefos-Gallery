@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
-import btsLeft from "../assets/videos/bts-two.mp4";
-import btsCenter from "../assets/videos/bts-one.mp4";
+import btsLeft from "../assets/videos/bts-one.mp4";
+import btsCenter from "../assets/videos/bts-two.mp4";
 import btsRight from "../assets/videos/bts-three.mp4";
 import artistBg from "../assets/images/the-healer.jpg";
 import videoPoster1 from "../assets/images/bts-one.png";
@@ -144,7 +144,9 @@ export default function Artist() {
             <video
               controls
               preload="metadata"
-              poster={videoPoster1} // optional but recommended
+              poster={videoPoster1}
+              playsInline
+              muted
               className="w-full aspect-[9/16] object-cover"
             >
               <source src={btsLeft} type="video/mp4" />
@@ -158,6 +160,8 @@ export default function Artist() {
               controls
               preload="metadata"
               poster={videoPoster2}
+              playsInline
+              muted
               className="w-full aspect-[9/16] object-cover"
             >
               <source src={btsCenter} type="video/mp4" />
@@ -171,6 +175,8 @@ export default function Artist() {
               controls
               preload="metadata"
               poster={videoPoster3}
+              playsInline
+              muted
               className="w-full aspect-[9/16] object-cover"
             >
               <source src={btsRight} type="video/mp4" />
