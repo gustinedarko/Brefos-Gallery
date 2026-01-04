@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 // import React from "react";
 import { gallery } from "../data/gallery";
 import GalleryCard from "../components/GalleryCard";
-import heroImage from "../assets/images/img-hero.jpg";
+import heroImage from "../assets/images/img-hero.webp";
 
 export default function Home() {
 

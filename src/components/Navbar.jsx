@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Logo from "../assets/images/img-white-logo.png";
+import Logo from "../assets/images/img-white-logo.webp";
 import { useLocation } from "react-router";
 
 export default function Navbar() {

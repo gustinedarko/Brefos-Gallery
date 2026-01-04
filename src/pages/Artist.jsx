@@ -2,12 +2,12 @@ import Navbar from "../components/Navbar";
 import btsLeft from "../assets/videos/bts-one.mp4";
 import btsCenter from "../assets/videos/bts-two.mp4";
 import btsRight from "../assets/videos/bts-three.mp4";
-import artistBg from "../assets/images/the-healer.jpg";
-import videoPoster1 from "../assets/images/bts-one.png";
-import videoPoster2 from "../assets/images/bts-two.png";
-import videoPoster3 from "../assets/images/bts-three.png";
-import artistImage1 from "../assets/images/wilson-profile-1.jpg"; // artist portrait
-import artistImage2 from "../assets/images/wilson-profile-2.jpg"; // artist portrait
+import artistBg from "../assets/images/the-healer.webp";
+import videoPoster1 from "../assets/images/bts-one.webp";
+import videoPoster2 from "../assets/images/bts-two.webp";
+import videoPoster3 from "../assets/images/bts-three.webp";
+import artistImage1 from "../assets/images/wilson-profile-1.webp"; // artist portrait
+import artistImage2 from "../assets/images/wilson-profile-2.webp"; // artist portrait
 import Footer from "../components/Footer";
 
 export default function Artist() {

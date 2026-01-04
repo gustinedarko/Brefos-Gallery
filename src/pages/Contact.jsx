@@ -7,7 +7,7 @@ import {
   FaMapMarkedAlt,
   FaRegEnvelope,
 } from "react-icons/fa";
-import artistImage from "../assets/images/the-healer.jpg"; // contact header bg
+import artistImage from "../assets/images/the-healer.webp"; // contact header bg
 import Footer from "../components/Footer";
 import { useState, useRef } from "react";
 import { useEffect } from "react";
