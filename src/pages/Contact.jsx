@@ -82,7 +82,7 @@ export default function Contact() {
 
       {notification.show && (
         <div
-          className={`fixed top-24 left-1/2 -translate-x-1/2 z-50 px-6 py-4 rounded-xl shadow-lg backdrop-blur-md text-sm md:text-base font-medium transition-all duration-300
+          className={`fixed top-24 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-md px-6 py-4 rounded-xl shadow-lg backdrop-blur-md text-sm md:text-base font-medium transition-all duration-300
     ${notification.type === "success"
               ? "bg-white/90 text-gray-900 border border-green-200"
               : "bg-white/90 text-red-600 border border-red-200"

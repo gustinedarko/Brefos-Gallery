@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
-import btsLeft from "../assets/videos/bts-one.mp4";
-import btsCenter from "../assets/videos/bts-two.mp4";
-import btsRight from "../assets/videos/bts-three.mp4";
+// import btsLeft from "../assets/videos/bts-one.mp4";
+// import btsCenter from "../assets/videos/bts-two.mp4";
+// import btsRight from "../assets/videos/bts-three.mp4";
 import artistBg from "../assets/images/the-healer.webp";
 import videoPoster1 from "../assets/images/bts-one.webp";
 import videoPoster2 from "../assets/images/bts-two.webp";
@@ -11,6 +11,15 @@ import artistImage2 from "../assets/images/wilson-profile-2.webp"; // artist por
 import Footer from "../components/Footer";
 
 export default function Artist() {
+
+  const btsLeft =
+  "https://res.cloudinary.com/dbiyzsqei/video/upload/v1767560604/bts-one_bqhfnc.mp4";
+
+const btsCenter =
+  "https://res.cloudinary.com/dbiyzsqei/video/upload/v1767560588/bts-two_cmf3al.mp4";
+
+const btsRight =
+  "https://res.cloudinary.com/dbiyzsqei/video/upload/v1767560591/bts-three_nctwhg.mp4";
 
   return (
     <>
@@ -140,8 +149,9 @@ export default function Artist() {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
 
           {/* LEFT VIDEO */}
-          <div className="rounded-xl overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
+          <div className="rounded-xl bg-white overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
             <video
+              src={btsLeft}
               controls
               preload="metadata"
               poster={videoPoster1}
@@ -155,8 +165,9 @@ export default function Artist() {
           </div>
 
           {/* CENTER VIDEO (FEATURED) */}
-          <div className="rounded-xl overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
+          <div className="rounded-xl bg-white overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
             <video
+              src={btsCenter}
               controls
               preload="metadata"
               poster={videoPoster2}
@@ -170,8 +181,9 @@ export default function Artist() {
           </div>
 
           {/* RIGHT VIDEO */}
-          <div className="rounded-xl overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
+          <div className="rounded-xl bg-white overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
             <video
+              src={btsRight}            
               controls
               preload="metadata"
               poster={videoPoster3}

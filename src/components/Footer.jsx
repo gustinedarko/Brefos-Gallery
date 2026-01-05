@@ -2,7 +2,7 @@ import { FaSnapchatGhost, FaInstagram, FaLinkedinIn, FaTiktok } from "react-icon
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#263b27] text-gray-300 py-12">
+    <footer className="w-full bg-[#263b27] text-gray-300 pt-8 pb-6">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-6 md:gap-10 space-y-10 md:space-y-0">
 
         {/* BRAND SECTION */}
@@ -94,12 +94,12 @@ export default function Footer() {
       </div>
 
       {/* COPYRIGHT */}
-      <div className="border-t border-gray-700 mt-10 pt-6 text-center text-xs text-gray-400">
+      <div className="border-t border-gray-700 mt-6 pt-6 text-center text-xs text-gray-400">
         © {new Date().getFullYear()} Brefo’s Art World. All rights reserved.
         <br />
-        {/* <span className="text-gray-500">
-          Website designed & built by <a href="YOUR_LINK" className="underline hover:text-white">Augustine Darko</a>
-        </span> */}
+        <span className="text-gray-500">
+          Website designed & built with passion by <a href="https://portfolio-augustine.vercel.app/" className="underline hover:text-white">Darko</a>
+        </span>
       </div>
     </footer>
   );
