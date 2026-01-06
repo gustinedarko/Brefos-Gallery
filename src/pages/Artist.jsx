@@ -159,7 +159,6 @@ const btsRight =
               muted
               className="w-full aspect-[9/16] object-cover"
             >
-              <source src={btsLeft} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
@@ -175,7 +174,6 @@ const btsRight =
               muted
               className="w-full aspect-[9/16] object-cover"
             >
-              <source src={btsCenter} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
@@ -191,7 +189,6 @@ const btsRight =
               muted
               className="w-full aspect-[9/16] object-cover"
             >
-              <source src={btsRight} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
