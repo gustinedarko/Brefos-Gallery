@@ -66,8 +66,36 @@ import generationOmega from "../assets/images/generation-omega.webp";
 import generationOmegaFramed from "../assets/images/generation-omega-framed.webp";
 import apocalypse from "../assets/images/apocalypse.webp";
 import apocalypseFramed from "../assets/images/apocalypse-framed.webp";
+import mrSmartGuy from "../assets/images/mr-smart-guy.webp";
+import mrSmartGuyFramed from "../assets/images/mr-smart-guy-framed.webp";
+import prayerArchangelIi from "../assets/images/the-prayer-to-the-first-archangel-ii.webp";
+import prayerArchangelIiFramed from "../assets/images/the-prayer-to-the-first-archangel-ii-framed.webp";
+import embracingTheDepth from "../assets/images/embracing-the-depth.webp";
+import embracingTheDepthFramed from "../assets/images/embracing-the-depth-framed.webp";
 
 export const gallery = [
+  {
+    title: "MR. SMART GUY",
+    image: mrSmartGuy,
+    framedImage: mrSmartGuyFramed,
+    slug: "mr-smart-guy",
+    materials: "Mixed media on Canvas",
+    size: "32 x 27 inches",
+    description: "Smarting is the key. It helps fight louder than missiles and ammunition. Smartness is knowledge and art. It helps create beauty and also complexities. Knowledge roots all. It’s the best thing to happen. Knowledge protects. He who seeks knowledge seeks life’s beauty and simplicity.",
+    year: 2026,
+    type: "square" // or "portrait" or "square"
+  },
+  {
+    title: "MR. CHUCK",
+    image: mrChuck,
+    framedImage: mrChuckFramed,
+    slug: "mr-chuck",
+    materials: "Mixed media on canvas",
+    size: "36 x 36 inches",
+    description: `Born into a modest family, life often felt like a delicate balancing act. Parents worked tirelessly to provide education, and the weight of responsibility overwhelmed the innocent soul, the child. Yet, despite the odds, a burning desire to succeed fueled their resolve. His father’s severe health condition has caused significant changes to the household. Although his parents kept it hidden, he discovered the condition through daily injections and medications, sometimes wishing he could skip life to give his parents the best. Education has been a distant dream but unwavering light for the author, who is a first generation college student. He takes pride in his family's sacrifices and remains focused on advancing his academic ambitions. He promises to make his parents proud and achieve his goals. Despite facing stigmatization at a young age, the individual has overcome barriers and learned that determination comes from struggle, perseverance, and rising above doubts, enabling him to continue striving for his goals. Break barriers and turn dreams into reality. “The difference between the impossible and possible lies in a person’s determination.” – TOMMY LASORDA`,
+    year: 2025,
+    type: "square" // or "portrait" or "square"
+  },
   {
     title: "ONE VISION OF DIFFERENT FACE AND MIND",
     image: oneVision,
@@ -98,28 +126,6 @@ export const gallery = [
     materials: "Mixed media on canvas",
     size: "34 x 32 inches",
     description: `"DON'T THINK ABOUT MAKING ART, JUST GET IT DONE. LET EVERYONE ELSE DECIDE IF IT'S GOOD OR BAD. WHILE THEY ARE DECIDING MAKE EVEN MORE ART." ANDY WARNOL`,
-    year: 2025,
-    type: "square" // or "portrait" or "square"
-  },
-  {
-    title: "MEHO )MO. (I HAVE SEEN THEM)",
-    image: mehoOmo,
-    framedImage: mehoOmoFramed,
-    slug: "meho-omo-i-have-seen-them",
-    materials: "Acrylics on canvas",
-    size: "34 x 36 inches",
-    description: "I'm aware that they can do anything to me. Indeed, I have seen them. They are not well intentioned. They betray me when I'm not looking, deliberately wearing a false smile. I am extremely strong, well-cared for, and protected by God, the Almighty One. I have to exercise caution since I know how weak I am. Why is this strange, unpleasant place here? I hope for the courage and safety of all those involved.",
-    year: 2023,
-    type: "square" // or "portrait" or "square"
-  },
-  {
-    title: "MR. CHUCK",
-    image: mrChuck,
-    framedImage: mrChuckFramed,
-    slug: "mr-chuck",
-    materials: "Mixed media on canvas",
-    size: "36 x 36 inches",
-    description: `Born into a modest family, life often felt like a delicate balancing act. Parents worked tirelessly to provide education, and the weight of responsibility overwhelmed the innocent soul, the child. Yet, despite the odds, a burning desire to succeed fueled their resolve. His father’s severe health condition has caused significant changes to the household. Although his parents kept it hidden, he discovered the condition through daily injections and medications, sometimes wishing he could skip life to give his parents the best. Education has been a distant dream but unwavering light for the author, who is a first generation college student. He takes pride in his family's sacrifices and remains focused on advancing his academic ambitions. He promises to make his parents proud and achieve his goals. Despite facing stigmatization at a young age, the individual has overcome barriers and learned that determination comes from struggle, perseverance, and rising above doubts, enabling him to continue striving for his goals. Break barriers and turn dreams into reality. “The difference between the impossible and possible lies in a person’s determination.” – TOMMY LASORDA`,
     year: 2025,
     type: "square" // or "portrait" or "square"
   },
@@ -157,14 +163,14 @@ export const gallery = [
     type: "portrait" // or "portrait" or "square"
   },
   {
-    title: "THE SOUL WITH THE TURTLE NECK",
-    image: soulWithTurtleNeck,
-    framedImage: soulWithTurtleNeckFramed,
-    slug: "the-soul-with-the-turtle-neck",
-    materials: "Mixed media on canvas",
-    size: "53 x 40 inches",
-    description: "The artwork beautifully depicts humanity's harmonious relationship with nature, showcasing vibrant colors that symbolize connection and peace. It features a young figure amidst gentle horses, reflecting the profound tranquility that such bonds create. The serene expressions of both the horses and the child emphasize themes of unity and balance. This portrayal illustrates the joy and contentment derived from reconnecting with nature, inviting viewers to experience the tranquility and happiness that arise from such relationships.",
-    year: 2025,
+    title: "THE PRAYER TO THE FIRST ARCHANGEL II",
+    image: prayerArchangelIi,
+    framedImage: prayerArchangelIiFramed,
+    slug: "the-prayer-to-the-first-archangel-ii",
+    materials: "Mixed media on Canvas",
+    size: "45 x 30 inches",
+    description: "I have been conscious of this and have taken action to enhance my life via transfiguration, rebirth, and personal growth. I have quickly switched to the positive habits after quitting all of the negative ones. I am conscious of both good and bad things, and I understand that terrible things can also contain lovely things, and vice versa. I have become more intelligent, self-aware, and considerate. I am aware of both the masculine and feminine energy; I have discriminated between them and chosen the most profitable ones. Knowing the Almighty, I know that he is the only Being rich enough to be worshipped. So why does life keep going like this? Living ought to have been equitable.",
+    year: 2026,
     type: "portrait" // or "portrait" or "square"
   },
   {
@@ -278,13 +284,13 @@ export const gallery = [
     type: "square" // or "portrait" or "square"
   },
   {
-    title: "THE WISH",
-    image: wish,
-    framedImage: wishFramed,
-    slug: "the-wish",
+    title: "MEHO )MO. (I HAVE SEEN THEM)",
+    image: mehoOmo,
+    framedImage: mehoOmoFramed,
+    slug: "meho-omo-i-have-seen-them",
     materials: "Acrylics on canvas",
-    size: "34 x 32 inches",
-    description: "A constant sense of joy and laughter would be nice. Living in a cosmos where the events of the past and present cause grief, tears, and anxiety makes sadness a persistent emotion. The desire for joy is strong in situations when happiness is a passing feeling. What I see on the woman's face, I desire for everyone.",
+    size: "34 x 36 inches",
+    description: "I'm aware that they can do anything to me. Indeed, I have seen them. They are not well intentioned. They betray me when I'm not looking, deliberately wearing a false smile. I am extremely strong, well-cared for, and protected by God, the Almighty One. I have to exercise caution since I know how weak I am. Why is this strange, unpleasant place here? I hope for the courage and safety of all those involved.",
     year: 2023,
     type: "square" // or "portrait" or "square"
   },
@@ -322,17 +328,6 @@ export const gallery = [
     type: "landscape" // or "portrait" or "square"
   },
   {
-    title: "THE LAST PROPHET",
-    image: lastProphet,
-    framedImage: lastProphetFramed,
-    slug: "the-last-prophet",
-    materials: "Acrylics on canvas",
-    size: "46 x 36 inches",
-    description: "It is known that Robert Nesta Marley (Bob Marley) is a prophet. His goal was to spread love so that everyone might experience its advantages. Love for one another leads to harmony and community. I urge you all to reconsider the message that Bob Marley espoused. I suppose every individual will be praised more when we follow his advice. Every time you see this artwork, simply remember that it represents love, peace, unity, and the advancement of Africa.",
-    year: 2023,
-    type: "portrait" // or "portrait" or "square"
-  },
-  {
     title: "THE UNTOLD STORIES",
     image: untoldStories,
     framedImage: untoldStoriesFramed,
@@ -351,6 +346,17 @@ export const gallery = [
     materials: "Mixed media on canvas",
     size: "50 x 39 inches",
     description: "Playing sounds of Revolution with mind waking tunes.",
+    year: 2025,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "THE SOUL WITH THE TURTLE NECK",
+    image: soulWithTurtleNeck,
+    framedImage: soulWithTurtleNeckFramed,
+    slug: "the-soul-with-the-turtle-neck",
+    materials: "Mixed media on canvas",
+    size: "53 x 40 inches",
+    description: "The artwork beautifully depicts humanity's harmonious relationship with nature, showcasing vibrant colors that symbolize connection and peace. It features a young figure amidst gentle horses, reflecting the profound tranquility that such bonds create. The serene expressions of both the horses and the child emphasize themes of unity and balance. This portrayal illustrates the joy and contentment derived from reconnecting with nature, inviting viewers to experience the tranquility and happiness that arise from such relationships.",
     year: 2025,
     type: "portrait" // or "portrait" or "square"
   },
@@ -399,26 +405,14 @@ export const gallery = [
     type: "portrait" // or "portrait" or "square"
   },
   {
-    title: "THE TIME TRAVELER",
-    image: timeTraveler,
-    framedImage: timeTravelerFramed,
-    slug: "the-time-traveler",
+    title: "THE LAST PROPHET",
+    image: lastProphet,
+    framedImage: lastProphetFramed,
+    slug: "the-last-prophet",
     materials: "Acrylics on canvas",
-    size: "45 x 35 inches",
-    description: `Time travel is the concept of moving between distinct points in time by an object or a person, similar to moving between different points in space by an object or a person, generally via a hypothetical equipment known as a "time machine." Time travel can be defined as the transportation of a person into the future or into the past. The movement of ‘THE TIME TRAVELER' was done into the future.`,
-    description2: "I, ‘THE TIME TRAVELER’ would want to tell what I observed and recorded myself. The future is a wired period where everything will happen if change is not made today. To emphasize, humans; the old, the wise and knowledgeable, wealthy, high esteemed people and any other people will be highly manipulated. The brains of these people will be controlled by those on top of the world governance. These high-ranking government officials will steer man in the other direction. I, ‘THE TIME TRAVELER,' observed numerous humans, many of whom had their bodies altered beyond recognition. Vegetation?… No!!! I saw nothing like vegetation. Because of the current human practice of deforestation, artificial oxygen will be made by THESE scientists who are only concerned with their own personal interests. For the sake of survival, humans will always rely on oxygen. I, 'THE TIME TRAVELER,' witnessed ANUBIS, the god of death, laboring behind closed doors in a ferocious mood to exterminate humanity. The world's demise has already been planned, and everything must take place as planned. The future is a frightening time in which nothing will be good. This is due to the ruin of the planet, the establishment of a new world order, hostility, wickedness, and callous disregard for people, as well as the use of biological weapons to reduce those who are not viewed as superior by THESE people. WE SHOULD PROTECT THE FUTURE NOW!!!",
-    year: 2021,
-    type: "portrait" // or "portrait" or "square"
-  },
-  {
-    title: "THE APOCALYPSE",
-    image: apocalypse,
-    framedImage: apocalypseFramed,
-    slug: "the-apocalypse",
-    materials: "Charcoal pastel on eggshell paper",
-    size: "19 x 23 inches",
-    description: "This prophetic writing (apocalypse) was developed in the post-Exilic Jewish culture, was popular among the early Christians and it basically means ‘ revelation’. It is a very serious event resulting in great destruction and change of the earth. It is an indicator which tells the end of time. During this period, the demon takes optimum control of the earth and governs it with evil deeds. The demon hunts righteous men before they get liberated during the postapocalyptic period. The devil interchange love with hatred, hence, evil things will be done with less pity. According to the artwork(APOCALYPSE), tears will flow from the eye of the righteous day and night, acceptance and increase in number of the unacceptable (LGBTQ+), famine, satanic vaccines ( mark of the beast) will be introduced, religion will be empowered and serve as a factor to separate the world in disguise. AFRICA, the mother of earth will be the aimed continent where the demon will fight to gain because she is blessed by the Almighty God.  ATTENTION, we are in the apocalyptic period, be aware of the demons evil deeds( listed evil deeds above), and enjoy during the post-apocalyptic period!!!‘APOCALYPSE’ is a scene in my dream.",
-    year: 2021,
+    size: "46 x 36 inches",
+    description: "It is known that Robert Nesta Marley (Bob Marley) is a prophet. His goal was to spread love so that everyone might experience its advantages. Love for one another leads to harmony and community. I urge you all to reconsider the message that Bob Marley espoused. I suppose every individual will be praised more when we follow his advice. Every time you see this artwork, simply remember that it represents love, peace, unity, and the advancement of Africa.",
+    year: 2023,
     type: "portrait" // or "portrait" or "square"
   },
   {
@@ -433,6 +427,18 @@ export const gallery = [
     type: "portrait" // or "portrait" or "square"
   },
   {
+    title: "THE TIME TRAVELER",
+    image: timeTraveler,
+    framedImage: timeTravelerFramed,
+    slug: "the-time-traveler",
+    materials: "Acrylics on canvas",
+    size: "45 x 35 inches",
+    description: `Time travel is the concept of moving between distinct points in time by an object or a person, similar to moving between different points in space by an object or a person, generally via a hypothetical equipment known as a "time machine." Time travel can be defined as the transportation of a person into the future or into the past. The movement of ‘THE TIME TRAVELER' was done into the future.`,
+    description2: "I, ‘THE TIME TRAVELER’ would want to tell what I observed and recorded myself. The future is a wired period where everything will happen if change is not made today. To emphasize, humans; the old, the wise and knowledgeable, wealthy, high esteemed people and any other people will be highly manipulated. The brains of these people will be controlled by those on top of the world governance. These high-ranking government officials will steer man in the other direction. I, ‘THE TIME TRAVELER,' observed numerous humans, many of whom had their bodies altered beyond recognition. Vegetation?… No!!! I saw nothing like vegetation. Because of the current human practice of deforestation, artificial oxygen will be made by THESE scientists who are only concerned with their own personal interests. For the sake of survival, humans will always rely on oxygen. I, 'THE TIME TRAVELER,' witnessed ANUBIS, the god of death, laboring behind closed doors in a ferocious mood to exterminate humanity. The world's demise has already been planned, and everything must take place as planned. The future is a frightening time in which nothing will be good. This is due to the ruin of the planet, the establishment of a new world order, hostility, wickedness, and callous disregard for people, as well as the use of biological weapons to reduce those who are not viewed as superior by THESE people. WE SHOULD PROTECT THE FUTURE NOW!!!",
+    year: 2021,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
     title: "LIFE’S PARADOX",
     image: lifesParadox,
     framedImage: lifesParadoxFramed,
@@ -442,5 +448,39 @@ export const gallery = [
     description: "Life is a fascinating journey where the good often emerges from the bad, and the bad can lurk within the good. For instance, tough times can lead to personal growth, teaching us resilience and empathy, while moments of success might bring unexpected pressures and stress. As time passes, our perceptions of these experiences can shift dramatically; what once felt like a loss may later reveal itself as a valuable lesson, and fleeting happiness can sometimes give way to challenges. This ever-changing nature of life reminds us to be mindful, appreciating both the highs and lows, as each moment contributes to our unique story and personal development. As the twin fish says, prosperity, abundance, and happiness is the result of long term life of everyone who planned.",
     year: 2025,
     type: "square" // or "portrait" or "square"
+  },
+  {
+    title: "THE WISH",
+    image: wish,
+    framedImage: wishFramed,
+    slug: "the-wish",
+    materials: "Acrylics on canvas",
+    size: "34 x 32 inches",
+    description: "A constant sense of joy and laughter would be nice. Living in a cosmos where the events of the past and present cause grief, tears, and anxiety makes sadness a persistent emotion. The desire for joy is strong in situations when happiness is a passing feeling. What I see on the woman's face, I desire for everyone.",
+    year: 2023,
+    type: "square" // or "portrait" or "square"
+  },
+  {
+    title: "THE APOCALYPSE",
+    image: apocalypse,
+    framedImage: apocalypseFramed,
+    slug: "the-apocalypse",
+    materials: "Charcoal pastel on eggshell paper",
+    size: "19 x 23 inches",
+    description: "This prophetic writing (apocalypse) was developed in the post-Exilic Jewish culture, was popular among the early Christians and it basically means ‘ revelation’. It is a very serious event resulting in great destruction and change of the earth. It is an indicator which tells the end of time. During this period, the demon takes optimum control of the earth and governs it with evil deeds. The demon hunts righteous men before they get liberated during the postapocalyptic period. The devil interchange love with hatred, hence, evil things will be done with less pity. According to the artwork(APOCALYPSE), tears will flow from the eye of the righteous day and night, acceptance and increase in number of the unacceptable (LGBTQ+), famine, satanic vaccines ( mark of the beast) will be introduced, religion will be empowered and serve as a factor to separate the world in disguise. AFRICA, the mother of earth will be the aimed continent where the demon will fight to gain because she is blessed by the Almighty God.  ATTENTION, we are in the apocalyptic period, be aware of the demons evil deeds( listed evil deeds above), and enjoy during the post-apocalyptic period!!!‘APOCALYPSE’ is a scene in my dream.",
+    year: 2021,
+    type: "square" // or "portrait" or "square"
+  },
+  {
+    title: "EMBRACING THE DEPTH",
+    image: embracingTheDepth,
+    framedImage: embracingTheDepthFramed,
+    slug: "embracing-the-depth",
+    materials: "Mixed media on Canvas",
+    size: "45 x 35 inches",
+    description: "Embracing the depth involves a journey shaped by silence, resilience, and deep emotional understanding. The narrator reflects on their ability to endure while carrying the burdens of others, emphasizing their gentle strength and transformative love. They seek meaning through solitary reflection and aspire to embody kindness and wisdom in their actions. Their life aims to leave a profound impact, marked by compassion and personal growth, rather than loud accolades, ultimately focusing on the deep changes they bring to those they encounter.",
+    year: 2026,
+    type: "portrait", // or "portrait" or "square"
+    status: "Commissioned",
   },
 ];

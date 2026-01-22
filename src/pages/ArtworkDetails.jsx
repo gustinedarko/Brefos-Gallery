@@ -82,6 +82,9 @@ export default function ArtworkDetails() {
                 <li>
                   <strong>Title:</strong> {artwork.title}
                 </li>
+                <li className="text-red-400 font-medium">
+                  {artwork.status}
+                </li>
                 <li>
                   <strong>Materials:</strong> {artwork.materials}
                 </li>

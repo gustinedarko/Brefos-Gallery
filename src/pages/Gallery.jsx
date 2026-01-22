@@ -2,7 +2,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { gallery } from "../data/gallery";
 
-export default function Gallery({ title, materials, size, year }) {
+export default function Gallery({ title, materials, size, year, status }) {
   return (
     <>
       <div className="bg-[#39B54A]/10">
