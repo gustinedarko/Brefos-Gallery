@@ -104,8 +104,7 @@ export default function Contact() {
             Get in Touch
           </h1>
           <p className="text-lg md:text-xl text-gray-200 max-w-2xl mx-auto">
-            Let’s connect and bring creative visions to life — whether for
-            exhibitions, commissions, or collaborations.
+            Let’s connect and bring creative visions to life. I’m available for exhibitions, commissions, and collaborations.
           </p>
         </div>
       </section>
@@ -121,9 +120,7 @@ export default function Contact() {
             </h2>
 
             <p className="text-gray-600 leading-relaxed text-lg">
-              Wilson would love to hear from you — whether you’re an art
-              collector, enthusiast, or collaborator. Reach out to discuss his
-              works, exhibitions, or creative projects.
+              Wilson would love to hear from you. Whether you’re an art collector, enthusiast, or collaborator, feel free to reach out to discuss his works, exhibitions, or creative projects.
             </p>
 
             {/* Location */}
