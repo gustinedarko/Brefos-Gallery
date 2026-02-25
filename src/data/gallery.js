@@ -72,6 +72,16 @@ import prayerArchangelIi from "../assets/images/the-prayer-to-the-first-archange
 import prayerArchangelIiFramed from "../assets/images/the-prayer-to-the-first-archangel-ii-framed.webp";
 import embracingTheDepth from "../assets/images/embracing-the-depth.webp";
 import embracingTheDepthFramed from "../assets/images/embracing-the-depth-framed.webp";
+import mrSackChaser from "../assets/images/mr-sack-chaser.webp";
+import mrSackChaserFramed from "../assets/images/mr-sack-chaser-framed.webp";
+import harmonyInChaos from "../assets/images/harmony-in-chaos.webp";
+import harmonyInChaosFramed from "../assets/images/harmony-in-chaos-framed.webp";
+import destinyChild from "../assets/images/destiny-child.webp";
+import destinyChildFramed from "../assets/images/destiny-child-framed.webp";
+import theEyesThatReallySees from "../assets/images/the-eyes-that-really-sees.webp";
+import theEyesThatReallySeesFramed from "../assets/images/the-eyes-that-really-sees-framed.webp";
+import monaLisaInBlackAndWhite from "../assets/images/mona-lisa-in-black-and-white.webp";
+import monaLisaInBlackAndWhiteFramed from "../assets/images/mona-lisa-in-black-and-white-framed.webp";
 
 export const gallery = [
   {
@@ -86,14 +96,14 @@ export const gallery = [
     type: "square" // or "portrait" or "square"
   },
   {
-    title: "MR. CHUCK",
-    image: mrChuck,
-    framedImage: mrChuckFramed,
-    slug: "mr-chuck",
-    materials: "Mixed media on canvas",
-    size: "36 x 36 inches",
-    description: `Born into a modest family, life often felt like a delicate balancing act. Parents worked tirelessly to provide education, and the weight of responsibility overwhelmed the innocent soul, the child. Yet, despite the odds, a burning desire to succeed fueled their resolve. His father’s severe health condition has caused significant changes to the household. Although his parents kept it hidden, he discovered the condition through daily injections and medications, sometimes wishing he could skip life to give his parents the best. Education has been a distant dream but unwavering light for the author, who is a first generation college student. He takes pride in his family's sacrifices and remains focused on advancing his academic ambitions. He promises to make his parents proud and achieve his goals. Despite facing stigmatization at a young age, the individual has overcome barriers and learned that determination comes from struggle, perseverance, and rising above doubts, enabling him to continue striving for his goals. Break barriers and turn dreams into reality. “The difference between the impossible and possible lies in a person’s determination.” – TOMMY LASORDA`,
-    year: 2025,
+    title: "MR. SACK CHASER",
+    image: mrSackChaser,
+    framedImage: mrSackChaserFramed,
+    slug: "mr-sack-chaser",
+    materials: "Mixed media on Canvas",
+    size: "24 x 24 inches",
+    description: "I have meticulously figured all out. Seen through all that transpire, certainly, I know emphatically that the dream, money and life we all desire will eventually manifest and life will be nice. Hence, I'm in a serious relationship with time. I know when I treat her with patience, passion, value and appreciate her timely performances, all will make sense at the end. I have been through the other side, we know the brighter side, there's light at the end of the darker side.",
+    year: 2026,
     type: "square" // or "portrait" or "square"
   },
   {
@@ -108,36 +118,36 @@ export const gallery = [
     type: "square" // or "portrait" or "square"
   },
   {
-    title: "ALPHA",
-    image: alpha,
-    framedImage: alphaFramed,
-    slug: "alpha",
-    materials: "Acrylics on canvas",
+    title: "THE EYES THAT REALLY SEES",
+    image: theEyesThatReallySees,
+    framedImage: theEyesThatReallySeesFramed,
+    slug: "the-eyes-that-really-sees",
+    materials: "Mixed media on Canvas",
     size: "24 x 24 inches",
-    description: `Humanity has always been captivated by the idea of love. The emotion in question is intricate and multidimensional, with multiple manifestations.A profound attachment, concern, and bond with someone or something is the essence of love. The term "the happy start" is one of its features. Each connection begins with an exploration of what makes life wonderful, joyful, loving, and uplifting. Energy is released to create vibrations, which in turn stimulate frequency to produce beautiful things. Helps to double health and heal. Nevertheless, love grows as time passes.`,
-    year: 2024,
+    description: "Beyond the surface, beyond the glance, Lies a world unseen, a deeper dance. Don’t just look, peer into the heart, For reality whispers secrets, if we take a part. The eyes may see, but the soul must gaze, To unravel truths in hidden ways. Look deeper, and the layers unfold, Revealing stories, young and old. In the silence, listen with intent, For the whispers of truth, the universe’s bent. Don’t be fooled by what appears, Look deeper, and the essence clears.",
+    year: 2026,
     type: "square" // or "portrait" or "square"
   },
   {
-    title: "THE PERFECT MINDSET",
-    image: perfectMind, // perfectMindset
-    framedImage: perfectMindFramed, // not framed
-    slug: "the-perfect-mindset", // the-perfect-mindset
-    materials: "Mixed media on canvas",
-    size: "34 x 32 inches",
-    description: `"DON'T THINK ABOUT MAKING ART, JUST GET IT DONE. LET EVERYONE ELSE DECIDE IF IT'S GOOD OR BAD. WHILE THEY ARE DECIDING MAKE EVEN MORE ART." ANDY WARNOL`,
-    year: 2025,
+    title: "MONA LISA IN BLACK AND WHITE",
+    image: monaLisaInBlackAndWhite,
+    framedImage: monaLisaInBlackAndWhiteFramed,
+    slug: "mona-lisa-in-black-and-white",
+    materials: "Mixed media on Canvas",
+    size: "32 x 27 inches",
+    description: "In a daring twist, the iconic Mona Lisa traded her Renaissance hues for a sleek black and white palette, her enigmatic smile now a striking contrast of shadows and highlights. The subtle gradient of grey tones accentuated her mystique, like a whispered secret in the Louvre's hallowed halls. Leonardo's masterstroke was reimagined, her gaze both haunting and hypnotic, as if she'd just revealed a secret. The monochrome masterpiece left viewers spellbound, questioning what secrets lay hidden beneath the surface.",
+    year: 2026,
     type: "square" // or "portrait" or "square"
   },
   {
-    title: "OMEGA",
-    image: omega,
-    framedImage: omegaFramed,
-    slug: "omega",
-    materials: "Acrylics on canvas",
-    size: "24 x 24 inches",
-    description: "What happens when love ends? Is the conclusion, while discussing love, excellent? Love, in my view, is accompanied by negative emotions such as hate, despair, hurt, curses, tears, etc. As this love increases, people start to reject it because of the concept it possesses. There are two sides to love. When it works in your favour, educate yourself about how awful things can get and get ready for what's coming next.",
-    year: 2024,
+    title: "HARMONY IN CHAOS",
+    image: harmonyInChaos,
+    framedImage: harmonyInChaosFramed,
+    slug: "harmony-in-chaos",
+    materials: "Mixed media on Canvas",
+    size: "32 x 27 inches",
+    description: "As I stood at the crossroads of my life, torn between the expectations of others and my own dreams, I realized that every moment spent pleasing others was a moment lost to my true self. With each brushstroke on this canvas, I began to untangle the noise, letting creativity guide me toward clarity. The world outside wouldn’t quiet, but my inner voice grew louder, reminding me that fulfillment isn’t found in endless checkboxes, rather, it’s crafted in the spaces between. The key is not to prioritize what’s on your schedule, but to schedule your priorities. This thought has made me known life and has made me seen through many loopholes.",
+    year: 2026,
     type: "square" // or "portrait" or "square"
   },
   {
@@ -152,17 +162,6 @@ export const gallery = [
     type: "landscape" // or "portrait" or "square"
   },
   {
-    title: "METAMORPHOSIS OF THE SOUL",
-    image: metamorphosis,
-    framedImage: metamorphosisFramed,
-    slug: "metamorphosis-of-the-soul",
-    materials: "Mixed media on canvas",
-    size: "32 x 27 inches",
-    description: `"Metamorphosis of the Soul" honours the human spirit's potential for development, change, and self-discovery. I hope to encourage you all to go on your own path of self-discovery and introspection, accepting who you really are and seeing the beauty in your individuality. Be mindful that we are all works in progress that are always changing and developing.`,
-    year: 2025,
-    type: "portrait" // or "portrait" or "square"
-  },
-  {
     title: "THE PRAYER TO THE FIRST ARCHANGEL II",
     image: prayerArchangelIi,
     framedImage: prayerArchangelIiFramed,
@@ -170,6 +169,17 @@ export const gallery = [
     materials: "Mixed media on Canvas",
     size: "45 x 30 inches",
     description: "I have been conscious of this and have taken action to enhance my life via transfiguration, rebirth, and personal growth. I have quickly switched to the positive habits after quitting all of the negative ones. I am conscious of both good and bad things, and I understand that terrible things can also contain lovely things, and vice versa. I have become more intelligent, self-aware, and considerate. I am aware of both the masculine and feminine energy; I have discriminated between them and chosen the most profitable ones. Knowing the Almighty, I know that he is the only Being rich enough to be worshipped. So why does life keep going like this? Living ought to have been equitable.",
+    year: 2026,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "DESTINY CHILD",
+    image: destinyChild,
+    framedImage: destinyChildFramed,
+    slug: "destiny-child",
+    materials: "Mixed media on canvas",
+    size: "53 x 40 inches",
+    description: "In the tapestry of my journey, threads of repetition weave a story of unyielding resolve. Like the steady beat of a drum, resilience echoes through every step, turning setbacks into stepping stones. Dedication fuels the fire that burns within, a flame that flickers but never fades, even in the darkest nights. And commitment? It is the compass that guides me through uncharted waters, reminding me that the destination is worth the struggle. The world may measure success by speed, by milestones reached and heights scaled, but my path is unique, calibrated to the rhythm of my soul. I may walk slower than others, but my strides are purposeful, deliberate, and sure. The universe doesn't clock my progress with the same timer as others, its timeline is vast, patient, and intricately woven. Every breath, every fall, and every rise shape me into who I’m meant to be. The architect of your dreams sees beyond the now, crafting a masterpiece of perseverance and grit. I might be late, but the first seat has already been reserved for me.",
     year: 2026,
     type: "portrait" // or "portrait" or "square"
   },
@@ -185,13 +195,13 @@ export const gallery = [
     type: "landscape" // or "portrait" or "square"
   },
   {
-    title: "QUE SERA, SERA!",
-    image: queSera,
-    framedImage: queSeraFramed, // queSeraFramed
-    slug: "que-sera-sera",
+    title: "METAMORPHOSIS OF THE SOUL",
+    image: metamorphosis,
+    framedImage: metamorphosisFramed,
+    slug: "metamorphosis-of-the-soul",
     materials: "Mixed media on canvas",
     size: "32 x 27 inches",
-    description: `My name is everyone. This is how happy I am in life at the moment. I gain this strength, motivation and happiness the very moment I heard the phrase “QUE SERA, SERA”. It got to my realization that the past, this present and the future that’s yet to play has been already designed and I have been implanted in the scene to act alongside the script. So therefore, why should I worry about nothing and something I have no control of or strength to alter. Let life play. WHATEVER WILL BE, WILL BE!!!`,
+    description: `"Metamorphosis of the Soul" honours the human spirit's potential for development, change, and self-discovery. I hope to encourage you all to go on your own path of self-discovery and introspection, accepting who you really are and seeing the beauty in your individuality. Be mindful that we are all works in progress that are always changing and developing.`,
     year: 2025,
     type: "portrait" // or "portrait" or "square"
   },
@@ -249,6 +259,50 @@ export const gallery = [
     description: "Wanted to know all and specifics, dig and dig, searched and researched, and sacrificed all what I had for knowledge. I’m consciously and subconsciously enlightened and awaken. Knowledge has brought me to nothing but hope. Think we shouldn’t seek much, we might not be ready for the inevitable regrets that come with it.",
     year: 2025,
     type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "MR. CHUCK",
+    image: mrChuck,
+    framedImage: mrChuckFramed,
+    slug: "mr-chuck",
+    materials: "Mixed media on canvas",
+    size: "36 x 36 inches",
+    description: `Born into a modest family, life often felt like a delicate balancing act. Parents worked tirelessly to provide education, and the weight of responsibility overwhelmed the innocent soul, the child. Yet, despite the odds, a burning desire to succeed fueled their resolve. His father’s severe health condition has caused significant changes to the household. Although his parents kept it hidden, he discovered the condition through daily injections and medications, sometimes wishing he could skip life to give his parents the best. Education has been a distant dream but unwavering light for the author, who is a first generation college student. He takes pride in his family's sacrifices and remains focused on advancing his academic ambitions. He promises to make his parents proud and achieve his goals. Despite facing stigmatization at a young age, the individual has overcome barriers and learned that determination comes from struggle, perseverance, and rising above doubts, enabling him to continue striving for his goals. Break barriers and turn dreams into reality. “The difference between the impossible and possible lies in a person’s determination.” – TOMMY LASORDA`,
+    year: 2025,
+    type: "square" // or "portrait" or "square"
+  },
+  {
+    title: "ALPHA",
+    image: alpha,
+    framedImage: alphaFramed,
+    slug: "alpha",
+    materials: "Acrylics on canvas",
+    size: "24 x 24 inches",
+    description: `Humanity has always been captivated by the idea of love. The emotion in question is intricate and multidimensional, with multiple manifestations.A profound attachment, concern, and bond with someone or something is the essence of love. The term "the happy start" is one of its features. Each connection begins with an exploration of what makes life wonderful, joyful, loving, and uplifting. Energy is released to create vibrations, which in turn stimulate frequency to produce beautiful things. Helps to double health and heal. Nevertheless, love grows as time passes.`,
+    year: 2024,
+    type: "square" // or "portrait" or "square"
+  },
+  {
+    title: "THE PERFECT MINDSET",
+    image: perfectMind, // perfectMindset
+    framedImage: perfectMindFramed, // not framed
+    slug: "the-perfect-mindset", // the-perfect-mindset
+    materials: "Mixed media on canvas",
+    size: "34 x 32 inches",
+    description: `"DON'T THINK ABOUT MAKING ART, JUST GET IT DONE. LET EVERYONE ELSE DECIDE IF IT'S GOOD OR BAD. WHILE THEY ARE DECIDING MAKE EVEN MORE ART." ANDY WARNOL`,
+    year: 2025,
+    type: "square" // or "portrait" or "square"
+  },
+  {
+    title: "OMEGA",
+    image: omega,
+    framedImage: omegaFramed,
+    slug: "omega",
+    materials: "Acrylics on canvas",
+    size: "24 x 24 inches",
+    description: "What happens when love ends? Is the conclusion, while discussing love, excellent? Love, in my view, is accompanied by negative emotions such as hate, despair, hurt, curses, tears, etc. As this love increases, people start to reject it because of the concept it possesses. There are two sides to love. When it works in your favour, educate yourself about how awful things can get and get ready for what's coming next.",
+    year: 2024,
+    type: "square" // or "portrait" or "square"
   },
   {
     title: "THE BEING WITH CRACKS",
@@ -317,6 +371,28 @@ export const gallery = [
     type: "square" // or "portrait" or "square"
   },
   {
+    title: "LIFE’S PARADOX",
+    image: lifesParadox,
+    framedImage: lifesParadoxFramed,
+    slug: "lifes-paradox",
+    materials: "Mixed media on canvas",
+    size: "24 x 24 inches",
+    description: "Life is a fascinating journey where the good often emerges from the bad, and the bad can lurk within the good. For instance, tough times can lead to personal growth, teaching us resilience and empathy, while moments of success might bring unexpected pressures and stress. As time passes, our perceptions of these experiences can shift dramatically; what once felt like a loss may later reveal itself as a valuable lesson, and fleeting happiness can sometimes give way to challenges. This ever-changing nature of life reminds us to be mindful, appreciating both the highs and lows, as each moment contributes to our unique story and personal development. As the twin fish says, prosperity, abundance, and happiness is the result of long term life of everyone who planned.",
+    year: 2025,
+    type: "square" // or "portrait" or "square"
+  },
+  {
+    title: "THE WISH",
+    image: wish,
+    framedImage: wishFramed,
+    slug: "the-wish",
+    materials: "Acrylics on canvas",
+    size: "34 x 32 inches",
+    description: "A constant sense of joy and laughter would be nice. Living in a cosmos where the events of the past and present cause grief, tears, and anxiety makes sadness a persistent emotion. The desire for joy is strong in situations when happiness is a passing feeling. What I see on the woman's face, I desire for everyone.",
+    year: 2023,
+    type: "square" // or "portrait" or "square"
+  },
+  {
     title: "THE ICONIC HERD",
     image: iconicHerd,
     framedImage: iconicHerdFramed,
@@ -346,6 +422,17 @@ export const gallery = [
     materials: "Mixed media on canvas",
     size: "50 x 39 inches",
     description: "Playing sounds of Revolution with mind waking tunes.",
+    year: 2025,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "QUE SERA, SERA!",
+    image: queSera,
+    framedImage: queSeraFramed, // queSeraFramed
+    slug: "que-sera-sera",
+    materials: "Mixed media on canvas",
+    size: "32 x 27 inches",
+    description: `My name is everyone. This is how happy I am in life at the moment. I gain this strength, motivation and happiness the very moment I heard the phrase “QUE SERA, SERA”. It got to my realization that the past, this present and the future that’s yet to play has been already designed and I have been implanted in the scene to act alongside the script. So therefore, why should I worry about nothing and something I have no control of or strength to alter. Let life play. WHATEVER WILL BE, WILL BE!!!`,
     year: 2025,
     type: "portrait" // or "portrait" or "square"
   },
@@ -437,28 +524,6 @@ export const gallery = [
     description2: "I, ‘THE TIME TRAVELER’ would want to tell what I observed and recorded myself. The future is a wired period where everything will happen if change is not made today. To emphasize, humans; the old, the wise and knowledgeable, wealthy, high esteemed people and any other people will be highly manipulated. The brains of these people will be controlled by those on top of the world governance. These high-ranking government officials will steer man in the other direction. I, ‘THE TIME TRAVELER,' observed numerous humans, many of whom had their bodies altered beyond recognition. Vegetation?… No!!! I saw nothing like vegetation. Because of the current human practice of deforestation, artificial oxygen will be made by THESE scientists who are only concerned with their own personal interests. For the sake of survival, humans will always rely on oxygen. I, 'THE TIME TRAVELER,' witnessed ANUBIS, the god of death, laboring behind closed doors in a ferocious mood to exterminate humanity. The world's demise has already been planned, and everything must take place as planned. The future is a frightening time in which nothing will be good. This is due to the ruin of the planet, the establishment of a new world order, hostility, wickedness, and callous disregard for people, as well as the use of biological weapons to reduce those who are not viewed as superior by THESE people. WE SHOULD PROTECT THE FUTURE NOW!!!",
     year: 2021,
     type: "portrait" // or "portrait" or "square"
-  },
-  {
-    title: "LIFE’S PARADOX",
-    image: lifesParadox,
-    framedImage: lifesParadoxFramed,
-    slug: "lifes-paradox",
-    materials: "Mixed media on canvas",
-    size: "24 x 24 inches",
-    description: "Life is a fascinating journey where the good often emerges from the bad, and the bad can lurk within the good. For instance, tough times can lead to personal growth, teaching us resilience and empathy, while moments of success might bring unexpected pressures and stress. As time passes, our perceptions of these experiences can shift dramatically; what once felt like a loss may later reveal itself as a valuable lesson, and fleeting happiness can sometimes give way to challenges. This ever-changing nature of life reminds us to be mindful, appreciating both the highs and lows, as each moment contributes to our unique story and personal development. As the twin fish says, prosperity, abundance, and happiness is the result of long term life of everyone who planned.",
-    year: 2025,
-    type: "square" // or "portrait" or "square"
-  },
-  {
-    title: "THE WISH",
-    image: wish,
-    framedImage: wishFramed,
-    slug: "the-wish",
-    materials: "Acrylics on canvas",
-    size: "34 x 32 inches",
-    description: "A constant sense of joy and laughter would be nice. Living in a cosmos where the events of the past and present cause grief, tears, and anxiety makes sadness a persistent emotion. The desire for joy is strong in situations when happiness is a passing feeling. What I see on the woman's face, I desire for everyone.",
-    year: 2023,
-    type: "square" // or "portrait" or "square"
   },
   {
     title: "THE APOCALYPSE",

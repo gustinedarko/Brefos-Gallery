@@ -5,6 +5,7 @@ import { gallery } from "../data/gallery";
 import { FaChevronLeft } from "react-icons/fa"
 import { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
+import { Link } from "react-router";
 
 export default function ArtworkDetails() {
   const { slug } = useParams();
@@ -55,8 +56,30 @@ export default function ArtworkDetails() {
         </div>
       )}
 
+      {/* Main Details */}
       <div className="bg-gray-50">
         <div className="max-w-5xl mx-auto px-4 py-10">
+
+          {/* Breadcrumb */}
+          <div className="mb-4 text-sm text-gray-500">
+            <Link to="/" className="hover:underline cursor-pointer">Home</Link>
+            {" / "}
+            <button
+              onClick={() => {
+                if (window.history.length > 1) {
+                  navigate(-1);
+                } else {
+                  navigate("/gallery-section");
+                }
+              }}
+              className="hover:underline cursor-pointer"
+            >Gallery</button>
+            {" / "}
+            <span className="text-black capitalize">
+              {artwork.title}
+            </span>
+          </div>
+
           {/* Title */}
           <h1 className="text-3xl md:text-5xl font-extrabold text-slate-900 tracking-tight">
             {artwork.title}
