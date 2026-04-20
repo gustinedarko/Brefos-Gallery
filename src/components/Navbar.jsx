@@ -8,7 +8,7 @@ export default function Navbar() {
   // Toggle the sidebar
   const handleToggle = () => setIsOpen(!isOpen);
 
-  // Close sidebar when a link is clicked (common mobile UX)
+  // Close sidebar when a link is clicked
   const handleLinkClick = () => setIsOpen(false);
 
   // Highlight active page
@@ -36,7 +36,7 @@ export default function Navbar() {
       <div className="md:hidden">
         <button
           onClick={handleToggle}
-          className="nav-text text-[#4CAF50] focus:outline-none transition-colors duration-200"
+          className="nav-text text-white focus:outline-none transition-colors duration-200"
         >
           <svg
             className="w-6 h-6"
@@ -63,7 +63,7 @@ export default function Navbar() {
         {/* Close button (only visible on mobile) */}
         <button
           onClick={handleToggle}
-          className="absolute top-4 right-4 md:hidden focus:outline-none text-[#4CAF50]"
+          className="absolute top-4 right-4 md:hidden focus:outline-none text-white border rounded-sm border-[#4CAF50]"
         >
           <svg
             className="w-7 h-7"
