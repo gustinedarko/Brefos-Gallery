@@ -10,6 +10,7 @@ export default function ExhibitionCard({ title, venue, date, image, isPast, onVi
         <img
           src={image}
           alt={title}
+          loading="lazy"
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           draggable="false"
         />

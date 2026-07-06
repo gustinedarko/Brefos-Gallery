@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { gallery } from "../data/gallery";
+import { motion } from "framer-motion";
 
 export default function Gallery({ title, materials, size, year, status }) {
   return (
@@ -26,8 +27,16 @@ export default function Gallery({ title, materials, size, year, status }) {
                   ? "aspect-[23/15]"
                   : "aspect-square";
             return (
-              <div
+              <motion.div
                 key={index}
+                key={index}
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{
+                  duration: 0.3,
+                  delay: index * 0.04,
+                }}
                 className={`${item.type === "landscape" ? " col-span-1 sm:col-span-2" : ""
                   }`}
               >
@@ -38,6 +47,7 @@ export default function Gallery({ title, materials, size, year, status }) {
                   <img
                     src={item.image}
                     alt={item.title}
+                    loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   {/* ---- OVERLAY FOR DESKTOP ---- */}
@@ -67,7 +77,7 @@ export default function Gallery({ title, materials, size, year, status }) {
                     View Details
                   </button>
                 </div>
-              </div>
+              </motion.div>
             );
           })}
         </div>

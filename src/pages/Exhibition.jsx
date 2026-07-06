@@ -11,6 +11,7 @@ import logo from "../assets/images/img-black-logo-exhibition-bg.webp";
 import Footer from "../components/Footer";
 import { useState } from "react";
 import ExhibitionModal from "../components/ExhibitionModal";
+import { motion } from "motion/react";
 
 const exhibitions = [
   // {
@@ -91,7 +92,7 @@ export default function Exhibition() {
       <Navbar />
 
       {/* Header Section */}
-      <section className="relative w-full h-[50vh] flex flex-col justify-center items-center text-center bg-gradient-to-b from-black/80 to-black/40 text-white overflow-hidden">
+      <section className="relative w-full h-[50vh] flex flex-col justify-center items-center text-center bg-gradient-to-b from-black/80 to-black/90 text-white overflow-hidden">
         <img
           src={Mockup} // <-- use your chosen exhibition hero image here
           alt="Exhibition background"
@@ -99,12 +100,20 @@ export default function Exhibition() {
         />
 
         <div className="relative z-10 px-6">
-          <h1 className="text-4xl md:text-5xl font-bold tracking-wide mb-3">
+          <motion.h1
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
+            className="text-4xl md:text-5xl font-bold tracking-wide mb-3">
             Exhibitions
-          </h1>
-          <p className="italic text-lg md:text-xl text-gray-200 max-w-2xl mx-auto">
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.1 }}
+            className="italic text-lg md:text-xl text-gray-200 max-w-2xl mx-auto">
             Explore Wilson Brefo’s artistic journey through solo and group exhibitions, past and upcoming.
-          </p>
+          </motion.p>
         </div>
       </section>
 

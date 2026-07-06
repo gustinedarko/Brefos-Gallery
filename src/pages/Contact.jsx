@@ -12,6 +12,7 @@ import Footer from "../components/Footer";
 import { useState, useRef } from "react";
 import { useEffect } from "react";
 import { useLocation } from "react-router";
+import { motion } from "motion/react";
 
 
 export default function Contact() {
@@ -93,19 +94,27 @@ export default function Contact() {
       )}
 
       {/* Hero / Intro Section */}
-      <section className="relative w-full h-[50vh] flex flex-col justify-center items-center text-center bg-gradient-to-b from-black/80 to-black/40 text-white overflow-hidden">
+      <section className="relative w-full h-[50vh] flex flex-col justify-center items-center text-center bg-gradient-to-b from-black/80 to-black/90 text-white overflow-hidden">
         <img
           src={artistImage}
           alt="Abstract studio background"
           className="absolute inset-0 w-full h-full object-cover opacity-40"
         />
         <div className="relative z-10 px-6">
-          <h1 className="text-4xl md:text-5xl font-bold tracking-wide mb-3">
+          <motion.h1
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
+            className="text-4xl md:text-5xl font-bold tracking-wide mb-3">
             Get in Touch
-          </h1>
-          <p className="text-lg md:text-xl text-gray-200 max-w-2xl mx-auto">
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.1 }}
+            className="text-lg md:text-xl text-gray-200 max-w-2xl mx-auto">
             Let’s connect and bring creative visions to life. I’m available for exhibitions, commissions, and collaborations.
-          </p>
+          </motion.p>
         </div>
       </section>
 

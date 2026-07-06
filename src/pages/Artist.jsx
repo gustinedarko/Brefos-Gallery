@@ -9,43 +9,57 @@ import videoPoster3 from "../assets/images/bts-three.webp";
 import artistImage1 from "../assets/images/wilson-profile-1.webp"; // artist portrait
 import artistImage2 from "../assets/images/wilson-profile-2.webp"; // artist portrait
 import Footer from "../components/Footer";
+import { motion } from "motion/react";
 
 export default function Artist() {
 
   const btsLeft =
-  "https://res.cloudinary.com/dbiyzsqei/video/upload/v1767560604/bts-one_bqhfnc.mp4";
+    "https://res.cloudinary.com/dbiyzsqei/video/upload/v1767560604/bts-one_bqhfnc.mp4";
 
-const btsCenter =
-  "https://res.cloudinary.com/dbiyzsqei/video/upload/v1767560588/bts-two_cmf3al.mp4";
+  const btsCenter =
+    "https://res.cloudinary.com/dbiyzsqei/video/upload/v1767560588/bts-two_cmf3al.mp4";
 
-const btsRight =
-  "https://res.cloudinary.com/dbiyzsqei/video/upload/v1767560591/bts-three_nctwhg.mp4";
+  const btsRight =
+    "https://res.cloudinary.com/dbiyzsqei/video/upload/v1767560591/bts-three_nctwhg.mp4";
 
   return (
     <>
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative w-full h-[90vh] flex flex-col justify-center items-center text-center bg-gradient-to-b from-black/70 to-black/30 text-white overflow-hidden">
+      <section className="relative w-full h-[90vh] flex flex-col justify-center items-center text-center bg-gradient-to-b from-black/80 to-black/90 text-white overflow-hidden">
         <img
           src={artistBg}
           alt="Wilson Brefo"
           className="absolute inset-0 w-full h-full object-cover opacity-40"
         />
         <div className="relative z-10 max-w-3xl px-6">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-wide">
+          <motion.h1
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
+            className="text-4xl md:text-5xl font-bold mb-4 tracking-wide">
             Wilson Brefo
-          </h1>
-          <p className="italic text-lg md:text-xl text-gray-200">
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.1 }}
+            className="italic text-lg md:text-xl text-gray-200">
             “As an artist, I find inspiration in the beauty of the world around
             us, both in its tangible forms and abstract concepts...”
-          </p>
+          </motion.p>
         </div>
       </section>
 
       {/* Quote Section */}
       <section className="bg-white py-16 px-6 md:px-16 text-center">
-        <div className="max-w-4xl mx-auto space-y-6">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.2 }}
+          className="max-w-4xl mx-auto space-y-6">
           <p className="text-gray-700 leading-relaxed text-lg">
             As an artist, I find inspiration in the beauty of the world around
             us, both in its tangible forms and abstract concepts. Rather than
@@ -69,16 +83,20 @@ const btsRight =
             examining my artworks to anyone who is interested in learning more
             about me."
           </p>
-        </div>
+        </motion.div>
       </section>
 
       {/* Bio Section */}
       <section className="py-20 px-6 md:px-16 bg-[#39B54A]/10">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="space-y-5">
-            <h2 className="text-3xl font-semibold text-gray-800 border-l-4 border-gray-700 pl-3">
+            <motion.h2
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="text-3xl font-semibold text-gray-800 border-l-4 border-gray-700 pl-3">
               About the Artist
-            </h2>
+            </motion.h2>
             <p className="text-gray-700 leading-relaxed text-lg">
               WILSON BREFO is a talented and versatile artist with a degree in
               Integrated Rural Arts and Industry, KNUST, consistently pushing
@@ -94,30 +112,44 @@ const btsRight =
               artists and engaging with diverse audiences.
             </p>
           </div>
-          <div className="rounded-2xl overflow-hidden shadow-lg">
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="rounded-2xl overflow-hidden shadow-lg">
             <img
               src={artistImage1}
-              alt="Wilson Brefo painting"
+              alt="Wilson Brefo's Image 1"
+              loading="lazy"
               className="w-full h-full object-cover"
             />
-          </div>
+          </motion.div>
         </div>
       </section>
 
       {/* Artistic Practice Section */}
       <section className="py-20 px-6 md:px-16 bg-[#39B54A]/5">
         <div className="grid md:grid-cols-2 gap-10 items-center">
-          <div className="rounded-2xl overflow-hidden shadow-lg order-2 md:order-1">
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="rounded-2xl overflow-hidden shadow-lg order-2 md:order-1">
             <img
               src={artistImage2}
-              alt="Artistic process"
+              alt="Wilson Brefo's Image 2"
+              loading="lazy"
               className="w-full h-full object-cover"
             />
-          </div>
+          </motion.div>
           <div className="space-y-5 order-1 md:order-2">
-            <h2 className="text-3xl font-semibold text-gray-800 border-l-4 border-gray-700 pl-3">
+            <motion.h2
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="text-3xl font-semibold text-gray-800 border-l-4 border-gray-700 pl-3">
               His Artistic Practice
-            </h2>
+            </motion.h2>
             <p className="text-gray-700 leading-relaxed text-lg">
               BREFO's artistic practice is characterized by painting abstract,
               semi abstract, realistic and surrealism. His medium used includes
@@ -181,7 +213,7 @@ const btsRight =
           {/* RIGHT VIDEO */}
           <div className="rounded-xl bg-white overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
             <video
-              src={btsRight}            
+              src={btsRight}
               controls
               preload="metadata"
               poster={videoPoster3}

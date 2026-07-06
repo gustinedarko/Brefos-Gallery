@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import { gallery } from "../data/gallery";
 import GalleryCard from "../components/GalleryCard";
 import heroImage from "../assets/images/img-hero.webp";
+import { motion } from "motion/react";
 
 export default function Home() {
 
@@ -26,6 +27,7 @@ export default function Home() {
             src={heroImage}
             alt="Wilson Brefo studio gallery"
             loading="eager"
+            fetchPriority="high"
             decoding="async"
             className="absolute inset-0 w-full h-full object-cover"
           />
@@ -35,12 +37,20 @@ export default function Home() {
 
           {/* Content */}
           <div className="relative z-10 max-w-3xl px-6 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold tracking-wide mb-3">
+            <motion.h1
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7 }}
+              className="text-4xl md:text-5xl font-bold tracking-wide mb-3">
               Welcome to Brefo’s Art World
-            </h1>
-            <p className="italic text-lg md:text-xl text-gray-200">
+            </motion.h1>
+            <motion.p
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.1 }}
+              className="italic text-lg md:text-xl text-gray-200">
               Discover the depth of contemporary creativity.
-            </p>
+            </motion.p>
           </div>
 
         </section>
@@ -52,36 +62,75 @@ export default function Home() {
           {/* Left Column */}
           <div className="flex flex-col gap-16 w-full md:w-1/2 md:p-10">
             <div className="w-full">
-              <blockquote className="text-3xl font-bold leading-tight">"As an artist, I find inspiration in the beauty of the world around us, both in its tangible forms and abstract concepts."</blockquote >
-              <span className="text-lg leading-relaxed text-gray-800">Rather than illustrating my feelings, I would like to express them. How the paint is applied is irrelevant as long as something is said. Hence, my art explores the delicate balance between realism and abstraction, capturing the essence of a subject while allowing room for interpretation. Through my semi-abstract works, I aim to evoke emotions and spark imagination, inviting viewers to engage with the art on a personal level. <a href="/artist" className="text-green-600 text-base ml-2 underline">Read more →</a></span>
+              <motion.blockquote
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="text-3xl font-bold leading-tight">"As an artist, I find inspiration in the beauty of the world around us, both in its tangible forms and abstract concepts."
+              </motion.blockquote >
+              <motion.span
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.2 }}
+                className="text-lg leading-relaxed text-gray-800">Rather than illustrating my feelings, I would like to express them. How the paint is applied is irrelevant as long as something is said. Hence, my art explores the delicate balance between realism and abstraction, capturing the essence of a subject while allowing room for interpretation. Through my semi-abstract works, I aim to evoke emotions and spark imagination, inviting viewers to engage with the art on a personal level. <a href="/artist" className="text-green-600 text-base ml-2 underline">Read more →</a>
+              </motion.span>
             </div>
 
-            {firstSet.map((item) => (
-              <GalleryCard
+            {firstSet.map((item, i) => (
+              <motion.div
                 key={item.title}
-                title={item.title}
-                image={item.image}
-                materials={item.materials}
-                year={item.year}
-              />
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{
+                  duration: 0.5,
+                  delay: i * 0.08,
+                }}
+              >
+                <GalleryCard
+                  key={item.title}
+                  title={item.title}
+                  image={item.image}
+                  materials={item.materials}
+                  year={item.year}
+                />
+              </motion.div>
             ))}
           </div>
 
           {/* Right Column */}
           <div className="flex flex-col gap-16 w-full md:w-1/2 md:p-10">
-            {secondSet.map((item) => (
-              <GalleryCard
+            {secondSet.map((item, i) => (
+              <motion.div
                 key={item.title}
-                title={item.title}
-                image={item.image}
-                materials={item.materials}
-                year={item.year}
-              />
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{
+                  duration: 0.5,
+                  delay: i * 0.08,
+                }}
+              >
+                <GalleryCard
+                  title={item.title}
+                  image={item.image}
+                  materials={item.materials}
+                  year={item.year}
+                />
+              </motion.div>
             ))}
             <button>
-              <a className="flex justify-center items-center bg-slate-800 text-white px-6 py-3 rounded-lg font-medium hover:bg-slate-700 transition" href="/gallery-section">
-                Veiw Gallery
-              </a>
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+              >
+                <a className="flex justify-center items-center bg-slate-800 text-white px-6 py-3 rounded-lg font-medium hover:bg-slate-700 transition" href="/gallery-section">
+                  Veiw Gallery
+                </a>
+              </motion.div>
             </button>
           </div>
         </section>
