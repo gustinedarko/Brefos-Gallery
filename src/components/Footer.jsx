@@ -98,7 +98,7 @@ export default function Footer() {
         © {new Date().getFullYear()} Brefo’s Art World. All rights reserved.
         <br />
         <span className="text-gray-500">
-          Website designed & built with passion by <a href="https://portfolio-augustine.vercel.app/" className="underline hover:text-white" target="_blank">Darko Studio</a>
+          Website designed & built with passion by <a href="https://thedarkostudio.com/" className="underline hover:text-white" target="_blank">Darko Studio</a>
         </span>
       </div>
     </footer>

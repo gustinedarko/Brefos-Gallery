@@ -35,7 +35,7 @@ export default function Gallery({ title, materials, size, year, status }) {
                 viewport={{ once: true }}
                 transition={{
                   duration: 0.3,
-                  delay: index * 0.04,
+                  delay: 0.1,
                 }}
                 className={`${item.type === "landscape" ? " col-span-1 sm:col-span-2" : ""
                   }`}
