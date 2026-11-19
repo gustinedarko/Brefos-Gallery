@@ -82,17 +82,49 @@ import theEyesThatReallySees from "../assets/images/the-eyes-that-really-sees.we
 import theEyesThatReallySeesFramed from "../assets/images/the-eyes-that-really-sees-framed.webp";
 import monaLisaInBlackAndWhite from "../assets/images/mona-lisa-in-black-and-white.webp";
 import monaLisaInBlackAndWhiteFramed from "../assets/images/mona-lisa-in-black-and-white-framed.webp";
+import revelationLastSurvivingArtist from "../assets/images/the-revelation-of-the-last-surviving-artist.webp";
+import revelationLastSurvivingArtistFramed from "../assets/images/the-revelation-of-the-last-surviving-artist-framed.webp";
+import theRatRace from "../assets/images/the-rat-race.webp";
+import theRatRaceFramed from "../assets/images/the-rat-race-framed.webp";
+import defeatOfTheRose from "../assets/images/defeat-of-the-rose.webp";
+import defeatOfTheRoseFramed from "../assets/images/defeat-of-the-rose-framed.webp";
+import whatDidIDoWrong from "../assets/images/what-did-i-do-wrong.webp";
+import whatDidIDoWrongFramed from "../assets/images/what-did-i-do-wrong-framed.webp";
+import whereBeautyLies from "../assets/images/where-beauty-lies.webp";
+import whereBeautyLiesFramed from "../assets/images/where-beauty-lies-framed.webp";
 
 export const gallery = [
   {
-    title: "MR. SMART GUY",
-    image: mrSmartGuy,
-    framedImage: mrSmartGuyFramed,
-    slug: "mr-smart-guy",
-    materials: "Mixed media on Canvas",
-    size: "32 x 27 inches",
-    description: "Smarting is the key. It helps fight louder than missiles and ammunition. Smartness is knowledge and art. It helps create beauty and also complexities. Knowledge roots all. It’s the best thing to happen. Knowledge protects. He who seeks knowledge seeks life’s beauty and simplicity.",
+    title: "THE REVELATION OF THE LAST SURVIVING ARTIST",
+    image: revelationLastSurvivingArtist,
+    framedImage: revelationLastSurvivingArtistFramed,
+    slug: "the-revelation-of-the-last-surviving-artist",
+    materials: "Acrylic on canvas, newsprint, fabric, spray paint, textiles buttons, pennies, artificial gemstones",
+    size: "57 x 57 inches",
+    description: "Life has been unfair, yet it has also blessed me with a divine gift that defines how the world knows me. It is a demanding gift, one that pushes me to constantly rise to its standard, and I embrace the challenge it brings. Right now, however, I feel drained of energy and power, with time moving faster than I can keep up. The people with the capacity to help surround me and see the great work I am doing, but they often ignore greatness until it is too late. Even with prayers offered to be seen and heard, help still feels distant, and in a world where love is scarce, those meant to bring good through hardship are left to struggle. Still, greatness remains inevitable; I will simply continue being myself and trust that life will unfold as it is destined to.",
     year: 2026,
+    type: "square" // or "portrait" or "square"
+  },
+  {
+    title: "THE EYES THAT REALLY SEES",
+    image: theEyesThatReallySees,
+    framedImage: theEyesThatReallySeesFramed,
+    slug: "the-eyes-that-really-sees",
+    materials: "Mixed media on Canvas",
+    size: "24 x 24 inches",
+    description: "Beyond the surface, beyond the glance, Lies a world unseen, a deeper dance. Don’t just look, peer into the heart, For reality whispers secrets, if we take a part. The eyes may see, but the soul must gaze, To unravel truths in hidden ways. Look deeper, and the layers unfold, Revealing stories, young and old. In the silence, listen with intent, For the whispers of truth, the universe’s bent. Don’t be fooled by what appears, Look deeper, and the essence clears.",
+    year: 2026,
+    type: "square" // or "portrait" or "square"
+  },
+  {
+    title: "WHAT DID I DO WRONG?",
+    image: whatDidIDoWrong,
+    framedImage: whatDidIDoWrongFramed,
+    slug: "what-did-i-do-wrong",
+    materials: "Acrylic on canvas, newsprint, straw board, spray paint, textiles buttons, artificial gemstones, casted metal",
+    size: "36 x 34 inches",
+    description: "I gave my last oxygen to everyone seeking life, extending it to all. Joy filled the air, and I was crowned a king of kindness and generosity. I gave everything until I lost all, then lost myself to stress and fear. No one I helped supported me, making me feel less and showing how heartless people can be. Overthrown for a newer source, I stay hidden; when restored, I'll choose wisely who gets my oxygen",
+    year: 2025,
     type: "square" // or "portrait" or "square"
   },
   {
@@ -103,6 +135,17 @@ export const gallery = [
     materials: "Mixed media on Canvas",
     size: "24 x 24 inches",
     description: "I have meticulously figured all out. Seen through all that transpire, certainly, I know emphatically that the dream, money and life we all desire will eventually manifest and life will be nice. Hence, I'm in a serious relationship with time. I know when I treat her with patience, passion, value and appreciate her timely performances, all will make sense at the end. I have been through the other side, we know the brighter side, there's light at the end of the darker side.",
+    year: 2026,
+    type: "square" // or "portrait" or "square"
+  },
+  {
+    title: "MR. SMART GUY",
+    image: mrSmartGuy,
+    framedImage: mrSmartGuyFramed,
+    slug: "mr-smart-guy",
+    materials: "Mixed media on Canvas",
+    size: "32 x 27 inches",
+    description: "Smarting is the key. It helps fight louder than missiles and ammunition. Smartness is knowledge and art. It helps create beauty and also complexities. Knowledge roots all. It’s the best thing to happen. Knowledge protects. He who seeks knowledge seeks life’s beauty and simplicity.",
     year: 2026,
     type: "square" // or "portrait" or "square"
   },
@@ -118,26 +161,59 @@ export const gallery = [
     type: "square" // or "portrait" or "square"
   },
   {
-    title: "THE EYES THAT REALLY SEES",
-    image: theEyesThatReallySees,
-    framedImage: theEyesThatReallySeesFramed,
-    slug: "the-eyes-that-really-sees",
-    materials: "Mixed media on Canvas",
-    size: "24 x 24 inches",
-    description: "Beyond the surface, beyond the glance, Lies a world unseen, a deeper dance. Don’t just look, peer into the heart, For reality whispers secrets, if we take a part. The eyes may see, but the soul must gaze, To unravel truths in hidden ways. Look deeper, and the layers unfold, Revealing stories, young and old. In the silence, listen with intent, For the whispers of truth, the universe’s bent. Don’t be fooled by what appears, Look deeper, and the essence clears.",
+    title: "WHERE BEAUTY LIES",
+    image: whereBeautyLies,
+    framedImage: whereBeautyLiesFramed,
+    slug: "where-beauty-lies",
+    materials: "Acrylic on canvas, newsprint, fabric, spray paint, textiles buttons, artificial gemstones",
+    size: "32 x 27 inches",
+    description: "Beauty is strength. Beauty command respect. Beauty boost confidence. Beauty is majestic. Beauty is clean. Sweetness is where beauty is built with good health. Beauty lies in the intersection of constant practice and repetitious positivity. Be urged, beauty brings everything that comes to the way of the person responsible. Make sure you are on the safer side of the balance, it is profitable.",
     year: 2026,
-    type: "square" // or "portrait" or "square"
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "THE RAT RACE",
+    image: theRatRace,
+    framedImage: theRatRaceFramed,
+    slug: "the-rat-race",
+    materials: "Acrylic on canvas, newsprint, fabric, spray paint, textiles buttons, artificial gemstones, leather",
+    size: "50 x 39 inches",
+    description: "Mama, look at me now, I came home from the university you have always wanted me to be in with a glittering degree. I am the big boy you have always dreamt of becoming. I wear suit and always have my tie on; I have a big job. I am being manipulated and working under scheduled and plotted plans. My manager always praises how submissive I am towards work. I feel heavy weight on my chest, mama. I feel I am enslaved, I am always in an enclosed state of mind, and I cannot even explore with the great light I have in me. Mama, I miss home. The place I always felt like a God, the place where all I did was to use my mind to create and be creative, the place where I do what I love the most and get money from. I am very sad with this big boy job I am doing in this big city. I feel that, upon close examination, it takes most of my time and gives me nothing in return. I am being lured with an amount which would not let me be liberated but rather what will let me survive till the sickle-shaped moon shines again. I will be coming home soon, mama. I know things will be tough if I decide to escape this matrix. I will escape it and live the life of liberation since I do not have much time to live in this space. All I have got now is hope, mama. I hope after this eye opening into the conscious world, things get better for me",
+    year: 2026,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "DEFEAT OF THE ROSE",
+    image: defeatOfTheRose,
+    framedImage: defeatOfTheRoseFramed,
+    slug: "defeat-of-the-rose",
+    materials: "Acrylic on canvas, newsprint, fabric, spray paint, textiles buttons, artificial gemstones",
+    size: "57 x 40 inches",
+    description: "I was once a contented, well-organized and healthy mother surrounded by my family, until I began facing health issues that I battled for a long time without professional help. Weakened by financial instability and a daily decline in energy, I became utterly exhausted before finally finding the courage to seek a proper diagnosis, only to learn that my breast cancer had grown and spread too far. Doctors told me it was too late for therapy unless my breast was removed. My condition left my family scared and anxious, and instead of support, I faced stigmatization from my relatives and even my children, who were sickened by the thought that death was near me. Prayers no longer helped, and I passed away. I am Rose Amasah, and this is how I was defeated. Please, seek early treatment, get routine examinations, and let stigmatization end.",
+    year: 2026,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "DESTINY CHILD",
+    image: destinyChild,
+    framedImage: destinyChildFramed,
+    slug: "destiny-child",
+    materials: "Mixed media on canvas",
+    size: "53 x 40 inches",
+    description: "In the tapestry of my journey, threads of repetition weave a story of unyielding resolve. Like the steady beat of a drum, resilience echoes through every step, turning setbacks into stepping stones. Dedication fuels the fire that burns within, a flame that flickers but never fades, even in the darkest nights. And commitment? It is the compass that guides me through uncharted waters, reminding me that the destination is worth the struggle. The world may measure success by speed, by milestones reached and heights scaled, but my path is unique, calibrated to the rhythm of my soul. I may walk slower than others, but my strides are purposeful, deliberate, and sure. The universe doesn't clock my progress with the same timer as others, its timeline is vast, patient, and intricately woven. Every breath, every fall, and every rise shape me into who I’m meant to be. The architect of your dreams sees beyond the now, crafting a masterpiece of perseverance and grit. I might be late, but the first seat has already been reserved for me.",
+    year: 2026,
+    type: "portrait" // or "portrait" or "square"
   },
   {
     title: "MONA LISA IN BLACK AND WHITE",
     image: monaLisaInBlackAndWhite,
     framedImage: monaLisaInBlackAndWhiteFramed,
     slug: "mona-lisa-in-black-and-white",
-    materials: "Mixed media on Canvas",
+    materials: "Acrylic on canvas, newsprint, spray paint, textiles buttons, artificial gemstones",
     size: "32 x 27 inches",
-    description: "In a daring twist, the iconic Mona Lisa traded her Renaissance hues for a sleek black and white palette, her enigmatic smile now a striking contrast of shadows and highlights. The subtle gradient of grey tones accentuated her mystique, like a whispered secret in the Louvre's hallowed halls. Leonardo's masterstroke was reimagined, her gaze both haunting and hypnotic, as if she'd just revealed a secret. The monochrome masterpiece left viewers spellbound, questioning what secrets lay hidden beneath the surface.",
+    description: "I was known as the rich woman who could do anything, living so well that elite jealousy became unbearable. In 2012, the day after a big shipment arrived, they burned all my riches when I was most vulnerable. Hard times showed me my true loved ones were only a tenth of those I loved daily; God heard my kids' prayers and I became wealthy again, though not like before. In 2025, a bigger demonic fire took everything again, and now I live day by day, coping with brokenness. My scars are visible as the sun, but I pray hope finds me again because I am destined for greatness",
     year: 2026,
-    type: "square" // or "portrait" or "square"
+    type: "portrait" // or "portrait" or "square"
   },
   {
     title: "HARMONY IN CHAOS",
@@ -148,7 +224,7 @@ export const gallery = [
     size: "32 x 27 inches",
     description: "As I stood at the crossroads of my life, torn between the expectations of others and my own dreams, I realized that every moment spent pleasing others was a moment lost to my true self. With each brushstroke on this canvas, I began to untangle the noise, letting creativity guide me toward clarity. The world outside wouldn’t quiet, but my inner voice grew louder, reminding me that fulfillment isn’t found in endless checkboxes, rather, it’s crafted in the spaces between. The key is not to prioritize what’s on your schedule, but to schedule your priorities. This thought has made me known life and has made me seen through many loopholes.",
     year: 2026,
-    type: "square" // or "portrait" or "square"
+    type: "portrait" // or "portrait" or "square"
   },
   {
     title: "DISBELIEVA",
@@ -173,14 +249,14 @@ export const gallery = [
     type: "portrait" // or "portrait" or "square"
   },
   {
-    title: "DESTINY CHILD",
-    image: destinyChild,
-    framedImage: destinyChildFramed,
-    slug: "destiny-child",
+    title: "THE PRAYER TO THE FIRST ARCHANGEL",
+    image: prayerArchangel,
+    framedImage: prayerArchangelFramed,
+    slug: "the-prayer-to-the-first-archangel",
     materials: "Mixed media on canvas",
-    size: "53 x 40 inches",
-    description: "In the tapestry of my journey, threads of repetition weave a story of unyielding resolve. Like the steady beat of a drum, resilience echoes through every step, turning setbacks into stepping stones. Dedication fuels the fire that burns within, a flame that flickers but never fades, even in the darkest nights. And commitment? It is the compass that guides me through uncharted waters, reminding me that the destination is worth the struggle. The world may measure success by speed, by milestones reached and heights scaled, but my path is unique, calibrated to the rhythm of my soul. I may walk slower than others, but my strides are purposeful, deliberate, and sure. The universe doesn't clock my progress with the same timer as others, its timeline is vast, patient, and intricately woven. Every breath, every fall, and every rise shape me into who I’m meant to be. The architect of your dreams sees beyond the now, crafting a masterpiece of perseverance and grit. I might be late, but the first seat has already been reserved for me.",
-    year: 2026,
+    size: "53 x 39 inches",
+    description: "I have been aware of and have taken steps to improve my life through personal development, rebirth, and change. Stopped all of the bad habits and swiftly shifted to the good ones. I am aware of both good and awful things, and I realise that awful things can also have wonderful things in them and vise versa. My self-awareness, intelligence, and thoughtful process have all increased. Both the male and feminine energies are known to me; I have distinguished between them and selected the most lucrative ones. Knowing the Almighty Being, I am aware that he is the only Being wealthy for worship. Thus, why does life continue to unfold in this manner? It should have been fair to live.",
+    year: 2023,
     type: "portrait" // or "portrait" or "square"
   },
   {
@@ -217,17 +293,6 @@ export const gallery = [
     type: "portrait" // or "portrait" or "square"
   },
   {
-    title: "THE PRAYER TO THE FIRST ARCHANGEL",
-    image: prayerArchangel,
-    framedImage: prayerArchangelFramed,
-    slug: "the-prayer-to-the-first-archangel",
-    materials: "Mixed media on canvas",
-    size: "53 x 39 inches",
-    description: "I have been aware of and have taken steps to improve my life through personal development, rebirth, and change. Stopped all of the bad habits and swiftly shifted to the good ones. I am aware of both good and awful things, and I realise that awful things can also have wonderful things in them and vise versa. My self-awareness, intelligence, and thoughtful process have all increased. Both the male and feminine energies are known to me; I have distinguished between them and selected the most lucrative ones. Knowing the Almighty Being, I am aware that he is the only Being wealthy for worship. Thus, why does life continue to unfold in this manner? It should have been fair to live.",
-    year: 2023,
-    type: "portrait" // or "portrait" or "square"
-  },
-  {
     title: "THE HEART THAT GAVE UNTIL SUNSET",
     image: heartThatGave,
     framedImage: heartThatGaveFramed,
@@ -257,6 +322,17 @@ export const gallery = [
     materials: "Mixed media on canvas",
     size: "53 x 40 inches",
     description: "Wanted to know all and specifics, dig and dig, searched and researched, and sacrificed all what I had for knowledge. I’m consciously and subconsciously enlightened and awaken. Knowledge has brought me to nothing but hope. Think we shouldn’t seek much, we might not be ready for the inevitable regrets that come with it.",
+    year: 2025,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "WHY TOGETHER",
+    image: whyTogether,
+    framedImage: whyTogetherFramed,
+    slug: "why-together",
+    materials: "Mixed media on canvas",
+    size: "53 x 40 inches",
+    description: "Love can often appear radiant and flawless on the surface, a beautiful facade that captivates and inspires. However, beneath this gleaming exterior, love can be a complex and messy entity, fraught with challenges, heartaches, and uncertainties. The reality of love can be a delicate balance of compromise, sacrifice, and vulnerability, where emotions ebb and flow like the tides. Despite its beauty, love can also be a breeding ground for conflicts, misunderstandings, and pain, testing the bonds between individuals and pushing them to their limits. Ultimately, love's true nature is often revealed in the imperfections, the struggles, and the quiet moments of introspection, where its beauty and ugliness coexist in a delicate dance.",
     year: 2025,
     type: "portrait" // or "portrait" or "square"
   },
@@ -448,17 +524,6 @@ export const gallery = [
     type: "portrait" // or "portrait" or "square"
   },
   {
-    title: "WHY TOGETHER",
-    image: whyTogether,
-    framedImage: whyTogetherFramed,
-    slug: "why-together",
-    materials: "Mixed media on canvas",
-    size: "53 x 40 inches",
-    description: "Love can often appear radiant and flawless on the surface, a beautiful facade that captivates and inspires. However, beneath this gleaming exterior, love can be a complex and messy entity, fraught with challenges, heartaches, and uncertainties. The reality of love can be a delicate balance of compromise, sacrifice, and vulnerability, where emotions ebb and flow like the tides. Despite its beauty, love can also be a breeding ground for conflicts, misunderstandings, and pain, testing the bonds between individuals and pushing them to their limits. Ultimately, love's true nature is often revealed in the imperfections, the struggles, and the quiet moments of introspection, where its beauty and ugliness coexist in a delicate dance.",
-    year: 2025,
-    type: "portrait" // or "portrait" or "square"
-  },
-  {
     title: "THE BEST WORST THING",
     image: bestWorstThing,
     framedImage: bestWorstThingFramed,
@@ -514,16 +579,16 @@ export const gallery = [
     type: "portrait" // or "portrait" or "square"
   },
   {
-    title: "THE TIME TRAVELER",
-    image: timeTraveler,
-    framedImage: timeTravelerFramed,
-    slug: "the-time-traveler",
-    materials: "Acrylics on canvas",
+    title: "EMBRACING THE DEPTH",
+    image: embracingTheDepth,
+    framedImage: embracingTheDepthFramed,
+    slug: "embracing-the-depth",
+    materials: "Mixed media on Canvas",
     size: "45 x 35 inches",
-    description: `Time travel is the concept of moving between distinct points in time by an object or a person, similar to moving between different points in space by an object or a person, generally via a hypothetical equipment known as a "time machine." Time travel can be defined as the transportation of a person into the future or into the past. The movement of ‘THE TIME TRAVELER' was done into the future.`,
-    description2: "I, ‘THE TIME TRAVELER’ would want to tell what I observed and recorded myself. The future is a wired period where everything will happen if change is not made today. To emphasize, humans; the old, the wise and knowledgeable, wealthy, high esteemed people and any other people will be highly manipulated. The brains of these people will be controlled by those on top of the world governance. These high-ranking government officials will steer man in the other direction. I, ‘THE TIME TRAVELER,' observed numerous humans, many of whom had their bodies altered beyond recognition. Vegetation?… No!!! I saw nothing like vegetation. Because of the current human practice of deforestation, artificial oxygen will be made by THESE scientists who are only concerned with their own personal interests. For the sake of survival, humans will always rely on oxygen. I, 'THE TIME TRAVELER,' witnessed ANUBIS, the god of death, laboring behind closed doors in a ferocious mood to exterminate humanity. The world's demise has already been planned, and everything must take place as planned. The future is a frightening time in which nothing will be good. This is due to the ruin of the planet, the establishment of a new world order, hostility, wickedness, and callous disregard for people, as well as the use of biological weapons to reduce those who are not viewed as superior by THESE people. WE SHOULD PROTECT THE FUTURE NOW!!!",
-    year: 2021,
-    type: "portrait" // or "portrait" or "square"
+    description: "Embracing the depth involves a journey shaped by silence, resilience, and deep emotional understanding. The narrator reflects on their ability to endure while carrying the burdens of others, emphasizing their gentle strength and transformative love. They seek meaning through solitary reflection and aspire to embody kindness and wisdom in their actions. Their life aims to leave a profound impact, marked by compassion and personal growth, rather than loud accolades, ultimately focusing on the deep changes they bring to those they encounter.",
+    year: 2026,
+    type: "portrait", // or "portrait" or "square"
+    status: "Commissioned",
   },
   {
     title: "THE APOCALYPSE",
@@ -537,15 +602,15 @@ export const gallery = [
     type: "square" // or "portrait" or "square"
   },
   {
-    title: "EMBRACING THE DEPTH",
-    image: embracingTheDepth,
-    framedImage: embracingTheDepthFramed,
-    slug: "embracing-the-depth",
-    materials: "Mixed media on Canvas",
+    title: "THE TIME TRAVELER",
+    image: timeTraveler,
+    framedImage: timeTravelerFramed,
+    slug: "the-time-traveler",
+    materials: "Acrylics on canvas",
     size: "45 x 35 inches",
-    description: "Embracing the depth involves a journey shaped by silence, resilience, and deep emotional understanding. The narrator reflects on their ability to endure while carrying the burdens of others, emphasizing their gentle strength and transformative love. They seek meaning through solitary reflection and aspire to embody kindness and wisdom in their actions. Their life aims to leave a profound impact, marked by compassion and personal growth, rather than loud accolades, ultimately focusing on the deep changes they bring to those they encounter.",
-    year: 2026,
-    type: "portrait", // or "portrait" or "square"
-    status: "Commissioned",
+    description: `Time travel is the concept of moving between distinct points in time by an object or a person, similar to moving between different points in space by an object or a person, generally via a hypothetical equipment known as a "time machine." Time travel can be defined as the transportation of a person into the future or into the past. The movement of ‘THE TIME TRAVELER' was done into the future.`,
+    description2: "I, ‘THE TIME TRAVELER’ would want to tell what I observed and recorded myself. The future is a wired period where everything will happen if change is not made today. To emphasize, humans; the old, the wise and knowledgeable, wealthy, high esteemed people and any other people will be highly manipulated. The brains of these people will be controlled by those on top of the world governance. These high-ranking government officials will steer man in the other direction. I, ‘THE TIME TRAVELER,' observed numerous humans, many of whom had their bodies altered beyond recognition. Vegetation?… No!!! I saw nothing like vegetation. Because of the current human practice of deforestation, artificial oxygen will be made by THESE scientists who are only concerned with their own personal interests. For the sake of survival, humans will always rely on oxygen. I, 'THE TIME TRAVELER,' witnessed ANUBIS, the god of death, laboring behind closed doors in a ferocious mood to exterminate humanity. The world's demise has already been planned, and everything must take place as planned. The future is a frightening time in which nothing will be good. This is due to the ruin of the planet, the establishment of a new world order, hostility, wickedness, and callous disregard for people, as well as the use of biological weapons to reduce those who are not viewed as superior by THESE people. WE SHOULD PROTECT THE FUTURE NOW!!!",
+    year: 2021,
+    type: "portrait" // or "portrait" or "square"
   },
 ];
