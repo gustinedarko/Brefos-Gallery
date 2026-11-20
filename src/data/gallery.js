@@ -95,6 +95,72 @@ import whereBeautyLiesFramed from "../assets/images/where-beauty-lies-framed.web
 
 export const gallery = [
   {
+    title: "THE RAT RACE",
+    image: theRatRace,
+    framedImage: theRatRaceFramed,
+    slug: "the-rat-race",
+    materials: "Acrylic on canvas, newsprint, fabric, spray paint, textiles buttons, artificial gemstones, leather",
+    size: "50 x 39 inches",
+    description: "Mama, look at me now, I came home from the university you have always wanted me to be in with a glittering degree. I am the big boy you have always dreamt of becoming. I wear suit and always have my tie on; I have a big job. I am being manipulated and working under scheduled and plotted plans. My manager always praises how submissive I am towards work. I feel heavy weight on my chest, mama. I feel I am enslaved, I am always in an enclosed state of mind, and I cannot even explore with the great light I have in me. Mama, I miss home. The place I always felt like a God, the place where all I did was to use my mind to create and be creative, the place where I do what I love the most and get money from. I am very sad with this big boy job I am doing in this big city. I feel that, upon close examination, it takes most of my time and gives me nothing in return. I am being lured with an amount which would not let me be liberated but rather what will let me survive till the sickle-shaped moon shines again. I will be coming home soon, mama. I know things will be tough if I decide to escape this matrix. I will escape it and live the life of liberation since I do not have much time to live in this space. All I have got now is hope, mama. I hope after this eye opening into the conscious world, things get better for me",
+    year: 2026,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "WHERE BEAUTY LIES",
+    image: whereBeautyLies,
+    framedImage: whereBeautyLiesFramed,
+    slug: "where-beauty-lies",
+    materials: "Acrylic on canvas, newsprint, fabric, spray paint, textiles buttons, artificial gemstones",
+    size: "32 x 27 inches",
+    description: "Beauty is strength. Beauty command respect. Beauty boost confidence. Beauty is majestic. Beauty is clean. Sweetness is where beauty is built with good health. Beauty lies in the intersection of constant practice and repetitious positivity. Be urged, beauty brings everything that comes to the way of the person responsible. Make sure you are on the safer side of the balance, it is profitable.",
+    year: 2026,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "DEFEAT OF THE ROSE",
+    image: defeatOfTheRose,
+    framedImage: defeatOfTheRoseFramed,
+    slug: "defeat-of-the-rose",
+    materials: "Acrylic on canvas, newsprint, fabric, spray paint, textiles buttons, artificial gemstones",
+    size: "57 x 40 inches",
+    description: "I was once a contented, well-organized and healthy mother surrounded by my family, until I began facing health issues that I battled for a long time without professional help. Weakened by financial instability and a daily decline in energy, I became utterly exhausted before finally finding the courage to seek a proper diagnosis, only to learn that my breast cancer had grown and spread too far. Doctors told me it was too late for therapy unless my breast was removed. My condition left my family scared and anxious, and instead of support, I faced stigmatization from my relatives and even my children, who were sickened by the thought that death was near me. Prayers no longer helped, and I passed away. I am Rose Amasah, and this is how I was defeated. Please, seek early treatment, get routine examinations, and let stigmatization end.",
+    year: 2026,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "MONA LISA IN BLACK AND WHITE",
+    image: monaLisaInBlackAndWhite,
+    framedImage: monaLisaInBlackAndWhiteFramed,
+    slug: "mona-lisa-in-black-and-white",
+    materials: "Acrylic on canvas, newsprint, spray paint, textiles buttons, artificial gemstones",
+    size: "32 x 27 inches",
+    description: "I was known as the rich woman who could do anything, living so well that elite jealousy became unbearable. In 2012, the day after a big shipment arrived, they burned all my riches when I was most vulnerable. Hard times showed me my true loved ones were only a tenth of those I loved daily; God heard my kids' prayers and I became wealthy again, though not like before. In 2025, a bigger demonic fire took everything again, and now I live day by day, coping with brokenness. My scars are visible as the sun, but I pray hope finds me again because I am destined for greatness",
+    year: 2024,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "DESTINY CHILD",
+    image: destinyChild,
+    framedImage: destinyChildFramed,
+    slug: "destiny-child",
+    materials: "Mixed media on canvas",
+    size: "53 x 40 inches",
+    description: "In the tapestry of my journey, threads of repetition weave a story of unyielding resolve. Like the steady beat of a drum, resilience echoes through every step, turning setbacks into stepping stones. Dedication fuels the fire that burns within, a flame that flickers but never fades, even in the darkest nights. And commitment? It is the compass that guides me through uncharted waters, reminding me that the destination is worth the struggle. The world may measure success by speed, by milestones reached and heights scaled, but my path is unique, calibrated to the rhythm of my soul. I may walk slower than others, but my strides are purposeful, deliberate, and sure. The universe doesn't clock my progress with the same timer as others, its timeline is vast, patient, and intricately woven. Every breath, every fall, and every rise shape me into who I’m meant to be. The architect of your dreams sees beyond the now, crafting a masterpiece of perseverance and grit. I might be late, but the first seat has already been reserved for me.",
+    year: 2026,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
+    title: "HARMONY IN CHAOS",
+    image: harmonyInChaos,
+    framedImage: harmonyInChaosFramed,
+    slug: "harmony-in-chaos",
+    materials: "Mixed media on Canvas",
+    size: "32 x 27 inches",
+    description: "As I stood at the crossroads of my life, torn between the expectations of others and my own dreams, I realized that every moment spent pleasing others was a moment lost to my true self. With each brushstroke on this canvas, I began to untangle the noise, letting creativity guide me toward clarity. The world outside wouldn’t quiet, but my inner voice grew louder, reminding me that fulfillment isn’t found in endless checkboxes, rather, it’s crafted in the spaces between. The key is not to prioritize what’s on your schedule, but to schedule your priorities. This thought has made me known life and has made me seen through many loopholes.",
+    year: 2026,
+    type: "portrait" // or "portrait" or "square"
+  },
+  {
     title: "THE REVELATION OF THE LAST SURVIVING ARTIST",
     image: revelationLastSurvivingArtist,
     framedImage: revelationLastSurvivingArtistFramed,
@@ -102,17 +168,6 @@ export const gallery = [
     materials: "Acrylic on canvas, newsprint, fabric, spray paint, textiles buttons, pennies, artificial gemstones",
     size: "57 x 57 inches",
     description: "Life has been unfair, yet it has also blessed me with a divine gift that defines how the world knows me. It is a demanding gift, one that pushes me to constantly rise to its standard, and I embrace the challenge it brings. Right now, however, I feel drained of energy and power, with time moving faster than I can keep up. The people with the capacity to help surround me and see the great work I am doing, but they often ignore greatness until it is too late. Even with prayers offered to be seen and heard, help still feels distant, and in a world where love is scarce, those meant to bring good through hardship are left to struggle. Still, greatness remains inevitable; I will simply continue being myself and trust that life will unfold as it is destined to.",
-    year: 2026,
-    type: "square" // or "portrait" or "square"
-  },
-  {
-    title: "THE EYES THAT REALLY SEES",
-    image: theEyesThatReallySees,
-    framedImage: theEyesThatReallySeesFramed,
-    slug: "the-eyes-that-really-sees",
-    materials: "Mixed media on Canvas",
-    size: "24 x 24 inches",
-    description: "Beyond the surface, beyond the glance, Lies a world unseen, a deeper dance. Don’t just look, peer into the heart, For reality whispers secrets, if we take a part. The eyes may see, but the soul must gaze, To unravel truths in hidden ways. Look deeper, and the layers unfold, Revealing stories, young and old. In the silence, listen with intent, For the whispers of truth, the universe’s bent. Don’t be fooled by what appears, Look deeper, and the essence clears.",
     year: 2026,
     type: "square" // or "portrait" or "square"
   },
@@ -125,6 +180,17 @@ export const gallery = [
     size: "36 x 34 inches",
     description: "I gave my last oxygen to everyone seeking life, extending it to all. Joy filled the air, and I was crowned a king of kindness and generosity. I gave everything until I lost all, then lost myself to stress and fear. No one I helped supported me, making me feel less and showing how heartless people can be. Overthrown for a newer source, I stay hidden; when restored, I'll choose wisely who gets my oxygen",
     year: 2025,
+    type: "square" // or "portrait" or "square"
+  },
+  {
+    title: "THE EYES THAT REALLY SEES",
+    image: theEyesThatReallySees,
+    framedImage: theEyesThatReallySeesFramed,
+    slug: "the-eyes-that-really-sees",
+    materials: "Mixed media on Canvas",
+    size: "24 x 24 inches",
+    description: "Beyond the surface, beyond the glance, Lies a world unseen, a deeper dance. Don’t just look, peer into the heart, For reality whispers secrets, if we take a part. The eyes may see, but the soul must gaze, To unravel truths in hidden ways. Look deeper, and the layers unfold, Revealing stories, young and old. In the silence, listen with intent, For the whispers of truth, the universe’s bent. Don’t be fooled by what appears, Look deeper, and the essence clears.",
+    year: 2026,
     type: "square" // or "portrait" or "square"
   },
   {
@@ -159,72 +225,6 @@ export const gallery = [
     description: "The artwork aims to portray the idea that, despite our differences in appearance and mentality, we are all capable of creating and imagining the same vision, and that our viewpoints are influenced by our identities and experiences, but our imagination is boundless.",
     year: 2025,
     type: "square" // or "portrait" or "square"
-  },
-  {
-    title: "WHERE BEAUTY LIES",
-    image: whereBeautyLies,
-    framedImage: whereBeautyLiesFramed,
-    slug: "where-beauty-lies",
-    materials: "Acrylic on canvas, newsprint, fabric, spray paint, textiles buttons, artificial gemstones",
-    size: "32 x 27 inches",
-    description: "Beauty is strength. Beauty command respect. Beauty boost confidence. Beauty is majestic. Beauty is clean. Sweetness is where beauty is built with good health. Beauty lies in the intersection of constant practice and repetitious positivity. Be urged, beauty brings everything that comes to the way of the person responsible. Make sure you are on the safer side of the balance, it is profitable.",
-    year: 2026,
-    type: "portrait" // or "portrait" or "square"
-  },
-  {
-    title: "THE RAT RACE",
-    image: theRatRace,
-    framedImage: theRatRaceFramed,
-    slug: "the-rat-race",
-    materials: "Acrylic on canvas, newsprint, fabric, spray paint, textiles buttons, artificial gemstones, leather",
-    size: "50 x 39 inches",
-    description: "Mama, look at me now, I came home from the university you have always wanted me to be in with a glittering degree. I am the big boy you have always dreamt of becoming. I wear suit and always have my tie on; I have a big job. I am being manipulated and working under scheduled and plotted plans. My manager always praises how submissive I am towards work. I feel heavy weight on my chest, mama. I feel I am enslaved, I am always in an enclosed state of mind, and I cannot even explore with the great light I have in me. Mama, I miss home. The place I always felt like a God, the place where all I did was to use my mind to create and be creative, the place where I do what I love the most and get money from. I am very sad with this big boy job I am doing in this big city. I feel that, upon close examination, it takes most of my time and gives me nothing in return. I am being lured with an amount which would not let me be liberated but rather what will let me survive till the sickle-shaped moon shines again. I will be coming home soon, mama. I know things will be tough if I decide to escape this matrix. I will escape it and live the life of liberation since I do not have much time to live in this space. All I have got now is hope, mama. I hope after this eye opening into the conscious world, things get better for me",
-    year: 2026,
-    type: "portrait" // or "portrait" or "square"
-  },
-  {
-    title: "DEFEAT OF THE ROSE",
-    image: defeatOfTheRose,
-    framedImage: defeatOfTheRoseFramed,
-    slug: "defeat-of-the-rose",
-    materials: "Acrylic on canvas, newsprint, fabric, spray paint, textiles buttons, artificial gemstones",
-    size: "57 x 40 inches",
-    description: "I was once a contented, well-organized and healthy mother surrounded by my family, until I began facing health issues that I battled for a long time without professional help. Weakened by financial instability and a daily decline in energy, I became utterly exhausted before finally finding the courage to seek a proper diagnosis, only to learn that my breast cancer had grown and spread too far. Doctors told me it was too late for therapy unless my breast was removed. My condition left my family scared and anxious, and instead of support, I faced stigmatization from my relatives and even my children, who were sickened by the thought that death was near me. Prayers no longer helped, and I passed away. I am Rose Amasah, and this is how I was defeated. Please, seek early treatment, get routine examinations, and let stigmatization end.",
-    year: 2026,
-    type: "portrait" // or "portrait" or "square"
-  },
-  {
-    title: "DESTINY CHILD",
-    image: destinyChild,
-    framedImage: destinyChildFramed,
-    slug: "destiny-child",
-    materials: "Mixed media on canvas",
-    size: "53 x 40 inches",
-    description: "In the tapestry of my journey, threads of repetition weave a story of unyielding resolve. Like the steady beat of a drum, resilience echoes through every step, turning setbacks into stepping stones. Dedication fuels the fire that burns within, a flame that flickers but never fades, even in the darkest nights. And commitment? It is the compass that guides me through uncharted waters, reminding me that the destination is worth the struggle. The world may measure success by speed, by milestones reached and heights scaled, but my path is unique, calibrated to the rhythm of my soul. I may walk slower than others, but my strides are purposeful, deliberate, and sure. The universe doesn't clock my progress with the same timer as others, its timeline is vast, patient, and intricately woven. Every breath, every fall, and every rise shape me into who I’m meant to be. The architect of your dreams sees beyond the now, crafting a masterpiece of perseverance and grit. I might be late, but the first seat has already been reserved for me.",
-    year: 2026,
-    type: "portrait" // or "portrait" or "square"
-  },
-  {
-    title: "MONA LISA IN BLACK AND WHITE",
-    image: monaLisaInBlackAndWhite,
-    framedImage: monaLisaInBlackAndWhiteFramed,
-    slug: "mona-lisa-in-black-and-white",
-    materials: "Acrylic on canvas, newsprint, spray paint, textiles buttons, artificial gemstones",
-    size: "32 x 27 inches",
-    description: "I was known as the rich woman who could do anything, living so well that elite jealousy became unbearable. In 2012, the day after a big shipment arrived, they burned all my riches when I was most vulnerable. Hard times showed me my true loved ones were only a tenth of those I loved daily; God heard my kids' prayers and I became wealthy again, though not like before. In 2025, a bigger demonic fire took everything again, and now I live day by day, coping with brokenness. My scars are visible as the sun, but I pray hope finds me again because I am destined for greatness",
-    year: 2026,
-    type: "portrait" // or "portrait" or "square"
-  },
-  {
-    title: "HARMONY IN CHAOS",
-    image: harmonyInChaos,
-    framedImage: harmonyInChaosFramed,
-    slug: "harmony-in-chaos",
-    materials: "Mixed media on Canvas",
-    size: "32 x 27 inches",
-    description: "As I stood at the crossroads of my life, torn between the expectations of others and my own dreams, I realized that every moment spent pleasing others was a moment lost to my true self. With each brushstroke on this canvas, I began to untangle the noise, letting creativity guide me toward clarity. The world outside wouldn’t quiet, but my inner voice grew louder, reminding me that fulfillment isn’t found in endless checkboxes, rather, it’s crafted in the spaces between. The key is not to prioritize what’s on your schedule, but to schedule your priorities. This thought has made me known life and has made me seen through many loopholes.",
-    year: 2026,
-    type: "portrait" // or "portrait" or "square"
   },
   {
     title: "DISBELIEVA",
